@@ -86,12 +86,10 @@ public class Example {
     
     public void useForLoop(int n) {
         /*
-         * int i = 1 declares the existence of a 
-         * variable i and sets it initially equal to 1.
-         * The for loop continues to iterate until 
-         * i < n + 1 is no longer true.
-         * i++ means that we increment i by 1 after 
-         * every iteration.
+         * int i = 1 declares the existence of a variable i and sets it 
+         * initially equal to 1. The for loop continues to iterate until 
+         * i < n + 1 is no longer true. i++ means that we increment i by 1 
+         * after every iteration.
          */
         for (int i = 1; i < n + 1; i = i + 1) {
             System.out.println(2 * i);
@@ -113,9 +111,8 @@ public class Example {
         Example example = new Example();
         // What will this for loop print out?
         example.useForLoop(5);
-        // What will this while loop print out?
-        // How is it different from what the
-        // for loop prints out?
+        // What will this while loop print out? How is it different from 
+        // what the for loop prints out?
         example.useWhileLoop(5);
     }
 }
@@ -145,46 +142,39 @@ public class Problem2 {
     }
     
     public static int numChar(String s) {
-        // TODO: Return how many characters
-        // are in the input String s. This should 
-        // be one line of code using the .length()
-        // method.
+        // TODO: Return how many characters are in the input String s. This
+        // should be one line of code using the .length() method.
         return 0;
     }
     
     public static int numInternalChar(String s) {
-        // TODO: Return how many characters
-        // are in the input String s, aside from the
-        // first and the last character. This should 
-        // be one line of code using the result of
-        // numChar(String s) method above.
+        // TODO: Return how many characters are in the input String s, aside
+        // from the first and the last character. This should be one line
+        // of code using the result of numChar(String s) method above.
         return 0;
     }
     
     public static String abbreviate(String s) {
-        // TODO: Using the above two methods,
-        // rewrite the FILL IN HERE's to give the 
-        // requested abbreviation.
+        // TODO: Using the above two methods, rewrite the FILL IN HERE's to 
+        // give the requested abbreviation.
         
-        // What do we want to do when the 
-        // number of letters in the string is more
-        // than 10?
+        // What do we want to do when the number of letters in the string
+        // is more than 10?
         if (s.length() > 10) {
             return (Character.toString(s.charAt(0)) + 
                     Integer.toString(FILL IN HERE) + 
                     Character.toString(s.charAt(
                                     s.length() - 1)));
         }
-        // What do we want to do if the word
-        // is short instead?
+        // What do we want to do if the word is short instead?
         else {
             return FILL IN HERE;
         }
     }
     
     public static void main(String[] args) {
-        // Feel free to change THIS IS OUR STRING
-        // to whatever string you like!
+        // Feel free to change THIS IS OUR STRING to whatever string 
+        // you like!
         String ourString = "THIS IS OUR STRING";
         System.out.println(abbreviate(ourString));
     }

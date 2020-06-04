@@ -1,5 +1,4 @@
 ---
-permalink: /about/
 title: "About"
 ---
 
@@ -15,4 +14,3 @@ I am interested in how fundamental physical principles can be used to explain an
   2. I am grateful to be recognized as a [2020 Henry Ford II Scholar Award](http://eas.caltech.edu/news/1309) recipient. This award of $5,000 is funded under an endowment provided by the Ford Motor Company Fund, and is made annually to engineering students with the best academic record at the end of the third year of undergraduate study.
 
   3. Happy to announce that [AtriaConnect](https://www.atriaconnect.org/)'s collaboration with the Alma Mater Hospital in Gros-Morne, Haiti has been accepted for publication in [POCUS Journal](https://pocusjournal.com/)! Our work will be featured in the upcoming issue, but check out the preprint on [medRxiv](https://www.medrxiv.org/content/10.1101/2020.05.08.20095760v1) now.
-
