@@ -106,7 +106,7 @@ Fall 2019 | CS24 | Introduction to Computing Systems
 Spring 2019 | Ph1c (Analytical) | Special Relativity and Electromagnetism
 Winter 2019 | Ph1b (Analytical) | Special Relativity and Electromagnetism
 
-**Present Deans' Tutor** @CALTECH in Pasadena, CA (October 2018 - Present)
+**Present Deans' Tutor** @Caltech in Pasadena, CA (October 2018 - Present)
 
 **Course** | **Course Description**
 Ch1ab | General Chemistry, Deans’ Tutor Office Hour Session Lead
