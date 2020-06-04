@@ -9,7 +9,7 @@ I am interested in how fundamental physical principles can be used to explain an
 # Newsworthy
 > **May 2020**
 
-  1. Honored to be receiving the [Jack E. Froehlich Award](https://deans.caltech.edu/Grants_Funding/Froehlich) in memory of the late Jack E. Froehlich, who did his undergraduate and graduate work at Caltech and was later the project manager for Explorer I for the Jet Propulsion Laboratory. The award of $1,500 is given to a junior in the upper 5% of his or her class who shows outstanding promos for a creative professional career.
+  1. Honored to be receiving the [Jack E. Froehlich Award](https://deans.caltech.edu/Grants_Funding/Froehlich) in memory of the late Jack E. Froehlich, who did his undergraduate and graduate work at Caltech and was later the project manager for Explorer I for the Jet Propulsion Laboratory. The award of $1,500 is given to a junior in the upper 5% of his or her class who shows outstanding promise for a creative professional career.
 
   2. I am grateful to be recognized as a [2020 Henry Ford II Scholar Award](http://eas.caltech.edu/news/1309) recipient. This award of $5,000 is funded under an endowment provided by the Ford Motor Company Fund, and is made annually to engineering students with the best academic record at the end of the third year of undergraduate study.
 
