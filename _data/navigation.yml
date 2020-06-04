@@ -1,0 +1,12 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Curriculum Vitae"
+    url: /curriculum-vitae/
+  - title: "Teaching"
+    url: /teaching-material/
+  - title: "Projects"
+    url: /projects/
+  - title: "Leisure"
+    url: /fun/
+  
