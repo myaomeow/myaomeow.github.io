@@ -1,6 +1,6 @@
 ---
-permalink: /java/bytes-conditionals-and-loops/
-title: "Bytes, Conditionals, and Loops"
+permalink: /java/variables-conditionals-and-loops/
+title: "Variables, Conditionals, and Loops"
 ---
 
 > ## Bytes

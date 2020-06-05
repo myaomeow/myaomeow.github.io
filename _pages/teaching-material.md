@@ -7,8 +7,14 @@ Education is important. In working with high school students and college undergr
 
 ### Java
 
-[Bytes, Conditionals, and Loops](/java/bytes-conditionals-and-loops/index.html)
+  1. [Getting Started](/java/getting-started/index.html)
+  2. [Fields and Methods](/java/fields-and-methods/index.html)
+  3. [Variables, Conditionals, and Loops](/java/variables-conditionals-and-loops/index.html)
 
 ### Calculus
 
-[Limits and Continuity](/calculus/limits-and-continuity/index.html)
+  1. [Limits and Continuity](/calculus/limits-and-continuity/index.html)
+
+### Physics (with Calculus)
+  
+  1. [Newton's Laws and Kinematics](/physics/newton-laws-and-kinematics/index.html)
