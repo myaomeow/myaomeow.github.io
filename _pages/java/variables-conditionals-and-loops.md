@@ -17,7 +17,7 @@ $5$ | ``101``
 $6$ | ``110``
 $7$ | ``111``
 
-In general, if you want to represent the numbers $0$ through $2^n-1$ (or $-2^n-1$ to $2^{n-1}-1$ if you care about negative numbers too), you need at least $n$ bits. One _byte_ is 8 bits. Therefore, using $z$ bytes of data, we can represent the numbers from $0$ to \\(2^{8z}-1\\) (or $-2^{8z}-1$ to $2^{8z-1}-1$ if, again, you care about negative numbers). The range of numbers we can represent depends on the number of bytes we use: more bytes equals more numbers!
+In general, if you want to represent the numbers $0$ through $2^n-1$ (or $-2^{n-1}-1$ to $2^{n-1}-1$ if you care about negative numbers too), you need at least $n$ bits. One _byte_ is 8 bits. Therefore, using $z$ bytes of data, we can represent the numbers from $0$ to \\(2^{8z}-1\\) (or $-2^{8z-1}-1$ to $2^{8z-1}-1$ if, again, you care about negative numbers). The range of numbers we can represent depends on the number of bytes we use: more bytes equals more numbers!
 
 > ## Variable Types
 
