@@ -131,7 +131,9 @@ In the comments of the main section in the code snippet in the Repetitions and L
 Please answer these three questions.
 
 ### Problem 2
-Sometimes some words like ```"localization"``` or ```"internationalization"``` are so long that writing them many times in one text is quite tiresome. Let's consider a word too long, if its length is strictly more than 10 characters. All too long words should be replaced with a special abbreviation. This abbreviation is made like this: we write down the first and the last letter of a word and between them we write the number of letters between the first and the last letters. For example, ```"localization"``` will be spelt as ```"l10n"```, and ```"internationalization"``` will be spelt as ```"i18n"```. Fill in the following code segments:
+_This problem is adapted from [Codeforces](http://codeforces.com/problemset/problem/71/A)._
+
+Sometimes some words like ```"localization"``` or ```"internationalization"``` are so long that writing them many times in one text is quite tiresome. Let's consider a word too long, if its length is strictly more than 10 characters. All too long words should be replaced with a special abbreviation. This abbreviation is made like this: we write down the first and the last letter of a word and between them we write the number of letters between the first and the last letters. For example, ```"localization"``` will be spelt as ```"l10n"```, and ```"internationalization"``` will be spelt as ```"i18n"```. Fill in the following code segments. Before starting, I'd recommend checking out [this link](https://stackoverflow.com/questions/2451650/how-do-i-apply-the-for-each-loop-to-every-character-in-a-string).
 
 ```java
 public class Problem2 {
@@ -142,8 +144,8 @@ public class Problem2 {
     }
     
     public static int numChar(String s) {
-        // TODO: Return how many characters are in the input String s. This
-        // should be one line of code using the .length() method.
+        // TODO: Return how many characters are in the input String s. Do
+        // not use the .length() method. Try writing this using a for loop.
         return 0;
     }
     
@@ -181,3 +183,91 @@ public class Problem2 {
 }
 ```
 Try out your code on your computer and see if it works!
+
+### Problem 3
+
+_This problem is adapted from Caltech's CS11 course._
+
+Let's write a program to represent an $(x, y)$ pair on the Cartesian plane as a Java ```class```. Our goal is to be able to calculate the distance between any two points. For this problem, fill in the following code segments. Before starting, I'd recommend checking out [this link](https://stackoverflow.com/questions/8959782/check-if-multiple-conditions-are-all-false-or-all-true-java).
+
+```java
+import java.util.*;
+import java.io.*;
+import java.lang.Math;
+
+/**
+ * A two-dimensional point class.
+ **/
+public class Point2d {
+    /** x coordinate of the point **/
+    private double x;
+
+    /** y coordinate of the point **/
+    private double y;
+
+    /** Constructor to initialize point to (x, y, z) value **/
+    public Point2d(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    /** No-argument constructor: defaults to a point at the origin **/
+    public Point2d() {
+        this(0, 0);
+    }
+
+    /** Return the x coordinate of the point **/
+    public double getX() {
+        // TODO: Fill in what to return here.
+    }
+
+    /** Return the y coordinate of the point **/
+    public double getY() {
+        // TODO: Fill in what to return here.
+    }
+
+    /** Set the x coordinate of the point to val**/
+    public void setX(double val) {
+        // TODO: Fill in what to do here.
+    }
+
+    /** Set the y coordinate of the point to val **/
+    public void setY(double val) {
+        // TODO: Fill in what to do here.
+    }
+
+    /** Return if two points are equal. **/
+    @Override
+    public boolean equals(Point2d otherPoint) {
+        // TODO: Check if two points are equal. Remember that two points 
+        // are equal if their x coordinates are equal and their y 
+        // coordinates are equal.
+    }
+
+    /** 
+     * Return Euclidean distance between two points with 
+     * double-precision
+     **/
+    public double distanceTo(Point2d otherPoint) {
+        // TODO: You need to use the distance formula here. To find the 
+        // square root of a number, you might need to look it up online. 
+        // A simple Google search
+        // "square root number Java" should suffice.
+
+        // Remember to only calculate the distance to another point if
+        // the two points are not equal! A good way of checking point
+        // equality is using the equals() method you defined above.
+    }
+
+    public static void main(String[] args) {
+        // Create a point (0, 3) on the xy plane.
+        Point2d p1 = new Point2d(0, 3);
+        // Create a point (4, 0) on the xy plane.
+        Point2d p2 = new Point2d(4, 0);
+        // Calculate the distance between the two points. You should expect 
+        // to see 5 from the Pythagorean theorem.
+        // TODO: Write and print the calculation here.
+    }
+}
+```
+
