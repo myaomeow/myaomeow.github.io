@@ -61,7 +61,7 @@ What happens as $h$ goes to zero? (We'll find out later.)
 
 ### Problem 1
 
-Evaluate the limit $\lim_{t \rightarrow-3} \frac{6+4 t}{t^{2}+1}$. Evaluate the limit $\lim_{z\rightarrow -\infty}\frac{7x^3+2x+1}{9x^3-4x^2+3x+6}$.
+Evaluate the limit $\lim_{t \rightarrow-3} \frac{6+4 t}{t^{2}+1}$. Evaluate the limit $\lim_{x\rightarrow -\infty}\frac{7x^3+2x+1}{9x^3-4x^2+3x+6}$.
 
 ### Problem 2
 Consider the function
