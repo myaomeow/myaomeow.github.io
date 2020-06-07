@@ -70,9 +70,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/myaomeow"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/myaomeowww"
+      #    - label: "Instagram"
+      #      icon: "fab fa-fw fa-instagram"
+      #      url: "https://instagram.com/myaomeowww"
 
 footer:
   links:
@@ -82,9 +82,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/myaomeow"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/myaomeowww"
+      #    - label: "Instagram"
+      #      icon: "fab fa-fw fa-instagram"
+      #      url: "https://instagram.com/myaomeowww"
 
 defaults:
   # _posts
