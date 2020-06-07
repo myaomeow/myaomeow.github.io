@@ -19,3 +19,4 @@ Education is important. In working with high school students and college undergr
   
   1. [Newton's Laws and Kinematics](/physics/newton-laws-and-kinematics/index.html)
   2. [Mechanical Equilibrium](/physics/mechanical-equilibrium/index.html)
+  3. [Friction](/physics/friction/index.html)
