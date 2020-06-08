@@ -10,6 +10,8 @@ Education is important. In working with high school students and college undergr
   1. [Getting Started](/java/getting-started/index.html)
   2. [Fields and Methods](/java/fields-and-methods/index.html)
   3. [Variables, Conditionals, and Loops](/java/variables-conditionals-and-loops/index.html)
+  4. [Lists and Arrays](/java/lists-and-arrays/index.html)
+  5. [Abstraction](/java/abstraction/index.html)
 
 ### Calculus
 
