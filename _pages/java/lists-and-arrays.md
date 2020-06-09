@@ -50,7 +50,7 @@ data[10] = 9;    // This returns an error! data has length 10, so
                  // 10th element!
 data[6] = "Hi!"; // This also returns an error! data was declared to
                  // be an array of integers, so we can't set an 
-                 // element equal to a String.s
+                 // element equal to a String.
 
 /* Use or access an element in the array. */
 System.out.println(data[0] + 2); // Adds 2 to the 0th integer in data
