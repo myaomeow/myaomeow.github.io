@@ -201,6 +201,8 @@ This wraps up our defined ```class``` called ```CodeLine```. Using this Java ```
 We're now ready to define the main ```class``` for our program, which we'll call ```BitPlusPlus```. Again, we'll use our fields to keep track of the things we care about, which are the final result, the raw ```String``` commands, and the command sequences that we converted into ```class``` instances of ```CodeLine``` that we defined above. To keep track of the command sequences, we'll be using the arrays and lists that we talked about [last time](/java/lists-and-arrays/index.html).
 
 ```java
+import java.util.ArrayList;
+
 public class BitPlusPlus {
     /* 
      * Keep track of the raw String arguments that were passed into 
@@ -222,6 +224,8 @@ public class BitPlusPlus {
 We can initialize all of these fields using a constructor by using an array of ```String``` input arguments that we assume are in the form described in the original problem.
 
 ```java
+import java.util.ArrayList;
+
 public class BitPlusPlus {
     /* 
      * Keep track of the raw String arguments that were passed into 
@@ -288,6 +292,8 @@ Assuming we've defined all of these relevant functions, then our ```main()``` pr
 Now, all that remains is to define the ```parse()``` and ```compute()``` functions. Altogether, the ```class``` would look something like this:
 
 ```java
+import java.util.ArrayList;
+
 public class BitPlusPlus {
     /* 
      * Keep track of the raw String arguments that were passed into 
@@ -376,13 +382,14 @@ public class BitPlusPlus {
 }
 ```
 
-Altogether, assuming that our ```BitPlusPlus.java``` and ```CodeLine.java``` source code files are in the same Java Project directory, we should have a working ```Bit++``` program! Let's try it out using the examples from above:
+Altogether, assuming that our ```BitPlusPlus.java``` and ```CodeLine.java``` source code files are in the same ```src``` Java Project directory, we should have a working ```Bit++``` program! Let's try it out using the examples from above:
 
 ```
-$ 2 x++3 --x1              // Input
-4                          // Output (2 + 3 - 1 = 4)
-$ 8 x++574 ++x4 --x1000    // Input
--414                       // Output (8 + 574 + 4 - 1000 = -414)
+$ javac *.java                              // Compiles all .java src files
+$ java BitPlusPlus 2 x++3 --x1              // Input
+4                                           // Output (2+3-1=4)
+$ java BitPlusPlus 8 x++574 ++x4 --x1000    // Input
+-414                                        // Output (8+574+4-1000=-414)
 ```
 
 > ## Exercises
