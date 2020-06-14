@@ -19,7 +19,8 @@ Education is important. In working with high school students and college undergr
   1. [Limits and Continuity](/calculus/limits-and-continuity/index.html)
   2. [Introduction to Derivatives](/calculus/intro-to-derivatives/index.html)
   3. [Evaluating Derivatives](/calculus/evaluating-derivatives/index.html)
-  4. [Higher Order Derivatives](/calculus/higher-order-derivatives/index/html)
+  4. [Higher Order Derivatives](/calculus/higher-order-derivatives/index.html)
+  5. [The Chain Rule](/calculus/chain-rule/index.html)
 
 ### Physics (with Calculus)
   
