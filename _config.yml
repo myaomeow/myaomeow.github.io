@@ -22,6 +22,13 @@ twitter_username: myaomeow
 github_username: myaomeow
 minimal_mistakes_skin: default
 search: true
+search_provider: algolia
+
+algolia:
+    application_id: E3YCTJRDSB
+    index_name: dev_NAME
+    search_only_api_key: c0850fe519bdbb0b1e0b1ef3fd4e6753
+    powered_by: true
 
 # Build settings
 markdown: kramdown
