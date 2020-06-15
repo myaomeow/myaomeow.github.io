@@ -30,3 +30,9 @@ Education is important. In working with high school students and college undergr
   4. [Pulleys](/physics/pulleys/index.html)
   5. [Mechanical Equilibrium Practice](/physics/mechanical-equilibrium-practice/index.html)
   6. [Springs and Harmonic Oscillation](/physics/springs-and-sho/index.html)
+
+### Introduction to Statistical Learning
+
+These notes are based on a publicly available course offered by Professor [Konstantin Zuev](http://www.its.caltech.edu/~zuev/index.html) at Caltech on statistical learning.
+
+  1. [Learning Problems and Statistical Decision Theory](/stat-learning/lecture-1/index.html)
