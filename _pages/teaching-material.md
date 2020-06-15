@@ -13,6 +13,7 @@ Education is important. In working with high school students and college undergr
   4. [Lists and ```ArrayList```s](/java/lists-and-arrays/index.html)
   5. [```LinkedList```s and Matrices](/java/linked-lists-and-matrices/index.html)
   6. [Abstraction](/java/abstraction/index.html)
+  7. [Lists: A Review](/java/lists-a-review/index.html)
 
 ### Calculus
 

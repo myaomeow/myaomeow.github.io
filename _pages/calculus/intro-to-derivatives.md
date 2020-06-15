@@ -100,5 +100,5 @@ $$\frac{df}{dx}=x-y-2$$
 At $x=-1$, $y$ is known to be $3$.
 
   1. Using this information, construct a tangent line approximation of the value of $y$ near $x=-1$. 
-  2. It is known that the actual value of $y$ at $x=-0.9$ is $y(0)\approx 2.434$. How good is your approximation at $x=-0.9$?
+  2. It is known that the actual value of $y$ at $x=-0.9$ is $y(-0.9)\approx 2.434$. How good is your approximation at $x=-0.9$?
   3. It is known that the actual value of $y$ at $x=0$ is $y(0)=-3+7e^{-1}\approx -0.425$. How good is your approximation at $x=0$?
