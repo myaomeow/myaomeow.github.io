@@ -83,7 +83,7 @@ Our goal in statistical learning regression is to determine $f$ that minimizes $
 
 $$ \text{MSE}(f)=\mathbb{E}\left[\mathbb{E}\left[(Y-f(X))^{2} | X\right]\right] $$
 
-The inner expectation value is with respect to $Y$, while the outer expectation value is with respect to $X$. Evaluating this exception value is explained [here](https://youtu.be/P60kCrOc6LQ?t=1721). The **inner conditional expectation** is derived to be
+The inner expectation value is with respect to $Y$, while the outer expectation value is with respect to $X$. Evaluating this expectation value is explained [here](https://youtu.be/P60kCrOc6LQ?t=1721). The **inner conditional expectation** is derived to be
 
 $$\mathbb{E}[(Y-f(x))^2|X=x]=\mathbb{V}[Y|X=x]+(\mathbb{E}[Y|X=x]-f(x))^2$$
 
