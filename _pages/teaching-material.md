@@ -37,3 +37,4 @@ Education is important. In working with high school students and college undergr
 These notes are based on a publicly available course offered by Professor [Konstantin Zuev](http://www.its.caltech.edu/~zuev/index.html) at Caltech on statistical learning.
 
   1. [Learning Problems and Statistical Decision Theory](/stat-learning/lecture-1/index.html)
+  2. [Methods in Regression Problems](/stat-learning/lecture-2/index.html)
