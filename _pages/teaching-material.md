@@ -22,6 +22,8 @@ Education is important. In working with high school students and college undergr
   3. [Evaluating Derivatives](/calculus/evaluating-derivatives/index.html)
   4. [Higher Order Derivatives](/calculus/higher-order-derivatives/index.html)
   5. [The Chain Rule](/calculus/chain-rule/index.html)
+  6. [Derivatives of Trigonometric Functions](/calculus/trig-function-derivatives/index.html)
+  7. [Implicit Differentiation](/calculus/implicit-differentiation/index.html)
 
 ### Physics (with Calculus)
   
@@ -38,3 +40,4 @@ These notes are based on a publicly available course offered by Professor [Konst
 
   1. [Learning Problems and Statistical Decision Theory](/stat-learning/lecture-1/index.html)
   2. [Methods in Regression Problems](/stat-learning/lecture-2/index.html)
+  3. [Methods in Classification Problems and the Bias-Variance Trade-Off](/stat-learning/lecture-3/index.html)
