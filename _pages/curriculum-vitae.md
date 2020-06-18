@@ -80,11 +80,11 @@ CEO and co-founder of a 501(c)(3) nonprofit organization. [AtriaConnect](https:/
   - partnered with companies such as Philips Healthcare and Innovating Imaging Technologies (IIT)
   - developed an open-source electronic medical record system to faciliate patient data storage in resource-limited settings
 
-### **MCAT Study Guide** (June 2019 - December 2019) ([Link](github.com/myaomeow/MCAT_Study_Guide_SU2019))
+### **MCAT Study Guide** (June 2019 - December 2019) ([Link](https://github.com/myaomeow/MCAT_Study_Guide_SU2019))
 
 Publically available, condensed study guide (150 pages) written to help students prepare for the Medical College Admissions Test (MCAT). Used personally and by students I have tutored previously.
 
-### **Recombination Checker** (December 2018) ([Link](github.com/myaomeow/recombination_checker))
+### **Recombination Checker** (December 2018) ([Link](https://github.com/myaomeow/recombination_checker))
 
 Python program that takes a DNA sequence string and checks for potential sites of DNA recombination given a set of parameters. Takes into account minimum homology length, maximum allows homology mismatch.
 
