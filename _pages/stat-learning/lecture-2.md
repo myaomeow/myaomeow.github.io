@@ -1,6 +1,8 @@
 ---
 permalink: /stat-learning/lecture-2/
 title: "Methods in Regression Problems"
+toc: true
+toc_label: "Contents"
 ---
 
 _The link to the full 66-minute lecture can be found [here](https://www.youtube.com/watch?v=hTvGbpqaNJA)._

@@ -1,6 +1,8 @@
 ---
 permalink: /java/lists-and-arrays/
 title: "Lists and Arrays"
+toc: true
+toc_label: "Contents"
 ---
 
 Today we'll be learning about a fundamental variable type: lists. A list is simply and ordered set of items. For example, take a list of errands you might have for the day, which may include

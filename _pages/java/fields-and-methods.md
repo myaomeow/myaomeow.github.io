@@ -1,6 +1,8 @@
 ---
 permalink: /java/fields-and-methods/
 title: "Fields and Methods"
+toc: true
+toc_label: "Contents"
 ---
 
 Last time, we built a very simple Java ```class``` called ```HelloWorld``` that did one thing: print out a message ```Hello, World!```:

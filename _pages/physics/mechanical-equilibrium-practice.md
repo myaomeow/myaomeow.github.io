@@ -1,6 +1,8 @@
 ---
 permalink: /physics/mechanical-equilibrium-practice/
 title: "Practice with Mechanical Equilibrium"
+toc: true
+toc_label: "Contents"
 ---
 
 Physics problems involving mechanical equilibrium are very common. For this reason, we will practice doing a couple of these problems today.
@@ -68,7 +70,7 @@ $$\vec{v}=-x\sqrt{\frac{g}{l}}\hat{y}$$
 
 and so the velocity $$\vec{v}_{\max}$$ when the rope completely comes off at $x=l$ is $\vec{v}_{\text{max}}=-\hat{y}\sqrt{gl}\hat{y}$.
 
-> ### Example 3:
+> ### Example 3: Pulley on an Inclined Plane
 
 Two blocks of mass $m$ and $M$ are connected via pulley with a configuration shown below:
 

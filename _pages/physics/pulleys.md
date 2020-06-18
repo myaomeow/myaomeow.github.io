@@ -1,6 +1,8 @@
 ---
 permalink: /physics/pulleys/
 title: "Pulleys"
+toc: true
+toc_label: "Contents"
 ---
 
 Pulleys are going to be our first introduction to simple machines, which are contraptions that make doing work easier. In our case, a [pulley](https://en.wikipedia.org/wiki/Pulley) typically features a wheel on an axle with a rope around it, designed to support movement and change of direction of forces. Pulleys are useful in being able to redirect the direction of forces.

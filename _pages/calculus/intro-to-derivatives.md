@@ -1,6 +1,8 @@
 ---
 permalink: /calculus/intro-to-derivatives/
 title: "Introduction to Derivatives"
+toc: true
+toc_label: "Contents"
 ---
 
 [Last time](/calculus/limits-and-continuity/index.html), we asked the question of what happens when we want to find the slope of a secant lint between two points $(x, f(x))$ and $(x+h, f(x+h))$ for some parameter $h$. The slope $m$ of this secant line is

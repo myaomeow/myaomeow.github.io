@@ -1,6 +1,8 @@
 ---
 permalink: /calculus/limits-and-continuity/
 title: "Limits and Continuity"
+toc: true
+toc_label: "Contents"
 ---
 
 > ## Limits

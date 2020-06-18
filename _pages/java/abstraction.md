@@ -1,6 +1,8 @@
 ---
 permalink: /java/abstraction/
 title: "Abstraction"
+toc: true
+toc_label: "Contents"
 ---
 
 > ## Waking Up in the Morning

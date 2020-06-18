@@ -1,6 +1,8 @@
 ---
 permalink: /java/linked-lists-and-matrices/
 title: "```LinkedList```s and Matrices"
+toc: true
+toc_label: "Contents"
 ---
 
 > ## ```LinkedList```s

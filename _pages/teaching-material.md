@@ -1,11 +1,13 @@
 ---
 permalink: /teaching-material/
 title: "Teaching Material"
+toc: true
+toc_label: "Topics"
 ---
 
 Education is important. In working with high school students and college undergraduates, I have developed a number of teaching materials on a variety of topics ranging from computer science and mathematics to physics and chemistry. These are by no means comprehensive, but can serve as helpful review guides and/or topic outlines for current students.
 
-### Java
+> ## Java
 
   1. [Getting Started](/java/getting-started/index.html)
   2. [Fields and Methods](/java/fields-and-methods/index.html)
@@ -15,7 +17,7 @@ Education is important. In working with high school students and college undergr
   6. [Abstraction](/java/abstraction/index.html)
   7. [Lists: A Review](/java/lists-a-review/index.html)
 
-### Calculus
+> ## Calculus
 
   1. [Limits and Continuity](/calculus/limits-and-continuity/index.html)
   2. [Introduction to Derivatives](/calculus/intro-to-derivatives/index.html)
@@ -25,7 +27,7 @@ Education is important. In working with high school students and college undergr
   6. [Derivatives of Trigonometric Functions](/calculus/trig-function-derivatives/index.html)
   7. [Implicit Differentiation](/calculus/implicit-differentiation/index.html)
 
-### Physics (with Calculus)
+> ## Physics (with Calculus)
   
   1. [Newton's Laws and Kinematics](/physics/newton-laws-and-kinematics/index.html)
   2. [Mechanical Equilibrium](/physics/mechanical-equilibrium/index.html)
@@ -34,7 +36,7 @@ Education is important. In working with high school students and college undergr
   5. [Mechanical Equilibrium Practice](/physics/mechanical-equilibrium-practice/index.html)
   6. [Springs and Harmonic Oscillation](/physics/springs-and-sho/index.html)
 
-### Introduction to Statistical Learning
+> ## Introduction to Statistical Learning
 
 These notes are based on a publicly available course offered by Professor [Konstantin Zuev](http://www.its.caltech.edu/~zuev/index.html) at Caltech on statistical learning.
 

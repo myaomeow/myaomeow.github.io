@@ -1,6 +1,8 @@
 ---
 permalink: /curriculum-vitae/
 title: "Curriculum Vitae"
+toc: true
+toc_label: "Navigation"
 ---
 
 Check out the PDF version [here](https://05fd4636-f79a-48b3-b7bc-4096fc8cc75a.filesusr.com/ugd/676742_82a84fe367da436ba9feb6737f214b10.pdf).

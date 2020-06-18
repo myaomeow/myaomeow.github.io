@@ -1,5 +1,6 @@
 ---
 title: "About"
+author_profile: true
 ---
 
 Hello! I'm a current junior at Caltech studying physics and computer science. I'm born and raised in California and am the oldest child in a family of four (six if you count two dogs!)

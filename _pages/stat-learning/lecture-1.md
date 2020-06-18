@@ -1,6 +1,8 @@
 ---
 permalink: /stat-learning/lecture-1/
 title: "Learning Problems and Statistical Decision Theory"
+toc: true
+toc_label: "Contents"
 ---
 
 _The link to the full 38-minute lecture can be found [here](https://www.youtube.com/watch?v=P60kCrOc6LQ)._

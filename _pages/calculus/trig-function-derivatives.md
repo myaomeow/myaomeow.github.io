@@ -1,7 +1,11 @@
 ---
 permalink: /calculus/trig-function-derivatives/
 title: "Derivatives of Trigonometric Functions"
+toc: true
+toc_label: "Contents"
 ---
+
+> ## Proofs
 
 Recall the definition of the derivative that we introduced in our lesson on [Introduction to Derivatives](/calculus/intro-to-derivatives/index.html):
 
@@ -38,6 +42,8 @@ Using the same special limit results from above, we have
 $$\frac{d}{dx}[\cos x]=(0)\cos x-(1)\sin x=-\sin x$$
 
 Therefore the derivative of $\cos x$ is $-\sin x$. Combining these results, we have
+
+> ## The Main Formulas
 
 > $$\frac{d}{dx}[\sin x]=\cos x, \quad \frac{d}{dx}[\cos x]=-\sin x$$
 

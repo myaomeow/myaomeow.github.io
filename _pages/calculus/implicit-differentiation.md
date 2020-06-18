@@ -1,6 +1,8 @@
 ---
 permalink: /calculus/implicit-differentiation/
 title: "Implicit Differentiation"
+toc: true
+toc_label: "Contents"
 ---
 
 Consider the following function $y=f(x)$ defined by the equation $2x^3-5xy-y^2=3$. Suppose that we want to find the derivative of $y$. How would we go about this? This equation is not in the standard form $y=\text{some function of }x$ that we're used to, and it can't be easily rewritten into this standard form because of the mixed terms like $-5xy$ that are present. At first glance, it seems like this function is not differentiable. 

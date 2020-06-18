@@ -1,6 +1,8 @@
 ---
 permalink: /calculus/evaluating-derivatives/
 title: "Techniques to Evaluate Derivatives"
+toc: true
+toc_label: "Contents"
 ---
 > ## Basic Techniques
 

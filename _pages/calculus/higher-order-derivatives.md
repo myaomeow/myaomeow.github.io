@@ -15,7 +15,7 @@ The second derivative is simply the derivative of the first derivative of $f(x)$
 
 $$\frac{d}{dx}\left[\frac{df}{dx}\right]=\frac{d^2f}{dx^2}=f''(x)=12x-2$$
 
-In Leibniz notation, the second derivative is denoted as $d^2f/dx^2$, while in the prime notation, it's denoted as $f''(x)$. Even higher order derivatives can also be defined. For example, consider the third derivative of $f(x)$:
+In Leibniz notation, the second derivative is denoted as $d^2f/dx^2$, while in the prime notation, it's denoted as $$f"(x)$$. Even higher order derivatives can also be defined. For example, consider the third derivative of $f(x)$:
 
 $$\frac{d}{dx}\left[\frac{d^2f}{dx^2}\right]=\frac{d^3f}{dx^3}=f'''(x)=12$$
 
@@ -35,11 +35,11 @@ Now that we have the first derivative, we can sketch what the original function 
 
 As we can see, graphing a function from using the second derivative uses the same techniques that we've seen previously, but we have to do it twice instead of once. Furthermore, from the example above, we can make sure generalizations of what information we can gather about $f(x)$ from the graph of its second derivative:
 
-  1. Note that when $f"(x)>0$ from above, $f(x)$ looked like it is "smiling." We call graphs that look like this _concave up_, or simply _concave_.
-  2. Note that when $f"(x)<0$ from above, $f(x)$ looked like it is "frowning." We call graphs that look like this _concave down_, or simply _convex_.
-  3. Note that when $f"(x)=0$ from above, $f(x)$ is linear. This means that it is neither concave nor convex.
+  1. Note that when $$f"(x)>0$$ from above, $f(x)$ looked like it is "smiling." We call graphs that look like this _concave up_, or simply _concave_.
+  2. Note that when $$f"(x)<0$$ from above, $f(x)$ looked like it is "frowning." We call graphs that look like this _concave down_, or simply _convex_.
+  3. Note that when $$f"(x)=0$$ from above, $f(x)$ is linear. This means that it is neither concave nor convex.
 
-In general, we can conclude that the sign of $f"(x)$ can tell us information about the _concavity_ of $f(x)$. 
+In general, we can conclude that the sign of $$f"(x)$$ can tell us information about the _concavity_ of $f(x)$. 
 
 > ## Exercises
 

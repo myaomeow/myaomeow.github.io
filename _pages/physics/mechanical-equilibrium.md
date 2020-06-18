@@ -1,6 +1,8 @@
 ---
 permalink: /physics/mechanical-equilibrium/
 title: "Mechanical Equilibrium"
+toc: true
+toc_label: "Contents"
 ---
 
 > ## Newton's Laws

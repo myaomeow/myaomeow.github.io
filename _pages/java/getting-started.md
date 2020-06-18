@@ -1,6 +1,8 @@
 ---
 permalink: /java/getting-started/
 title: "Getting Started"
+toc: true
+toc_label: "Contents"
 ---
 
 > ## Hello, World!
