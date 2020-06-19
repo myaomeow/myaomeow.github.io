@@ -33,7 +33,7 @@ Finance | Financial Machine Learning/Quantitative Analysts
 
 Each of these subfields have their own technologies, jargon, and terminology, which can make cross-talk between different fields difficult. Therefore, our main goal is to discuss the most fundamental, shared ideas and methods for learning from data and explaining them in a statistical framework.
 
-> ## Types of Learning Problems:
+> ## Types of Learning Problems
 
 There are three main types of learning problems in statistical learning:
 
