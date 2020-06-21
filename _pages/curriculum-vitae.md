@@ -70,7 +70,7 @@ June 2014 | **SAT Subject Test**: 800 Math II, 800 Biology, 800 Chemistry
 
 ### **AtriaConnect, Inc.** (April 2018 - Present)
 
-###### [What is AtriaConnect? A Video Guide](https://www.youtube.com/watch?v=f-itUdRQM-c)
+_[What is AtriaConnect? A Video Guide](https://www.youtube.com/watch?v=f-itUdRQM-c)_
 
 CEO and co-founder of a 501(c)(3) nonprofit organization. [AtriaConnect](https://www.atriaconnect.org) is a startup medical nonprofit centered on equipping resource-limited communities with both state-of-the-art technologies and the knowledge on how to use them. Since the group was founded in April 2018 at Caltech, we have...
   - successfully trained four Haitian physicians in a community hospital in Haiti how to incorporate point-of-care ultrasound (POCUS) into their individual medical practices
@@ -80,13 +80,13 @@ CEO and co-founder of a 501(c)(3) nonprofit organization. [AtriaConnect](https:/
   - partnered with companies such as Philips Healthcare and Innovating Imaging Technologies (IIT)
   - developed an open-source electronic medical record system to faciliate patient data storage in resource-limited settings
 
-### **MCAT Study Guide** (June 2019 - December 2019) ([Link](https://github.com/myaomeow/MCAT_Study_Guide_SU2019))
+### **Plasmid Homology Analyzer** (June 2020)
 
-Publically available, condensed study guide (150 pages) written to help students prepare for the Medical College Admissions Test (MCAT). Used personally and by students I have tutored previously.
+[Java program](/projects/plasmid-homology-analyzer/index.html) that takes a DNA sequence string and checks for potential sites of DNA recombination given a set of parameters. Takes into account minimum homology length, maximum allows homology mismatch. The Python analog (only available using command line interface) is contained in this [repo](https://www.github.com/myaomeow/recombination_checker).
 
-### **Recombination Checker** (December 2018) ([Link](https://github.com/myaomeow/recombination_checker))
+### **MCAT Study Guide** (June 2019 - December 2019)
 
-Python program that takes a DNA sequence string and checks for potential sites of DNA recombination given a set of parameters. Takes into account minimum homology length, maximum allows homology mismatch.
+Publicly available, condensed [study guide](https://www.github.com/myaomeow/MCAT_Study_Guide_SU2019) (150 pages) written to help students prepare for the Medical College Admissions Test (MCAT). Used personally and by students I have tutored previously.
 
 > ## Outreach and Volunteer Involvement
 
