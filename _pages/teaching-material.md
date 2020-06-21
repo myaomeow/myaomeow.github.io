@@ -25,7 +25,9 @@ Education is important. In working with high school students and college undergr
   4. [Higher Order Derivatives](/calculus/higher-order-derivatives/index.html)
   5. [The Chain Rule](/calculus/chain-rule/index.html)
   6. [Derivatives of Trigonometric Functions](/calculus/trig-function-derivatives/index.html)
-  7. [Implicit Differentiation](/calculus/implicit-differentiation/index.html)
+  7. [Derivatives of Exponential and Logarithmic Functions](/calculus/derivatives-involving-e/index.html)
+  8. [Implicit Differentiation](/calculus/implicit-differentiation/index.html)
+  9. [Putting It All Together: Part One](/calculus/word-problems-1/index.html)
 
 > ## Physics (with Calculus)
   
