@@ -80,7 +80,7 @@ Therefore, we can conclude that the pair $x=50\sqrt{3}, y=5\sqrt{3}$ minimizes t
 
 > ### Example 2
 
-**I want to fence a large rectangular field, and I have 100 square feet of fencing material to work with. What are the dimensions of the field in order to maximize its area?**
+**I want to fence a large rectangular field, and I have 100 feet of fencing material to work with. What are the dimensions of the field in order to maximize its area?**
 
 Let's denote the length of the field as $\ell$ and the width of the field as $w$. Our quantity to optimize is the area of the field $A(\ell, w)=\ell w$. Our constraint is that $2\ell+2w=100 \text{ ft}$, or equivalently, $\ell+w=50\text{ ft}$. In other words, $w=50-\ell$. Plugging this into the area formula gives $A(\ell)=\ell(50-\ell)=50\ell-\ell^2$. Because we want to extremize this quantity, we take its derivative with respect to $\ell$:
 
