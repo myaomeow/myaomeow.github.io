@@ -20,14 +20,17 @@ Education is important. In working with high school students and college undergr
 > ## Calculus
 
   1. [Limits and Continuity](/calculus/limits-and-continuity/index.html)
-  2. [Introduction to Derivatives](/calculus/intro-to-derivatives/index.html)
-  3. [Evaluating Derivatives](/calculus/evaluating-derivatives/index.html)
-  4. [Higher Order Derivatives](/calculus/higher-order-derivatives/index.html)
-  5. [The Chain Rule](/calculus/chain-rule/index.html)
-  6. [Derivatives of Trigonometric Functions](/calculus/trig-function-derivatives/index.html)
-  7. [Derivatives of Exponential and Logarithmic Functions](/calculus/derivatives-involving-e/index.html)
-  8. [Implicit Differentiation](/calculus/implicit-differentiation/index.html)
-  9. [Putting It All Together: Part One](/calculus/word-problems-1/index.html)
+  2. [Existence Theorems: IVT and EVT](/calculus/existence-theorems/index.html)
+  3. [Introduction to Derivatives and the Mean Value Theorem](/calculus/intro-to-derivatives/index.html)
+  4. [Evaluating Derivatives](/calculus/evaluating-derivatives/index.html)
+  5. [Higher Order Derivatives](/calculus/higher-order-derivatives/index.html)
+  6. [The Chain Rule](/calculus/chain-rule/index.html)
+  7. [Derivatives of Trigonometric Functions](/calculus/trig-function-derivatives/index.html)
+  8. [Derivatives of Exponential and Logarithmic Functions](/calculus/derivatives-involving-e/index.html)
+  9. [Implicit Differentiation](/calculus/implicit-differentiation/index.html)
+  10. [Putting It All Together: Part One](/calculus/word-problems-1/index.html)
+  11. [Derivatives of Inverse Functions and Inverse Trig Functions](/calculus/inverse-function-derivatives/index.html)
+  12. [L'Hopital's Rule](/calculus/lhopitals-rule/index.html)
 
 > ## Physics (with Calculus)
   

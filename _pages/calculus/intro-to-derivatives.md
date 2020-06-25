@@ -83,17 +83,48 @@ Our goal is to sketch what $$f(x)$$ looks like given this graph of $$f'(x)$$. Fo
 
 We'll be able to further improve our graph function sketches once we introduce the notion of the [second derivative](/calculus/higher-order-derivatives/index.html). Sketching either $f(x)$ or $f'(x)$ (or both) involves practice to get a strong intuition about how functions and their derivatives behave.
 
+> ## Mean Value Theorem
+
+The **mean value theorem for derivatives** (MVT) is a commonly cited theorem in calculus. Assume that we have a function $f(x)$ that satisfies the following two properties:
+
+  1. $f(x)$ is continuous on the closed interval $[a, b]$.
+  2. $f(x)$ is differentiable on the open interval $(a, b)$. 
+
+The mean value theorem states that if $f(x)$ satisfies both of these properties, then there _must_ exist at least one point $x=c$ with $a<c<b$ such that
+
+$$f'(c)=\frac{f(b)-f(a)}{b-a}$$
+
+What is theorem saying? Consider the arbitrary polynomial function shown below: 
+
+![mvt](/assets/images/mvt.png){:width="80%" height="80%"}
+
+MVT essentially guarantees the existence of at least one point (or in our case, two points $x=c_1$ and $x=c_2$) such that the derivative(s) at the point(s) is equal to the _average_  rate of change along the entirety of the curve. In the figure above, we can see that the two red points have tangent slopes that are parallel to the average slope along the curve, which is highlighted in gray. As we can see, MVT can be though of as the "derivative version" of the [intermediate value theorem](/calculus/ivt/index.html).
+
+> ## Rolle's Theorem
+
+**Rolle's Theorem** is essentially MVT in the very special case where $f(a)=f(b)$, and $a<b$. Defined more explicitly, assume that we have a function $f(x)$ defined on the interval $a\leq x\leq b$, with the properties that
+
+  1. $f(x)$ is continuous on the closed interval $x\in[a, b]$.
+  2. $f(x)$ is differentiable on the open interval $x\in(a, b)$. 
+  3. $f(a)=f(b)$ and $a<b$. 
+
+If $f(x)$ satisfies all three of these properties, then direct application of MVT that we learned above tells us that there exists at least one point $x=c$ with $a<c<b$ such that $f'(c)=0$, since the numerator of $\frac{f(b)-f(a)}{b-a}$ is equal to zero. This is Rolle's Theorem. An visual diagram is shown here:
+
+![rolles-theorem](/assets/images/rolles-theorem.png){:width="80%" height="80%"}
+
+In this diagram, $y_0=f(a)=f(b)$, and so we are guaranteed the existence of the highlighted red point $(c, f(c))$ with derivative given by $f'(c)=0$ using Rolle's Theorem. 
+
 > ## Exercises
 
-### Problem 1
+> ### Problem 1
 
 Earlier, we asserted that just because a function is continuous at a given point does not mean that it is also differentiable at that same point. Give two different examples of shapes of functions that are continuous at at least one point, but not differentiable at that point.
 
-### Problem 2
+> ### Problem 2
 
 Consider the function $f(x)$ that we graphed above in our discussion involving using the piecewise constant $f'(x)$ function to sketch $f(x)$. This function can also be the derivative of another function, which we can denote as $F(x)$. That is, $dF/dx=f(x)$. Using our sketch of $f(x)$ above, sketch out the general shape of $F(x)$. 
 
-### Problem 3
+> ### Problem 3
 
 Consider a function $y=f(x)$ with a derivative given by
 
@@ -104,3 +135,18 @@ At $x=-1$, $y$ is known to be $3$.
   1. Using this information, construct a tangent line approximation of the value of $y$ near $x=-1$. 
   2. It is known that the actual value of $y$ at $x=-0.9$ is $y(-0.9)\approx 2.434$. How good is your approximation at $x=-0.9$?
   3. It is known that the actual value of $y$ at $x=0$ is $y(0)=-3+7e^{-1}\approx -0.425$. How good is your approximation at $x=0$?
+
+> ### Problem 4
+
+_This problem is adapted from the 2007 AP Calculus AB Exam._
+
+Let $f$ be a twice-differentiable function such that $f(2)=5$ and $f(5)=2$. Let $g$ be the function given by $g(x)=f(f(x))$.
+
+  1. Explain why there must be a value $c$ for $2<c<5$ such that $f'(c)=-1$. 
+  2. Show that $g'(2)=g'(5)$. Use this result to explain why there must be a value $k$ for $2<k<5$ such that $g''(k)=0$. _Note: You must be familiar with the [chain rule](/calculus/chain-rule/index.html) before attempting this subproblem. If you haven't seen this yet, skip this part of the problem._
+  3. Show that if $f''(x)=0$ for all $x$, then the graph of $g$ does not have a point of inflection. _Note: You must be familiar with [higher order derivatives](/calculus/higher-order-derivatives/index.html) before attempting this subproblem. If you haven't seen this yet, skip this part of the problem._
+  4. Let $h(x)=f(x)-x$. Explain why there must be a value $r$ for $2<r<5$ such that $h(r)=0$.
+
+> ### Problem 5
+
+Suppose we know that $f(x)$ is continuous and differentiable on the interval $[-7, 0]$, that $f(-7)=-3$, and that $f'(x)\leq 2$ for the entirety of that interval. What is the largest possible value for $f(0)$?
