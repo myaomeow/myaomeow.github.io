@@ -96,7 +96,7 @@ Evaluate the following limits:
   1. $$\lim_{\theta\rightarrow 0}\frac{2\sin\theta-\sin2\theta}{\sin\theta-\theta\cos\theta}$$
   2. $$\lim_{x\rightarrow e}\frac{1-\ln x}{\frac{x}{e}-1}$$
   3. $$\lim_{x\rightarrow 0}\left(\frac{1}{\sin^2x}-\frac{1}{x^2}\right)$$
-  4. $$\lim_{x\rightarrow \infty}\frac{x^{10^10}}{e^x}$$
+  4. $$\lim_{x\rightarrow \infty}\frac{x^{10^{10}}}{e^x}$$
   5. $$\lim_{x\rightarrow 0}\frac{\sin^{-1}x}{x\cos^{-1}x}$$
 
 _Hint: For problem 4, do not try to actually evaluate it by hand. See if you can find a pattern._
