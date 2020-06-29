@@ -148,10 +148,11 @@ public class DNA {
     // TODO: Include any relevant private fields here.
 
     /* 
-     * Constructor takes in a String sequence input and sets the appropriate
+     * Constructor takes in a String sequence input and sets the
      * appropriate vales for any of your relevant fields. Make sure to
-     * confirm that the input sequence is a valid input sequence: that is,
-     * it only contains A, G, C, T, and/or their lower-case equivalents.
+     * confirm that the input sequence is a valid input sequence: that
+     * is, it only contains A, G, C, T, and/or their lower-case 
+     * equivalents.
      */
     public DNA(String sequence) {
         // TODO: Do anything you need to do here. Make sure to store
@@ -193,10 +194,10 @@ public class DNA {
     }
 
     /*
-     * This one should be easier: all too have to do here is print out the
-     * original DNA sequence. Make sure the String is either all upper
-     * case or all lower case (your choice, but I chose to work with all
-     * lower case).
+     * This one should be easier: all too have to do here is print out
+     * the original DNA sequence. Make sure the String is either all
+     * upper case or all lower case (your choice, but I chose to work
+     * with all lower case).
      */
     public String toString() {
         // TODO
@@ -212,10 +213,10 @@ public class DNA {
     }
 
     /*
-     * This method should return whether a DNA sequence called otherSeq can
-     * be found within the original DNA sequence represented by this class.
-     * Of course, differences in upper vs. lower case should be ignored.
-     * Return 1 if otherSeq is contained, otherwise return 0.
+     * This method should return whether a DNA sequence called otherSeq
+     * can be found within the original DNA sequence represented by
+     * this class. Of course, differences in upper vs. lower case should.
+     * be ignored. Return 1 if otherSeq is contained, otherwise return 0.
      */
     public int contains(DNA otherSeq) {
         // TODO
@@ -224,7 +225,7 @@ public class DNA {
 
     /* Don't touch this method! */
     public static void main(String[] args) {
-        /* We will test the functionality of your different methods here. */
+        /* Test the functionality of your different methods here. */
         DNA seq1 = new DNA("TTCTcTCGCCAGcACTGTaATAGGCACTAaaAGAGTGAtG");
         DNA seq2 = new DNA("ggcacta");
         DNA seq3 = new DNA("GtGctGAGCTaagACGGCgt");

@@ -22,7 +22,7 @@ The rules in this universe are simple. At each point in time, the cells can eith
 
 And that's it! With these set of rules, you can make a wide variety of different dynamic patterns. I encourage you to check out [this link](https://en.wikipedia.org/wiki/Conway's_Game_of_Life#Examples_of_patterns) to see some of the patterns you can make!
 
-Your task for today will be to implement the rules of the Game of Life using Java and run your program to make these complex patterns. In doing so, yo will practice many of the things we've talked about in Java over the past few weeks, including...
+Your task for today will be to implement the rules of the Game of Life using Java and run your program to make these complex patterns. In doing so, you'll practice many of the things we've talked about in Java over the past few weeks, including...
 
   - Matrices and matrix manipulation
   - ```for```/```while``` loops
