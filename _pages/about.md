@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Hello! I'm a current junior at Caltech studying physics and computer science. I'm born and raised in California and am the oldest child in a family of four (six if you count two dogs!)
+Hello! I'm a current senior at Caltech studying physics and computer science. I'm born and raised in California and am the oldest child in a family of four (six if you count two dogs!)
 
 I am interested in how fundamental physical principles can be used to explain and model complex biological systems and their interaction with matter. I'm aspiring to become a physician-scientist to advance our understanding of both science and medicine.
 
