@@ -23,7 +23,7 @@ $x$ | -0.2 | -0.1 | -0.01 | -0.001 | 0.001 | 0.01 | 0.1 | 0.2
 $g(x)$ | 1.975 | 1.988 | 1.997 | 1.999 | 2.001 | 2.003 | 2.012 | 2.025
 
   1. Using the graph of $f$ and the table for $g$, estimate $$\lim_{x\rightarrow 0}\left[f(x)-g(x)\right]$$.
-  2. For each values of $a=1, a=2, a=4, a=6$, find $\lim_{x\rightarrow a}f(x)$ or explain why $\lim_{x\rightarrow a}f(x)$ does not exists. Use correct limit notation in your answers.
+  2. For each value of $a=1, a=2, a=4, a=6$, find $\lim_{x\rightarrow a}f(x)$ or explain why $\lim_{x\rightarrow a}f(x)$ does not exists. Use correct limit notation in your answers.
   3. If $f$ continuous at $x=-3$? Using correct limit notation, justify your answer.
   4. Write a difference quotient that best approximates the instantaneous rate of change of $g$ at $x=0$.
 
@@ -47,7 +47,7 @@ $$N(t)=\begin{cases} f(t) & \text{for }0\leq t<6 \\ 25t+150 & \text{for }6\leq t
 
 Here, $f$ is a continuous function with $f(0)=80$. 
 
-  1. Find $\lim_{t\rightarrow \infty}N(t)$. Explain the meaning of $\lim_{t\rightarrow \infty}N(t)$ in the contest of the problem.
+  1. Find $\lim_{t\rightarrow \infty}N(t)$. Explain the meaning of $\lim_{t\rightarrow \infty}N(t)$ in the context of the problem.
   2. Is the function $N$ continuous at $t=8$? Justify your answer.
   3. The function $N$ is continuous at $t=6$. Is there a time $t$, for $0\leq t\leq 6$, at which $N(t)=250$? Justify your answer.
 
@@ -95,7 +95,7 @@ $$W(v)=55.6-22.1v^{0.16} \text{ for }5\leq v \leq 60$$
 
 _This problem is adapted from the 1999 AP Calculus AB Exam._
 
-In the figure below, line $\ell$ is tangent to the graph of $y=\frac{1}{x^2}$ at point $P$, with coordinates $\left(w, \frac{1}{w^2}\right)$, where $w>0$. Point $Q$ has coordinates $(w, 0)$. Line $\ell$ crosses the $x$-axis at point $T$, with coordinates $(k, 0)$.
+In the figure below, line $\ell$ is tangent to the graph of $y=\frac{1}{x^2}$ at point $P$, with coordinates $\left(w, \frac{1}{w^2}\right)$, where $w>0$. Point $Q$ has coordinates $(w, 0)$. Line $\ell$ crosses the $x$-axis at point $R$, with coordinates $(k, 0)$.
 
 ![derivatives-wrap-up-1](/assets/images/derivatives-wrap-up-1.png){:height="80%" width="80%"}
 
@@ -121,9 +121,9 @@ If $y\cos(x^2+1)=x\sin(y^2+1)$, then use implicit differentiation to find (a) $\
 
 A particle moves in a straight line along the $x$-axis. Its displacement is given by the function $s(t)=3t^3-8t^2+12t+6$ for $t\geq 0$, where $t$ is measured in seconds and $s$ is measured in meters.
 
-  1. The velocity function of the particle at time $t$.
-  2. The acceleration function of the particle at time $t$.
-  3. All of the times $t$ when the particle turns around to the other direction. What is the position of the particle at these times $t$? Is the particle traveling left and then turns to the right, or traveling right and then turns to the left at these times $t$?
+  1. Find the velocity function of the particle at time $t$.
+  2. Find the acceleration function of the particle at time $t$.
+  3. Find all of the times $t$ when the particle turns around to the other direction. What is the position of the particle at these times $t$? Is the particle traveling left and then turns to the right, or traveling right and then turns to the left at these times $t$?
 
 > ## Differentiation: Composite, Implicit, and Inverse Functions
 

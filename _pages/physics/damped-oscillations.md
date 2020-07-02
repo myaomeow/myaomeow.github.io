@@ -198,7 +198,7 @@ The spring has an equilibrium length $\ell$.
 
   1. Draw a free body diagram for the mass $m$ in this system.
   2. Assume that there is no friction between the mass and the inclined plane. Solve for the motion of the block. 
-  3. Assume that the block is not yet moving and the force of static friction is defined to be $-\mu_s N$, where $N$ is the normal force and $\mu_s$ is the coefficient of static friction. What is the maximum distance from the top of the inclined plane that the block can be before it begins to move.
+  3. Assume that the block is not yet moving and the maximum force of static friction is defined to be $-\mu_s N$, where $N$ is the normal force and $\mu_s$ is the coefficient of static friction. What is the maximum distance from the top of the inclined plane that the block can be before it begins to move?
   4. Assume that the force of friction is instead defined to be $-\gamma \frac{dx}{dt}$, and there is no $-\mu_s N$ type friction present. Solve for the motion of the block given that the mass starts at its equilibrium length with velocity $v_0$ at time $t=0$. Assume that $\gamma=2, k=1, m=1$ for some set or arbitrary units.
 
 > ### Problem 3
