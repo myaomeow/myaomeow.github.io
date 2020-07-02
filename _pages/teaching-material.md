@@ -16,7 +16,8 @@ Education is important. In working with high school students and college undergr
   5. [```LinkedList```s and Matrices](/java/linked-lists-and-matrices/index.html)
   6. [Abstraction](/java/abstraction/index.html)
   7. [Lists: A Review](/java/lists-a-review/index.html)
-  8. [Conway's Game of Life](/java/game-of-life/index.html)
+  8. [Exercise 1: Conway's Game of Life](/java/game-of-life/index.html)
+  9. [Exercise 2: Storing User Data](/java/login-info/index.html)
 
 > ## Calculus
 
