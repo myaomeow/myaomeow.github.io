@@ -44,7 +44,8 @@ Education is important. In working with high school students and college undergr
   5. [Mechanical Equilibrium Practice](/physics/mechanical-equilibrium-practice/index.html)
   6. [Springs and Harmonic Oscillation](/physics/springs-and-sho/index.html)
   7. [Damped Oscillations](/physics/damped-oscillations/index.html)
-  8. [Driven Oscillations](/physics/driven-oscillations/index.html)
+  8. [Spring Energy and Kinetic Energy](/physics/spring-kinetic-energy/index.html)
+  9. [Pendulums](/physics/pendulums/index.html)
 
 > ## Introduction to Statistical Learning
 
