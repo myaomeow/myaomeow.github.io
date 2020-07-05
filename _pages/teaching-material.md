@@ -34,6 +34,7 @@ Education is important. In working with high school students and college undergr
   11. [Derivatives of Inverse Functions and Inverse Trig Functions](/calculus/inverse-function-derivatives/index.html)
   12. [L'Hopital's Rule](/calculus/lhopitals-rule/index.html)
   13. [Derivatives: A Wrap Up (AP FRQs)](/calculus/derivatives-wrap-up/index.html)
+  14. [Introduction to Integration](/calculus/introduction-to-integration/index.html)
 
 > ## Physics (with Calculus)
   
