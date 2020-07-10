@@ -18,6 +18,9 @@ Education is important. In working with high school students and college undergr
   7. [Lists: A Review](/java/lists-a-review/index.html)
   8. [Exercise 1: Conway's Game of Life](/java/game-of-life/index.html)
   9. [Exercise 2: Storing User Data](/java/login-info/index.html)
+  10. [Introduction to Abstract Data Types](/java/abstract-data-types/index.html)
+  11. [Stacks and Queues](/java/stacks-and-queues/index.html)
+  12. [Recursion](/java/recursion/index.html)
 
 > ## Calculus
 

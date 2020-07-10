@@ -51,10 +51,9 @@ Here, the $\vert\vert$ operator corresponds to the Euclidian norm. Therefore, we
 
 $$\hat{\beta}=\arg \min_{\beta\in\mathbb{R}^{p+1}} \vert \vert \mathbb{X}\beta-y\vert \vert$$
 
-In other words, $\hat{\beta}$ is a solution of the linear system $\mathbb{X}\beta=y$ in the least squares sense. This interpretation of $\hat{\beta}$ allows us to conclude that a **global minimizer of $\text{RSS}$ exists**.
+In other words, $\hat{\beta}$ is a solution of the _linear system_ $\mathbb{X}\beta=y$ in the least squares sense. This interpretation of $\hat{\beta}$ allows us to conclude that a **global minimizer of $\text{RSS}$ exists**, since linear systems always have least squares solutions from our knowledge of linear algebra. A sketch of the proof for this is linked [here](https://youtu.be/DjIgj2vJ1nw?t=939).
 
 > ## Normal Equation
 
-This page is currently under construction.
 
 > ## Ordinary Least Squares
