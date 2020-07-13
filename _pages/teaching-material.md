@@ -7,6 +7,8 @@ toc_label: "Topics"
 
 Education is important. In working with high school students and college undergraduates, I have developed a number of teaching materials on a variety of topics ranging from computer science and mathematics to physics and chemistry. These are by no means comprehensive, but can serve as helpful review guides and/or topic outlines for current students.
 
+If you find any errors with any of the teaching modules, please do let me know through email at myao at caltech dot edu.
+
 > ## Java
 
   1. [Getting Started](/java/getting-started/index.html)
@@ -18,9 +20,10 @@ Education is important. In working with high school students and college undergr
   7. [Lists: A Review](/java/lists-a-review/index.html)
   8. [Exercise 1: Conway's Game of Life](/java/game-of-life/index.html)
   9. [Exercise 2: Storing User Data](/java/login-info/index.html)
-  10. [Introduction to Abstract Data Types](/java/abstract-data-types/index.html)
-  11. [Stacks and Queues](/java/stacks-and-queues/index.html)
-  12. [Recursion](/java/recursion/index.html)
+  10. [Exception Handling](/java/exception-handling/index.html)
+  11. [Abstract Data Types](/java/abstract-data-types/index.html)
+  12. [Stacks and Queues](/java/stacks-and-queues/index.html)
+  13. [Recursion](/java/recursion/index.html)
 
 > ## Calculus
 
@@ -50,6 +53,7 @@ Education is important. In working with high school students and college undergr
   7. [Damped Oscillations](/physics/damped-oscillations/index.html)
   8. [Spring Energy and Kinetic Energy](/physics/spring-kinetic-energy/index.html)
   9. [Pendulums](/physics/pendulums/index.html)
+  10. [Momentum and Collisions](/physics/momentum-and-collisions/index.html)
 
 > ## Introduction to Statistical Learning
 

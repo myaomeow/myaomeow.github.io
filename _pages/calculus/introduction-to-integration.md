@@ -171,17 +171,17 @@ $$\text{Area Under }f(x)=\lim_{n\rightarrow \infty} \frac{b-a}{n}\sum_{i=1}^n f\
 
 One last thing: how we're denoting the left hand side is a bit cumbersome, as we don't want to keep writing the phrase "Area Under $f(x)$" all the time in our work. At this point, its a good idea to introduce new notation: the **integral notation**. By definition, the _integral of the function $f(x)$ from $x=a$ to $x=b$_ is the area under the curve $y=f(x)$ between $x=a$ and $x=b$, and is denoted by the following:
 
-$$\int_a^b dx\text{ }f(x)=\lim_{n\rightarrow \infty} \frac{b-a}{n}\sum_{i=1}^n f\left(a+\frac{(b-a)(i-1)}{n}\right)$$
+$$\int_a^b dx\text{ }f(x)=\lim_{n\rightarrow \infty} \frac{b-a}{n}\sum_{i=1}^n f\left(a+\frac{(b-a)i}{n}\right)$$
 
 The $\int$ symbol can be though of as a summation symbol similar to $\sum$, except that $\int$ will sum over the a continuous set of intervals of $x$, rather than a discrete set of intervals. The _lower bound of integration_ is $x=a$, and the _upper bound of integration_ is $x=b$. These are denoted as a subscript and superscript on the $\int$ symbol, respectively. $dx$ can be though of as the infinitesimally small width of the rectangles that we're summing over, and $f(x)$ is the height of the each of the rectangles that we're summing over. So, $f(x)dx$ is essentially the width of the rectangle multiplied by the height of the rectangle at some particular value of $x$ within the interval $a\leq x\leq b$.
 
-It's also worthwhile to note that we defined the integral using a limit on the left Riemann sum, but there's no reason why we couldn't also define the integral using the right Riemann sum, or the midpoint Riemann sum, or the trapezoidal Riemann sum, or really any other summation algorithm. In reality, all of these approximation techniques will approach the same result if we take the limit as $n\rightarrow \infty$, so it doesn't really matter which one we choose.
+It's also worthwhile to note that we defined the integral using a limit on the right Riemann sum, but there's no reason why we couldn't also define the integral using the left Riemann sum, or the midpoint Riemann sum, or the trapezoidal Riemann sum, or really any other summation algorithm. In reality, all of these approximation techniques will approach the same result if we take the limit as $n\rightarrow \infty$, so it doesn't really matter which one we choose.
 
 > ### Example
 
 Let's go back to our classic example we've seen multiple times above where we're trying to  find the exact area under the curve $y=f(x)=x^2$ within the interval $1\leq x\leq 2$. Using the definition of the integral that we defined above, we can write the following
 
-$$\int_1^2dx\text{ }x^2=\lim_{n\rightarrow \infty}\frac{2-1}{n}\sum_{i=1}^{n}\left(1+\frac{(2-1)(i-1)}{n}\right)^2$$
+$$\int_1^2dx\text{ }x^2=\lim_{n\rightarrow \infty}\frac{2-1}{n}\sum_{i=1}^{n}\left(1+\frac{(2-1)i}{n}\right)^2$$
 
 We can simplify the expression on the right hand side:
 
