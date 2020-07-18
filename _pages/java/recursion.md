@@ -100,54 +100,177 @@ The **base case** is essentially the simplest case that tells us when to stop re
 
 Now, you might be questioning what the actual uses of recursion are. After all, we gave an example for calculating $n!$ [above](/java/recursion/index.html#an-example) that didn't seem as complicated and worked perfectly find. In fact, in most practical applications, recursion is primarily useful when trying to solve a problem iteratively, which, by definition, can often (but not always) be approached with ```for``` and ```while``` loops. So, when would we actually use recursion in actual practical programming?
 
-One situation that may come up is that the ```for``` and ```while``` loops may get incredibly complex, and can become extremely simplified using recursion. Another situation is if there are multiple "branches" of where the code can possibly run. We'll look at some of the most common situations and algorithms where recursion is an extremely powerful tool.
+One situation that may come up is that the ```for``` and ```while``` loops may get incredibly complex, and can become extremely simplified using recursion. Another situation is if there are multiple "branches" of where the code can possibly run. We'll look at some of the most common situations and algorithms where recursion is an extremely powerful tool in the future: typically, recursion doesn't prove its helpfulness until we get into some really complex programming problems. Let's try a couple of practice problems.
 
-> ## Quicksort Algorithm
+> ## Example 1: String Parsing
 
-**Quicksort** is perhaps our first introduction to a computing algorithm that has real-world significance. If you're interested in looking for potential jobs in software engineering in the future, I don't think you'll be tested on, say, the basics such as ```for``` and ```while``` loops in your interview, but quicksorting is a very common interview topic that could make or break your job opportunities. Of course, quick sorting is also used within these recruiting companies as well in your actual jobs (that's why they test you on it in the interview).
+_This problem is adapted from [CodingBat](https://codingbat.com/prob/p170371)._
 
-Quicksorting is referred to as a **divide and conquer** algorithm. We haven't quite discussed what divide and conquer algorithms are yet, but think of it as taking a problem and continuously _dividing_ the problem into smaller and smaller sub-problems. When we eventually solve all of the smaller sub-problems, then we finish up by combining all of the solutions to the sub-problems together to give the final answer. If you're interested in learning more about divide and conquer algorithms, check out [this link](https://www.techiedelight.com/divide-and-conquer-interview-questions/).
-
-We also need to introduce exactly what quicksorting is used for. The main application is when we have some arbitrary array of integer elements, and our goal is to sort this array in ascending order.
-
-Now, we can actually talk about how this algorithm will work. There are essentially three steps involved:
-
-  1. Pick a pivot.
-  2. Partition the array around the pivot.
-  3. Recurse.
-
-Let's dive into each of these steps in further detail. 
-
-> ### Pick a pivot.
-
-I'll use the example given in [this link](https://www.techiedelight.com/quicksort/) to illustrate quicksorting. Imagine that we are given the following integer array of data:
+**Given a String, compute recursively (no loops) the number of lowercase ```'x'``` characters in the String.**
 
 ```java
-public class QuickSort {
-    private int[] data;
-
-    public QuickSort(int[] data) {
-        this.data = data;
-    }
-
-    public static void main(String[] args) {
-        int[] data = new int[] { 9, -3, 5, 2, 6, 8, -6, 1, 3 };
-
-        QuickSort program = new QuickSort(data);
-    }    
+public int countX(String str) {
+    // TODO
 }
 ```
 
-We need to select a **pivot** for this data set, which is simply some element of the data set. In almost all practical applications, the pivot is either the first or the last element of the array. We'll define the pivot to be the last element, so in this case, our pivot is ```3```.
+Like we talked about above, we should first identify the base condition where we know that we should stop recursing. In this problem, when we run out of characters to test being equal to ```'x'```, this tells us that the recursion should stop, since the length of the String is now zero. Since there obviously can't be a character ```'x'``` in a String with length ```0```, we should return ```0``` in the base case. Therefore, our base case is
 
-> ### Partition the array around the pivot.
+```java
+public int countX(String str) {
+    if (str.length() == 0) { return 0; }
+}
+```
 
-The next step of this algorithm is to iterate through the entirety of the array and organize all of the elements less than or equal to ```3```, our pivot, into one array and greater than ```3``` into another array. The pivot ```3``` is kept on its own, and is not a member of either array. In this case, we can do this in the following way:
+For personal preference, we will try to start from recursing from the end of the list. The idea is to determine whether the last character in the current String we are on is equal to ```'x'```, and then recurse on the same String minus that last character we just tested, which can be found in Java using the [```substring()``` method](https://beginnersbook.com/2013/12/java-string-substring-method-example/). If the last character in the current String is ```'x'```, then we add ```1``` to our count. Otherwise, we don't add anything. Therefore, our complete code would look something like
 
+```java
+public int countX(String str) {
+    if (str.length() == 0) { return 0; }
+    else if (str.charAt(str.length() - 1) == 'x') {
+        return 1 + countX(str.substring(0, str.length() - 1));
+    }
+    else {
+        return countX(str.substring(0, str.length() - 1));
+    }
+}
+```
 
+That's it! You can try to test out your code here on [this website](https://codingbat.com/prob/p170371).
 
-> ### Recurse.
+> ## Example 2: Nested Parentheses
 
-> ## Binary Search
+_This problem is adapted from [CodingBat](https://codingbat.com/prob/p183174)._
 
-Imagine that we have an array ```int[] data``` of integers where it's guaranteed that all of the elements in the array are unique and increasing. That is, ```data[i] < data[i+1]``` for all values of ```i```. Let's say that we wanted to determine if 
+**Given a string, return true if it is a nesting of zero or more pairs of parentheses, like ```(())``` or ```((()))```.**
+
+One way to approach this problem is to find the very first instance of a ```(``` character and the very last instance of a ```)``` in the initial String. We can then take the substring in between these two parentheses and recurse on the resulting String. If we can't find both an opening parenthesis or a closing parenthesis, then that means there must be a mismatch in the parenthesis, and we can automatically return false. Otherwise, if we can recurse all the way down to the base case of ```"()"```, then we return true. This can look something like this:
+
+```java
+public boolean nestParen(String str) {
+    int startIndex = -1;
+    int endIndex = -1;
+
+    /* Look for the open and end parentheses. */
+    for (int i = 0; i < str.length(); i++) {
+        if (str.charAt(str.length() - 1 - i) == '(') { 
+            startIndex = str.length() - 1 - i;
+        }
+
+        if (str.charAt(i) == ')') {
+            endIndex = i;
+        }
+    }
+
+    /* If a parentheses '(' and ')' are found in the correct order. */
+    if ((startIndex >= 0) && (endIndex >= 0) && startIndex < endIndex) {
+        /* If the String is exactly "()". (Base Case) */
+        if (endIndex - startIndex == 1) {
+            return true;
+        }
+        /* Otherwise, recurse. */
+        else {
+            return nestParen(str.substring(startIndex + 1, endIndex));
+        }
+    }
+    /* 
+     * If parentheses are not found in the correct order, 
+     * then just return false.
+     */
+    else { return false; }
+}
+```
+
+This essentially covers the main structure, but there are a couple of edge cases that we need to handle. The first is if there are no parentheses in the String at all. Then, since all the (nonexistent) parentheses properly match, we should return ```true```. The second one is if the String has zero length or only has one character. In this case, we should also return ```true``` except if the String is exactly ```"("``` or ```")"```. To cover both of these edge cases, the final code is
+
+```java
+public boolean nestParen(String str) {
+    int startIndex = -1;
+    int endIndex = -1;
+
+    /* Look for the open and end parentheses. */
+    for (int i = 0; i < str.length(); i++) {
+        if (str.charAt(str.length() - 1 - i) == '(') { 
+            startIndex = str.length() - 1 - i;
+        }
+
+        if (str.charAt(i) == ')') {
+            endIndex = i;
+        }
+    }
+
+    /* If there are no parenthesis present. */
+    if (startIndex == -1 && endIndex == -1) { return true; }
+    /* If a parentheses '(' and ')' are found in the correct order. */
+    else if ((startIndex >= 0) && (endIndex >= 0) && 
+                                        startIndex < endIndex) {
+        /* If the String is exactly "()". (Base Case) */
+        if (endIndex - startIndex == 1) {
+            return true;
+        }
+        /* Otherwise, recurse. */
+        else {
+            return nestParen(str.substring(startIndex + 1, endIndex));
+        }
+    }
+    /* 
+     * If parentheses are not found in the correct order, 
+     * then just return false.
+     */
+    else { return false; }
+}
+```
+
+_Note: This program actually has a small problem! It will return ```false``` if the input string is something like ```"()()"```. Can you figure out how to fix it?_
+
+As a humorous joke, try looking up "recursion" on Google. Even the software engineers at Google have have a pretty good sense of humor! :smile:
+
+> ## Exercises
+
+> ### Problem 1
+
+Write a Java program that computes the $$n$$ Fibonacci number $$F_n$$ recursively. As a reminder, the Fibonacci numbers are described by the equation
+
+$$F_n=F_{n-1}+F_{n-2}, \text{ where }F_0=0 \text{ and }F_1=1$$
+
+Here are the first couple of Fibonacci numbers for reference:
+
+$n$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
+$F_n$ | 0 | 1 | 1 | 2 | 3 | 5 | 8 | 13 | 21
+
+> ### Problem 2
+
+The _greatest common divisor (GCD)_ of two positive integers $x$ and $y$ is the largest positive integer that divides both $x$ and $y$ evenly. For example, the GCD of 366 and 60 is 6. 
+
+We can calculate the GCD of two numbers using recursion and something called the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm). The idea is that the GCD of two numbers doesn't change if the smaller number is subtracted from the bigger number. For example, suppose we want to find the GCD of 98 and 56:
+
+```
+GCD(98, 56) = GCD(98-56, 56) = GCD(42, 56) = GCD(42, 56-42) = GCD(42, 14) = GCD(42-14, 14) = GCD(28, 14) = GCD(28-14, 14) = GCD(14, 14) = GCD(14-14, 14) = GCD(0, 14) = 14
+```
+
+Note that once one of the two numbers becomes zero, the GCD is simply the other number, since anything divides zero "evenly." Calculate the GCD of two positive integers recursively:
+
+```java
+public int gcd(int x, int y) {
+    // TODO: You may assume that x, y are both nonnegative.
+}
+```
+
+> ### Problem 3
+
+_This problem is adapted from CS161 at [Colorado State](https://www.cs.colostate.edu/~cs161/.Spring13/assignments/pa5/)._
+
+  1. Write a method ```addDigits(int x)``` that takes a nonnegative integer and returns the sum of its digits. For example ```addDigits(2946)``` should return ```21```, since ```2+9+4+6=21```. This method should use recursion.
+  2. Write a method ```digitalRoot(int x)``` that determines the _digital root_ of ```x```. The digital root of a number is defined as the single digit number that is left after repeatedly summing the digits of a number. For example, the digital root of ```2946``` is ```3```, since ```2+9+4+6=21```, and then ```2+1=3```. 
+
+```java
+public int addDigits(int x) {
+    // TODO: You may assume that x is nonnegative.
+    return -1;
+}
+
+public int digitalRoot(int x) {
+    // TODO: You may assume that x is nonnegative.
+    return -1;
+}
+```
