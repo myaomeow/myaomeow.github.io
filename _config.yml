@@ -24,6 +24,10 @@ minimal_mistakes_skin: default
 search: true
 search_provider: algolia
 
+google:
+    tracking_id: UA-173081175-1
+    anonymize_ip: true
+
 algolia:
     application_id: E3YCTJRDSB
     index_name: dev_NAME
