@@ -103,12 +103,6 @@ _This problem is adapted from [CodingBat](https://codingbat.com/prob/p170371)._
 
 **Given a String, compute recursively (no loops) the number of lowercase ```'x'``` characters in the String.**
 
-```java
-public int countX(String str) {
-    // TODO
-}
-```
-
 Like we talked about above, we should first identify the base condition where we know that we should stop recursing. In this problem, when we run out of characters to test being equal to ```'x'```, this tells us that the recursion should stop, since the length of the String is now zero. Since there obviously can't be a character ```'x'``` in a String with length ```0```, we should return ```0``` in the base case. Therefore, our base case is
 
 ```java
@@ -218,6 +212,8 @@ public boolean nestParen(String str) {
 
 _Note: This program actually has a small problem! It will return ```false``` if the input string is something like ```"()()"```. Can you figure out how to fix it?_
 
+You can try to test out your code here on [this website](https://codingbat.com/prob/p183174).
+
 As a humorous joke, try looking up "recursion" on Google. Even the software engineers at Google have have a pretty good sense of humor! :smile:
 
 > ## Exercises
@@ -233,6 +229,8 @@ Here are the first couple of Fibonacci numbers for reference:
 $n$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8
 $F_n$ | 0 | 1 | 1 | 2 | 3 | 5 | 8 | 13 | 21
 
+<iframe height="600px" width="100%" src="https://repl.it/@myaomeow/FibonacciRecursion?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 > ### Problem 2
 
 The _greatest common divisor (GCD)_ of two positive integers $x$ and $y$ is the largest positive integer that divides both $x$ and $y$ evenly. For example, the GCD of 366 and 60 is 6. 
@@ -245,11 +243,7 @@ GCD(98, 56) = GCD(98-56, 56) = GCD(42, 56) = GCD(42, 56-42) = GCD(42, 14) = GCD(
 
 Note that once one of the two numbers becomes zero, the GCD is simply the other number, since anything divides zero "evenly." Calculate the GCD of two positive integers recursively:
 
-```java
-public int gcd(int x, int y) {
-    // TODO: You may assume that x, y are both nonnegative.
-}
-```
+<iframe height="800px" width="100%" src="https://repl.it/@myaomeow/GCDRecursion?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 > ### Problem 3
 
@@ -258,14 +252,4 @@ _This problem is adapted from CS161 at [Colorado State](https://www.cs.colostate
   1. Write a method ```addDigits(int x)``` that takes a nonnegative integer and returns the sum of its digits. For example ```addDigits(2946)``` should return ```21```, since ```2+9+4+6=21```. This method should use recursion.
   2. Write a method ```digitalRoot(int x)``` that determines the _digital root_ of ```x```. The digital root of a number is defined as the single digit number that is left after repeatedly summing the digits of a number. For example, the digital root of ```2946``` is ```3```, since ```2+9+4+6=21```, and then ```2+1=3```. 
 
-```java
-public int addDigits(int x) {
-    // TODO: You may assume that x is nonnegative.
-    return -1;
-}
-
-public int digitalRoot(int x) {
-    // TODO: You may assume that x is nonnegative.
-    return -1;
-}
-```
+<iframe height="1000px" width="100%" src="https://repl.it/@myaomeow/DigitalRootRecursion?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
