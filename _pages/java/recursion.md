@@ -12,15 +12,14 @@ Today, we'll be learning about **recursion**, which is one of the most difficult
 Let's imagine that we want to compute the factorial of a number $n$, which is defined to be $n!=n\times(n-1)\times(n-2)\times\cdots\times2\times 1$. One way of doing this using some of the standard techniques that we've learned is through a ```for``` loop:
 
 ```java
-public class Factorial {
-    public int computeFactorial(int n) {
-        int result = 1;
+public int computeFactorial(int n) {
+    int result = 1;
 
-        for (int i = 1; i < n; i++) {
-            result = result * i;
-        }
+    for (int i = 1; i < n; i++) {
+        result = result * i;
+    }
 
-        return result;
+    return result;
 }
 ```
 
@@ -31,42 +30,38 @@ This _circular reasoning_ may get you in some trouble in other classes, such as 
 Recursion describes a class of functions that _calls itself_ in order to complete a task. In our case, given our updated description of how to recursively compute $n!$, recursion might look something like this
 
 ```java
-public class Factorial {
-    public int recursiveComputeFactorial(int n) {
-        return n * this.recursiveComputeFactorial(n - 1);
-    }
+public int recursiveComputeFactorial(int n) {
+    return n * recursiveComputeFactorial(n - 1);
 }
 ```
 
-Notice how the function ```recursiveComputeFactorial(int n)``` recursively calls itself within its own body in order to determine the value of $n!$. However, when we run this function, Java doesn't compute $n!$, but rather gives us a ```StackOverflowError``` error (feel free to check this yourself). 
+Notice how the function ```recursiveComputeFactorial(int n)``` recursively calls itself within its own body in order to determine the value of $n!$. However, when we run this function, Java doesn't compute $n!$, but rather gives us a ```StackOverflowError``` error (feel free to check this yourself [here](https://repl.it/@myaomeow/RecursionBuggy)). 
 
 The ```StackOverflowError``` is essentially a fancy way of telling us that our computer failed to compute the desired result because it essentially ran out of memory, meaning that the program ran on forever and wasn't able to ever finish.
 
 The problem is that we never handled the case where $n=1$. When we get to $n=1$, the function ```recursiveComputeFactorial()``` shouldn't return ```1 * this.recursiveComputeFactorial(0)```; it should simply return ```1```. This is because the factorial computation should end at multiplying the last number of $1$, not continue multiplying $0, -1, -2, \ldots$ and so on and so forth. Therefore, we should update our code in the following way:
 
 ```java
-public class Factorial {
-    public int recursiveComputeFactorial(int n) {
-        if (n == 1) { return 1; }
-            
-        return n * this.recursiveComputeFactorial(n - 1);
-    }
+public int recursiveComputeFactorial(int n) {
+    if (n == 1) { return 1; }
+
+    return n * this.recursiveComputeFactorial(n - 1);
 }
 ```
 
 Of course, there's also the edge case where we're trying to compute $0!=1$, so an input of $n=0$ should also return $1$. We'll account for this by modifying our ```if``` statement to account for this case:
 
 ```java
-public class Factorial {
-    public int recursiveComputeFactorial(int n) {
-        if (n <= 1) { return 1; }
-            
-        return n * this.recursiveComputeFactorial(n - 1);
-    }
+public int recursiveComputeFactorial(int n) {
+    if (n <= 1) { return 1; }
+
+    return n * this.recursiveComputeFactorial(n - 1);
 }
 ```
 
-And we're done! This code is an example of a recursive function that computes the factorial of an integer $n$. You're welcome to try it out yourself to confirm that this works.
+And we're done! This code is an example of a recursive function that computes the factorial of an integer $n$. You're welcome to try it out yourself to confirm that this works here:
+
+<iframe height="600px" width="100%" src="https://repl.it/@myaomeow/FactorialRecursion?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 > ## Thinking Through the Logic
 
