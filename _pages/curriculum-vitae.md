@@ -48,7 +48,7 @@ June 2014 | **SAT Subject Test**: 800 Math II, 800 Biology, 800 Chemistry
 
 > ## Publications
 
-  1. **Yao, M**; Uhr, L; Daghlian, G; Amrute, JM; Deshpande, R; Mathews, B, MD; Patel, SA, MD; Henri, R, MD; Liu, G, MD; Reierson, K, MD; Johnson, G, MD. (2020). Demonstration of a longitudinal action medical mission (LAMM) model to teach point-of-care ultrasound in resource-limited settings ([medRxiv preprint](https://www.medrxiv.org/content/10.1101/2020.05.08.20095760v1), accepted to [POCUS Journal](https://pocusjournal.com/))
+  1. **Yao, M**; Uhr, L; Daghlian, G; Amrute, JM; Deshpande, R; Mathews, B, MD; Patel, SA, MD; Henri, R, MD; Liu, G, MD; Reierson, K, MD; Johnson, G, MD. (2020). Demonstration of a longitudinal action medical mission (LAMM) model to teach point-of-care ultrasound in resource-limited settings (Published in [POCUS Journal](https://pocusjournal.com/article/2020-05-01p20-25/))
   2. Maw, AM, MD; Galvin, B, NP; Henri, R, MD; **Yao, M**; Exame, B, MD; Fleshner, M, MD; Fort, MP, MD; Morris, MA, MD. (2019). Stakeholder perceptions of point-of-care ultrasound implementation in resource-limited settings (Published in [Diagnostics](https://pubmed.ncbi.nlm.nih.gov/31635219/))
 
 > ## Honors and Awards

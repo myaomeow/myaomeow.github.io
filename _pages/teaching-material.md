@@ -41,6 +41,8 @@ If you find any errors with any of the teaching modules, please do let me know t
   12. [L'Hopital's Rule](/calculus/lhopitals-rule/index.html)
   13. [Derivatives: A Wrap Up (AP FRQs)](/calculus/derivatives-wrap-up/index.html)
   14. [Introduction to Integration](/calculus/introduction-to-integration/index.html)
+  15. [Basics of Evaluating Integrals](/calculus/evaluating-integrals/index.html)
+  16. [$u$-Substitution](/calculus/u-substitution/index.html)
 
 > ## Physics (with Calculus)
   
