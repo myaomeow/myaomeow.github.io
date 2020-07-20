@@ -7,7 +7,7 @@ toc_label: "Topics"
 
 Education is important. In working with high school students and college undergraduates, I have developed a number of teaching materials on a variety of topics ranging from computer science and mathematics to physics and chemistry. These are by no means comprehensive, but can serve as helpful review guides and/or topic outlines for current students.
 
-If you find any errors with any of the teaching modules, please do let me know through email at myao at caltech dot edu.
+If you find any errors with any of the teaching modules, please let me know through email at myao at caltech dot edu.
 
 > ## Java
 
