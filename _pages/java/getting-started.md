@@ -23,7 +23,7 @@ In Java, all ```.java``` files are composed of a ```class``` which can be though
 
 Currently, the class has just one function: ```main()```. All functions can have inputs and outputs. For this function, we have only one input called ```args```. Since all we want to do with this program is print out a message, we don't need to worry about what ```args``` is for now. This ```main()``` method is found in **all** Java classes, and is the entry point into the where our code will begin. ```public``` means that this method ```main()``` is always able to be called by other programs, and ```void``` means that the function doesn't return anything: it will just do something (in this case, print out a message) and then terminate. We'll talk about what ```static``` means later.
 
-> All Java classes have a method ```public static void main(String[] args)```.
+> All Java classes can implement a method ```public static void main(String[] args)```.
 
 Now that we have the backbone setup, let's print out the message we're interested in:
 
@@ -36,11 +36,20 @@ public class HelloWorld {
 ```
 The one line of code we added is saying "print the message ```Hello, World!```". Note that lines of code are always terminated by a semicolon ```;``` in Java.
 
-That's it! On MacOS, all that's left is to run the program. First, fire up the Terminal, and then compile the program (we'll talk about what compiling means later). Test it out by running the Java program.
+That's it! All that's left is to run the program. Depending on the computer you have, there are a couple of ways to do this. If you have a MacBook, open up the Terminal app and run the following commands within the local folder:
 
 ```
 $ javac HelloWorld.java    # Compiles the Java program
 $ java HelloWorld          # Run the Java program
 Hello, World!              # This is our output!
 ```
-If you're currently working on a Windows computer, your terminal commands may be different. I recommend looking into getting a [Integrated Developer Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment), such as [Eclipse](https://www.eclipse.org/downloads/packages/), which is free to download.
+
+Only do this if you are familiar with how to use Terminal. If you're using a Windows computer or using a Mac but are unfamiliar with Terminal, I recommend looking into getting an [Integrated Developer Environment (IDE)](https://en.wikipedia.org/wiki/Integrated_development_environment), such as [Eclipse](https://www.eclipse.org/downloads/packages/), which is free to download. IDEs are essentially software that allow you to edit and run code within the same platform. 
+
+Finally, if none of these options seem like a good fit, I will be integrating [```repl.it```](https://repl.it/~) plugins throughout each of the lesson modules so that you're able to run and modify code in real time. A ```repl.it``` plugin will typically look something like this:
+
+<iframe height="600px" width="100%" src="https://repl.it/@myaomeow/HelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+The main white box is where you can write your code. In this case, our ```class``` isn't called ```HelloWorld```, but rather ```Main```. Once we have written our code, we can run it by clicking the green arrow at the top. Any output from your program will show up in dark box after some information starting with ```java -classpath```, which basically is simply indicating that your program is still running. Try running the program above now.
+
+A note of caution: if you choose to write your code in the ```repl.it``` plugins, make sure to save your code to a local text editor like Microsoft Word often. This is because if you accidentally close out of your web browser or refresh the page, then all of your code that you've written will be lost. 

@@ -22,8 +22,8 @@ If you find any errors with any of the teaching modules, please let me know thro
   9. [Exercise 2: Storing User Data](/java/login-info/index.html)
   10. [Exception Handling](/java/exception-handling/index.html)
   11. [Abstract Data Types](/java/abstract-data-types/index.html)
-  12. [Stacks and Queues](/java/stacks-and-queues/index.html)
-  13. [Recursion](/java/recursion/index.html)
+  12. [Recursion](/java/recursion/index.html)
+  13. [Stacks and Queues](/java/stacks-and-queues/index.html)
 
 > ## Calculus
 
