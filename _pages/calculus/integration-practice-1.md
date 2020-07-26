@@ -5,6 +5,8 @@ toc: true
 toc_label: "Contents"
 ---
 
+The following practice problems serve to review some of main concepts of integration from the past couple of lessons, up until the $u$-substitution lesson. I encourage you to attempt the problems yourself before taking a look at the solutions.
+
 > ## Practice Problems
 
 > ### Problem 1
