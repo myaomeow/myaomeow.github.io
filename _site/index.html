@@ -332,7 +332,9 @@
 
 
 
-
+<div class="entries-list">
+  
+</div>
 
 
 
@@ -430,13 +432,20 @@ search.addWidget(
   instantsearch.widgets.hits({
     container: '.search-hits',
     templates: {
-      item: hitTemplate
+      item: hitTemplate,
+      empty: 'No results',
     }
   })
 );
 
-// Starting the search
-search.start();
+// Starting the search only when toggle is clicked
+$(document).ready(function () {
+  $(".search__toggle").on("click", function() {
+    if(!search.started) {
+      search.start();
+    }
+  });
+});
 </script>
 
 
