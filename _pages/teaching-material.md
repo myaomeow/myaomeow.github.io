@@ -23,8 +23,8 @@ If you find any errors with any of the teaching modules, please let me know thro
   10. [Exception Handling](/java/exception-handling/index.html)
   11. [Abstract Data Types](/java/abstract-data-types/index.html)
   12. [Recursion](/java/recursion/index.html)
-  13. [Binary Search](/java/binary-search/index.html)
-  14. [Stacks and Queues](/java/stacks-and-queues/index.html)
+  13. [Stacks and Queues](/java/stacks-and-queues/index.html)
+  14. [Binary Search](/java/binary-search/index.html)
   15. [Sorting Algorithms, Part 1](/java/sorting-algorithms-part-1/index.html)
   16. [Sorting Algorithms, Part 2](/java/sorting-algorithms-part-2/index.html)
 
@@ -60,6 +60,7 @@ If you find any errors with any of the teaching modules, please let me know thro
   8. [Spring Energy and Kinetic Energy](/physics/spring-kinetic-energy/index.html)
   9. [Pendulums](/physics/pendulums/index.html)
   10. [Momentum and Collisions](/physics/momentum-and-collisions/index.html)
+  11. [Newton's Laws Revisited - Rotational Motion](/physics/newton-laws-revisited/index.html)
 
 > ## Introduction to Statistical Learning
 

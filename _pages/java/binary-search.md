@@ -89,12 +89,6 @@ The main benefit of the public-private pair is that we are free to modify the pa
 In a **public-private pair**, we have a **public**, non-recursive method that only includes the parameters that the client really wants, and a **private**, recursive method that includes the all the parameters that we need for recursion.
 {: .notice--info}
 
-> ## Comparing Linear Search and Binary Search
-
-Let's write a program to give us an idea of how much faster binary search can be when compared to linear search. Run the following program to compare the behavior of binary search vs. linear search for different sizes arrays to search through. What do you notice? _Note: I would recommend running the program multiple times to try to get somewhat consistent results._
-
-<iframe height="1000px" width="100%" src="https://repl.it/@myaomeow/SearchComparison?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 > ## Sorting Non-Integers: Lexicographic Sorting
 
 For integers, it is fairly easy to know what it means to "sort" elements. This is because there is a standard definition of what integers are greater than, less than, and equal to other integers. 
@@ -129,3 +123,125 @@ You can read more about the specifics of the ```compareTo()``` function specific
 > ## Sorting Arrays
 
 We've seen how binary search is a much more efficient method of sorting arrays, but getting an array to be sorted in the first place is not a trivial task. Only an _extremely_ small proportion of arrays are even sorted in the first place. [Down the road](/java/sorting-algorithms-part-1/index.html), we will be discussing different algorithms on how to actually sort the arrays in the first place in order to do binary search (or any type of searching algorithm), which is a fairly complicated task.
+
+> ## More Complicated Search Algorithms
+
+Essentially all commonly used search algorithms for finding a particular element in a list involve some sophisticated combination of using linear search and/or binary search. Without delving into too much detail, here are a couple of more advanced search algorithms (again, that only work on arrays that are sorted):
+
+> ### Jump Search
+
+Assuming that the array is sorted, jump between intervals of some size $n$ elements until you find the interval where the desired element should be found. Then, use either linear or binary (or another jump search between intervals of size $m<n$) search to look within the particular interval.
+
+For example, let's say that we were searching for the element ```6``` in the following array of integers. A jump search with $n=3$ might look something like
+
+![binary-search-3](/assets/images/binary-search-3.png){:height="100%" width="100%"}
+
+[GeeksforGeeks](https://www.geeksforgeeks.org/jump-search/) has an excellent article on jump search, and I invite you to check it out if you're interested.
+
+> ### Exponential Search
+
+Assuming that the array is sorted, find the range where the element is present and then using binary search to look within the particular interval. The range that we look in should expand exponentially, typically from the first element, to the first two elements, to the first four elements, and so on. For example, let's say that we were looking for the element ```121``` in the following array of integers. A standard exponential search might look something like
+
+![binary-search-4](/assets/images/binary-search-4.png){:height="100%" width="100%"}
+
+As we can see, exponential search is essentially the same thing as jump search, with the caveat that the search interval is not constant in size. Without proving this statement, the benefit of this search method is that it can efficiently search for elements in [unbounded arrays](https://www.geeksforgeeks.org/find-the-point-where-a-function-becomes-negative/) where the size of the array is unknown. It is also more efficient in cases where we expect the element we're looking for to be near the beginning of the array. Of course, you can also do a similar exponential search starting from the end of the array if you expect the element that you're looking for to be near the end of the array.
+
+> ### Fibonacci Search
+
+This search algorithm has essentially the same flavor as jump search and exponential search, except that instead of have a constant-size search interval (jump search) or an exponentially doubling search interval size (exponential search), the interval search size increases by the Fibonacci numbers.
+
+<table style="width:100%">
+  <tr>
+    <td style="font-size:13pt"> <strong>Search Iteration Number</strong> </td>
+    <td style="font-size:13pt"> 1 </td>
+    <td style="font-size:13pt"> 2 </td>
+    <td style="font-size:13pt"> 3 </td>
+    <td style="font-size:13pt"> 4 </td>
+    <td style="font-size:13pt"> 5 </td>
+    <td style="font-size:13pt"> 6 </td>
+    <td style="font-size:13pt"> 7 </td>
+    <td style="font-size:13pt"> 8 </td>
+    <td style="font-size:13pt"> $\cdots$ </td>
+  </tr>
+  <tr>
+    <td colspan="10" style="text-align:center"> <strong style="font-size:13pt">Search Algorithm Interval Size</strong> </td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt"> <strong>Jump Search</strong> </td>
+    <td style="font-size:13pt"> $n$ </td>
+    <td style="font-size:13pt"> $n$ </td>
+    <td style="font-size:13pt"> $n$ </td>
+    <td style="font-size:13pt"> $n$ </td>
+    <td style="font-size:13pt"> $n$ </td>
+    <td style="font-size:13pt"> $n$ </td>
+    <td style="font-size:13pt"> $n$ </td>
+    <td style="font-size:13pt"> $n$ </td>
+    <td style="font-size:13pt"> $\cdots$ </td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt"> <strong>Exponential Search</strong> </td>
+    <td style="font-size:13pt"> $1$ </td>
+    <td style="font-size:13pt"> $2$ </td>
+    <td style="font-size:13pt"> $4$ </td>
+    <td style="font-size:13pt"> $8$ </td>
+    <td style="font-size:13pt"> $16$ </td>
+    <td style="font-size:13pt"> $32$ </td>
+    <td style="font-size:13pt"> $64$ </td>
+    <td style="font-size:13pt"> $128$ </td>
+    <td style="font-size:13pt"> $\cdots$ </td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt"> <strong>Fibonacci Search</strong> </td>
+    <td style="font-size:13pt"> $1$ </td>
+    <td style="font-size:13pt"> $2$ </td>
+    <td style="font-size:13pt"> $3$ </td>
+    <td style="font-size:13pt"> $5$ </td>
+    <td style="font-size:13pt"> $8$ </td>
+    <td style="font-size:13pt"> $13$ </td>
+    <td style="font-size:13pt"> $21$ </td>
+    <td style="font-size:13pt"> $34$ </td>
+    <td style="font-size:13pt"> $\cdots$ </td>
+  </tr>
+</table>
+
+Here, $n$ can be any positive number.
+
+> ### $n$-ary Search
+
+In this lesson, we introduced the concept of the binary search, where we recursively divided our search interval into _two_ smaller subintervals. However, we don't need to necessarily divide the search integral into only two subintervals. We could just as easily have subdivided into three intervals, or four intervals, or $n$ intervals.
+
+It turns out that in the slowest possible case, an $n$-ary search is slower than a binary search for $n>2$. We won't delve into the mathematics of how to prove this, but our choice to use binary search instead of $n$-ary search arises simply because it's faster to use binary search.
+
+> ## Exercises
+
+> ### Problem 1
+
+In this program, we will compare the speed of binary search vs. linear search. Let's write a program to give us an idea of how much faster binary search can be when compared to linear search. Run the following program to compare the behavior of binary search vs. linear search for different sizes arrays to search through. What do you notice? _Note: I would recommend running the program multiple times to try to get somewhat consistent results._
+
+<iframe height="1000px" width="100%" src="https://repl.it/@myaomeow/SearchComparison?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+> ### Problem 2
+
+_This question commonly comes up in software engineering job interviews at Facebook, Amazon, and Microsoft._
+
+Using a binary search algorithm, find $\lfloor \sqrt{n} \rfloor$ for nonnegative integers $n$. The floor function $\lfloor\text{ } \rfloor$ essentially tells you to always round down if $\sqrt{n}$ is a decimal number. You may _not_ use the ```java.lang.Math.sqrt()``` function.
+
+<div class="notice--info">
+<p style="font-size: 13pt"><strong>Comments</strong>: This is a very difficult problem! Try sketching out a rough idea of the algorithm first. Furthermore, do <em>not</em> use recursion for this problem (it becomes impossibly difficult). I would recommend to implement an appropriate <code class="language-plaintext highlighter-rouge">while</code> loop for this problem. If you'd like a hint on how to approach this algorithm using binary search, press the "Hint" button below.</p>
+</div>
+
+[Hint](/java/binary-search-hint-p2/index.html){: .btn .btn--info}
+
+<iframe height="700px" width="100%" src="https://repl.it/@myaomeow/SquareRootBinarySearch?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+> ### Problem 3
+
+Implement a **ternary search** algorithm, which is a $n$-ary search algorithm with $n=3$. You may write your implementation in the ```repl.it``` plugin for Problem 4, in the section with the comment ```TODO: Problem 3 Implementation```. To test your implementation, press the green :arrow_forward: button at the top of the plugin.
+
+> ### Problem 4
+
+Using your ternary search algorithm implementation from the [above problem](/java/binary-search/index.html#problem-3), compare the time efficiency of binary search versus ternary search in the slowest possible case (which is where the element we're looking for is at the very end or very beginning of the list) using the code below. Make this comparison through uncommenting the appropriate code in the ```main()``` function below, and then running your program.
+
+From [above](/java/binary-search/index.html#n-ary-search), we asserted that binary search should be faster than ternary search. Is this the case?
+
+<iframe height="1000px" width="100%" src="https://repl.it/@myaomeow/Ternary-Search?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
