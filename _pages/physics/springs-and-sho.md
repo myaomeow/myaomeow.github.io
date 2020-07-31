@@ -131,6 +131,16 @@ $$m\frac{d^2x}{dt^2}=-\gamma\frac{dx}{dt}-kx$$
 
 Because the first derivative of sine and cosine functions are not proportional to themselves, an Ansatz involving sines and cosines will not work! In cases like these, we are _forced_ to use complex exponentials. Don't worry if this doesn't make too much sense right now. We will dive deeper into this idea in our discussion on [damped oscillations](/physics/damped-oscillations/index.html).
 
+> ## Recap
+
+<div class="notice--success">
+<p style="font-size: 13pt">To recap, the solution to the SHO equation $\frac{d^2x}{dt^2}+\frac{k}{m}x=a+\frac{k}{m}x=0$ is</p>
+<p style="font-size: 13pt">$$x(t)=A\sin(\omega t)+B\cos(\omega t)$$</p>
+<p style="font-size: 13pt">$$v(t)=A\omega \cos(\omega t)-B\omega \sin(\omega t)$$</p>
+<p style="font-size: 13pt">$$a(t)=-A\omega^2 \sin(\omega t)-B\omega^2\cos(\omega t)$$</p>
+<p style="font-size: 13pt">where $\omega=\sqrt{\frac{k}{m}}$.</p>
+</div>
+
 > ## Exercises
 
 > ### Problem 1
