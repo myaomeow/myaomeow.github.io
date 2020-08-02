@@ -47,6 +47,8 @@ If you find any errors with any of the teaching modules, please let me know thro
   15. [Basics of Evaluating Integrals](/calculus/evaluating-integrals/index.html)
   16. [$u$-Substitution](/calculus/u-substitution/index.html)
   17. [Integration Practice Problems, Part 1](/calculus/integration-practice-1/index.html)
+  18. [Accumulation Functions and the Fundamental Theorems of Calculus](/calculus/accumulation-functions-ftc/index.html)
+  19. [Integration by Parts](/calculus/integration-by-parts/index.html)
 
 > ## Physics (with Calculus)
   
@@ -61,6 +63,7 @@ If you find any errors with any of the teaching modules, please let me know thro
   9. [Pendulums](/physics/pendulums/index.html)
   10. [Momentum and Collisions](/physics/momentum-and-collisions/index.html)
   11. [Newton's Laws Revisited - Rotational Motion](/physics/newton-laws-revisited/index.html)
+  12. [Mechanical Equilibrium Revisited - Rotational Motion](/physics/mechanical-equilibrium-revisited/index.html)
 
 > ## Introduction to Statistical Learning
 
