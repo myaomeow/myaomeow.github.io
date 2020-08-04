@@ -270,7 +270,30 @@ $$
 
 ### Problem 1
 
+A satellite of mass $m$ is said to be in _geosynchronous orbit_ around the Earth of mass $M$  and radius $r_0$ if it always is above the exact same location on Earth all the time. In other words, the period $T$ of orbit of the satellite is 24 hours, which is the period of the rotation of the Earth.
+
+Although we have not officially discussed this yet, the force of gravity $\vec{F}_g$ between two objects of mass $m_1$ and $m_2$ in space is given by
+
+$$\vec{F}_g=\frac{Gm_1m_2}{r^2}\hat{r}$$
+
+where $G$ is called the _gravitational constant_, $r$ is the distance between the two objects, and $\hat{r}$ is the unit vector that points towards the direction of the other object.
+
+Suppose that the satellite is a distance $r$ above the surface of the Earth.
+
+  1. What is the angular velocity of the satellite?
+  2. What is the tangential velocity of the satellite?
+  3. What is the centripetal acceleration of the satellite?
+  4. What is the angular acceleration of the satellite?
+  5. Finally, the [International Space Station](https://en.wikipedia.org/wiki/International_Space_Station) is 408 km above the surface of the Earth. What tangential velocity does it need to achieve in order to be in geosynchronous orbit? Look up any constants, such as the gravitational constant or the mass and radius of the Earth, as necessary.
 
 ### Problem 2
 
+_This problem is adapted from Serway Physics 9ed._
 
+A $0.5$-kg ball that is tied to the end of a $1.5$-m light cord is revolved in a horizontal plane, with the cord making a $30^{\circ}$ angle with the vertical.
+
+![rotations-9](/assets/images/rotations-9.png){:height="40%" width="40%"}
+
+  1. Determine the ball's speed.
+  2. If, instead, the ball is revolved so that its speed is $4$ m/s, what angle does the cord make with the vertical?
+  3. If the cord can withstand a maximum tension of $9.8$ N, what is the highest speed at which the ball can move?
