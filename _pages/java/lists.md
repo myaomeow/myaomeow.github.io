@@ -1,9 +1,28 @@
 ---
-permalink: /java/linked-lists-and-matrices/
-title: "```LinkedList```s and Matrices"
+permalink: /java/lists/
+title: "Lists: ```ArrayList```s and ```LinkedList```s"
 toc: true
 toc_label: "Contents"
 ---
+
+> ## ```ArrayList```s
+
+The fact that the length of arrays cannot be modified is a pretty big limitation. What if we don't know how many elements will have at the beginning? What if we want the length of our list to change in response to something that dynamically happens in our program? For these reasons, we have ```ArrayList```s, which build on our arrays by being able to change their size.
+
+At this point, it is useful to talk about the difference between the _size_ of a list versus the _capacity_ of a list. The size of a list is the number of elements that it currently holds, while the capacity of a list is the number of elements that it could potentially hold. Other than that, an ```ArrayList``` is functionally the same as an array that we discussed above. Here are some of the commonly used methods that you can use to manipulate ```ArrayList```s:
+
+  1. ```add(E element)``` adds the element of type ```E``` to the end of the list. ```add(int index, E element)``` adds the element of type ```E``` at the specified position in the list.
+  2. ```clear()``` removes all elements from the list and resets the size of the ```ArrayList``` to zero.
+  3. ```contains(Object o)``` returns ```true``` (a ```boolean```) if the list contains the specified ```Object```.
+  4. ```ensureCapacity(int minCapacity)``` increases the capacity of the ```ArrayList``` to ensure that it can hold at least ```minCapacity``` elements.
+  5. ```get(int index)``` returns the element at the specified position in this list.
+  6. ```isEmpty()``` returns ```true``` (a ```boolean```) if the list contains no elements (has size zero).
+  7. ```remove(int index)``` removes the element at the specified position in the list. ```remove(Object o)``` removes the first occurrence of the specified element from this list, if it is present. If you happen to be working with an ```ArrayList``` of ```int```s, the first definition of the ```remove()``` method takes priority.
+  8. ```size()``` returns the number of elements in this list.
+  9. ```toArray()``` converts the ```ArrayList``` into an array.
+  10. ```set(int index, E element)``` replaces the element at the specified position in this list with the specified input element.
+
+Other methods can be found in the [official Java documentation](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
 
 > ## ```LinkedList```s
 
@@ -65,111 +84,164 @@ Again, nothing had to move! However, note that one limitation that arises with `
 
 As we've seen, ```LinkedList```s are another great way to represent lists in Java. In general, if you know that your program will be adding and removing and moving elements around a lot, it might be more advantageous to use ```LinkedList```s. If you know that you'll be reading and writing elements a lot, it might be more advantageous to use ```ArrayList```s. If you don't quite know what you'll need to be doing with your list, it might be worthwhile to try out both and see which one is faster!
 
-> ## Matrices
-
-In Java, there isn't really a pre-defined matrix class. Instead, we can represent matrices as arrays within arrays. For example, consider the following matrix: 
-
-$$ m=\begin{bmatrix} 6 & -2 \\ 7 & 0 \end{bmatrix}$$
-
-In Java, we can represent this matrix using the following code:
-
-```java
-public class Example {
-    public static void main(String[] args) {
-        /* Create a matrix m with two rows. */
-        int[][] m = new int[2][];
-
-        /* Create two rows, each with two columns. */
-        int[] firstRow = new int[2];
-        int[] secondRow = new int[2];
-
-        /* Set all of the matrix elements. */
-        firstRow[0] = 6;
-        firstRow[1] = -2;
-        secondRow[0] = 7;
-        secondRow[1] = 0;
-
-        /* Set the matrix rows of matrix m. */
-        m[0] = firstRow;
-        m[1] = secondRow;
-        
-        /* Print out the matrix. */
-        for (int i = 0; i < m.length; i++) {
-        	for (int j = 0; j < m[i].length; j++) {
-        		System.out.print(m[i][j] + " ");
-        	}
-        	System.out.println();
-        }
-    }
-}
-```
-
-This code will print out the following:
-
-```
-$ javac Example.java
-$ java Example
-6 -2
-7 0
-```
-
-There are a couple things to notice:
-
-  1. The matrix variable type is declared as ```VariableType[][]```, where ```VariableType``` is the variable type of the elements of the matrix.
-  2. The element in the ```i```th row and ```j``` column is accessed as ```m[i][j]```. 
-  3. The matrix is stored as a list of lists. In our case, the list might look something like ```{ {6, -2}, {7, 0} }```.
-
-Other than that, matrices act exactly like lists! While you can represent matrices with ```ArrayList```s or ```LinkedList```s, it's usually not recommended because it makes the structure of the matrix unnecessarily complex.
-
 > ## Exercises
 
 > ### Problem 1
 
-Write a Java program that can multiply to square $$n\times n$$ matrices together, where $$n$$ is some positive integer. Test your program by evaluating the following two matrix multiplication problems:
-
-  1. $$\begin{bmatrix} 0 & 4\\ 5 & 2 \end{bmatrix}\begin{bmatrix}2 & 5 \\ 3 & 0\end{bmatrix}$$
-  2. $$\begin{bmatrix} 0 & 5 & 6 & 1 \\ 3 & 5 & -7 & 2 \\ 4 & 10 & -6 & -1 \\ 1 & 1 & 3 & 1\end{bmatrix}\begin{bmatrix} 0 & 3 & 4 & 1 \\ 5 & 5 & 10 & 1 \\ 6 & -7 & -6 & 3 \\ 1 & 2 & -1 & 1\end{bmatrix}$$
-
-The answers you should get are:
-
-  1. $$\begin{bmatrix}12 & 0 \\ 16 & 25\end{bmatrix}$$
-  2. $$\begin{bmatrix}64 & -15 & 13 & 24 \\ -15 & 87 & 102 & -11 \\ 13 & 102 & 153 & -5\\ 24 & -11 & -5 & 12\end{bmatrix}$$
+TODO
 
 > ### Problem 2
 
-_This problem is adapted from [Codeforces](http://codeforces.com/problemset/problem/894/A)._
+DNA is composed of four different types of "building blocks," which we'll refer to as ```A```, ```G```, ```C```, and ```T```. A valid DNA sequence will be composed of these four types of characters, which can be either uppercase or lower case. For example ```AcTggCGa``` is a valid 8-character DNA sequence. Fill in the following methods for our ```class``` representation of DNA below:
 
-"QAQ" is a word to denote an expression of crying. Imagine "Q" as eyes with tears and "A" as a mouth.
+```java
+public class DNA {
+    // TODO: Include any relevant private fields here.
 
-Now Adam has given Becky a string consisting of only uppercase English letters of length n. There is a great number of "QAQ" in the string. Becky wants to know how many subsequences "QAQ" are in the string Adam has given. Note that the letters "QAQ" don't have to be consecutive, but the order of letters should be exact.
+    /* 
+     * Constructor takes in a String sequence input and sets the
+     * appropriate vales for any of your relevant fields. Make sure to
+     * confirm that the input sequence is a valid input sequence: that
+     * is, it only contains A, G, C, T, and/or their lower-case 
+     * equivalents.
+     */
+    public DNA(String sequence) {
+        // TODO: Do anything you need to do here. Make sure to store
+        // the input DNA sequence as a field so we can use it in other
+        // methods below.
+    }
 
-**Input:**  The only line contains a string of length $n$ ($3\leq n \leq 20$). It is guaranteed that the string contains uppercase English letters.
+    /* 
+     * This function should return the number of characters in the DNA
+     * sequence.
+     */
+    public int length() {
+        // TODO
+        return -1;
+    }
 
-**Output:** Print an integer representing the number of subsequences "QAQ" in the string.
+    /*
+     * Sometimes, biologists are interested in a DNA sequence's "GC
+     * content", which is defined to be the percentage of characters 
+     * in the DNA sequence that are G, g, C, or c. Calculate and 
+     * return the GC-content of the DNA sequence.
+     */
+    public double getGCcontent() {
+        // TODO: returns the percentage of characters in the DNA sequence
+        // that are G, g, C, or c.
+        return -1;
+    }
 
-**Examples:**
+    /*
+     * This function should compare the original DNA sequence from the
+     * constructor with another DNA sequence class instance and return
+     * if they are equal. Two DNA sequences are equal if they contain
+     * the same sequence of characters (aside from upper and lower case
+     * differences).
+     */
+    public boolean equals(DNA otherSeq) {
+         // TODO
+         return false;
+    }
+
+    /*
+     * This one should be easier: all too have to do here is print out
+     * the original DNA sequence. Make sure the String is either all
+     * upper case or all lower case (your choice, but I chose to work
+     * with all lower case).
+     */
+    public String toString() {
+        // TODO
+        return null;
+    }
+
+    /*
+     * Return the complement DNA sequence of the original DNA sequence.
+     */
+    public DNA toComplement() {
+        // TODO
+        return null;
+    }
+
+    /*
+     * This method should return whether a DNA sequence called otherSeq
+     * can be found within the original DNA sequence represented by
+     * this class. Of course, differences in upper vs. lower case should.
+     * be ignored. Return 1 if otherSeq is contained, otherwise return 0.
+     */
+    public int contains(DNA otherSeq) {
+        // TODO
+        return 0;
+    }
+
+    /* Don't touch this method! */
+    public static void main(String[] args) {
+        /* Test the functionality of your different methods here. */
+        DNA seq1 = new DNA("TTCTcTCGCCAGcACTGTaATAGGCACTAaaAGAGTGAtG");
+        DNA seq2 = new DNA("ggcacta");
+        DNA seq3 = new DNA("GtGctGAGCTaagACGGCgt");
+
+        // Test length() method.
+        System.out.println("Testing length() method...");
+        System.out.print(seq1.length() + " ");
+        System.out.print(seq2.length());
+        System.out.println();
+
+        // Test getGCcontent() method.
+        System.out.println("Testing getGCcontent() method...");
+        System.out.print(seq1.getGCcontent() + " ");
+        System.out.print(seq3.getGCcontent());
+        System.out.println();
+
+        // Test equals() method.
+        System.out.println("Testing equals() method...");
+        System.out.print(seq1.equals(seq1) + " ");
+        System.out.print(seq2.equals(seq3));
+        System.out.println();
+        
+        // Test toString() method.
+        System.out.println("Testing toString() method...");
+        System.out.print(seq2.toString() + " ");
+        System.out.print(seq3.toString());
+        System.out.println();
+        
+        // Test toComplement() method.
+        System.out.println("Testing toComplement() method...");
+        System.out.print(seq2.toComplement().toString() + " ");
+        System.out.print(seq3.toComplement().toString());
+        System.out.println();
+        
+        // Test contains() method.
+        System.out.println("Testing contains() method...");
+        System.out.print(seq1.contains(seq2) + " ");
+        System.out.print(seq2.contains(seq1));
+        System.out.println();
+    }
+}
+```
+
+_Note: In order to write the_ ```toComplement()``` _method, please visit [this link](https://www.bx.psu.edu/old/courses/bx-fall08/definitions.html) to understand what a DNA complement sequence is._ The relevant snippet is included here:
+
+> The reverse complement of a DNA sequence is formed by reversing the letters, interchanging A and T and interchanging C and G. For example, the reverse complement of ACCTGAG is CTCAGGT.
+
+This is the expected output so you can check your work:
 
 ```
-$ java Problem2 QAQAQYSYIOIWIN
-4
-$ java Problem2 QAQQQZZYNOIWIN
-3
+$ javac DNA.java
+$ java DNA
+Testing length() method...
+40 7
+Testing getGCcontent() method...
+0.45 0.6
+Testing equals() method...
+true false
+Testing toString() method...
+ggcacta gtgctgagctaagacggcgt
+Testing toComplement() method...
+tagtgcc acgccgtcttagctcagcac
+Testing contains() method...
+1 0
 ```
-
-**Explanations:**
-
-In the first example, there are four subsequences "QAQ":
-
-  1. **QAQ**AQYSYIOIWIN
-  2. **QA**QA**Q**YSYIOIWIN
-  3. **Q**AQ**AQ**YSYIOIWIN
-  4. QA**QAQ**YSYIOIWIN
-
-In the second example, there are three subsequences "QAQ":
-
-  1. **QAQ**QQZZYNOIWIN
-  2. **QA**Q**Q**QZZYNOIWIN
-  3. **QA**QQ**Q**ZZYNOIWIN
 
 > ### Problem 3
 

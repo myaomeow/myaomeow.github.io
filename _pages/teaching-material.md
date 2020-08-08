@@ -14,10 +14,9 @@ If you find any errors with any of the teaching modules, please let me know thro
   1. [Getting Started](/java/getting-started/index.html)
   2. [Fields and Methods](/java/fields-and-methods/index.html)
   3. [Variables, Conditionals, and Loops](/java/variables-conditionals-and-loops/index.html)
-  4. [Lists and ```ArrayList```s](/java/lists-and-arrays/index.html)
-  5. [```LinkedList```s and Matrices](/java/linked-lists-and-matrices/index.html)
+  4. [Arrays and Matrices](/java/arrays-and-matrices/index.html)
+  5. [Lists: ```ArrayList```s and ```LinkedList```s](/java/lists/index.html)
   6. [Abstraction](/java/abstraction/index.html)
-  7. [Lists: A Review](/java/lists-a-review/index.html)
   8. [Exercise 1: Conway's Game of Life](/java/game-of-life/index.html)
   9. [Exercise 2: Storing User Data](/java/login-info/index.html)
   10. [Exception Handling](/java/exception-handling/index.html)
@@ -27,6 +26,7 @@ If you find any errors with any of the teaching modules, please let me know thro
   14. [Binary Search](/java/binary-search/index.html)
   15. [Sorting Algorithms, Part 1](/java/sorting-algorithms-part-1/index.html)
   16. [Sorting Algorithms, Part 2](/java/sorting-algorithms-part-2/index.html)
+  17. [State of the Field](/java/state-of-the-field/index.html)
 
 > ## Calculus
 
@@ -64,6 +64,8 @@ If you find any errors with any of the teaching modules, please let me know thro
   10. [Momentum and Collisions](/physics/momentum-and-collisions/index.html)
   11. [Newton's Laws Revisited - Rotational Motion](/physics/newton-laws-revisited/index.html)
   12. [Mechanical Equilibrium Revisited - Rotational Motion](/physics/mechanical-equilibrium-revisited/index.html)
+  13. [Moment of Inertia and Rotational Energy](/physics/moment-of-inertia-rotational-energy/index.html)
+  14. [Conservation of Angular Momentum](/physics/angular-momentum-conservation/index.html)
 
 > ## Introduction to Statistical Learning
 
