@@ -26,7 +26,6 @@ If you find any errors with any of the teaching modules, please let me know thro
   14. [Binary Search](/java/binary-search/index.html)
   15. [Sorting Algorithms, Part 1](/java/sorting-algorithms-part-1/index.html)
   16. [Sorting Algorithms, Part 2](/java/sorting-algorithms-part-2/index.html)
-  17. [State of the Field](/java/state-of-the-field/index.html)
 
 > ## Calculus
 
