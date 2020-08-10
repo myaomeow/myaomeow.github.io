@@ -64,7 +64,7 @@ Therefore, the area under the curve $f(x)=6x(x-1)$ and above the $x$-axis betwee
 
 $$\int_0^1 dx\text{ }[6x(x-1)]=-1$$
 
-> An Easier Evaluation Method
+> ## An Easier Evaluation Method
 
 If you haven't picked up on it yet, evaluating integrals using the strict limit definition of an integral is difficult! It involves taking a lot of limits at infinity and requiring us to know our summation formulas, to name a few issues. Furthermore, suppose we wanted to evaluate the following integral expression using the limit definition:
 
