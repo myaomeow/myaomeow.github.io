@@ -132,6 +132,16 @@ Ph12abc | Introduction to Waves, Quantum Mechanics, and Thermodynamics
 CS1 | Introduction to Computer Science
 CS2 | Introduction to Data Structures
 
+**Independent Tutor**
+
+**Subject** | ** Description**
+MCAT | October 2019 to July 2020
+AP Physics C | September 2017 to May 2018, June 2020 to Present
+AP Chemistry | September 2017 to Present
+AP Calculus | September 2017 to Present
+AP Computer Science | June 2020 to Present
+College Admissions Essays | Intermittent (_during college application cycles since 2018_)
+
 > ## References
 
   - **Mikhail Shapiro, PhD**
