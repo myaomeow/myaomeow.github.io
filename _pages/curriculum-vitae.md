@@ -134,7 +134,7 @@ CS2 | Introduction to Data Structures
 
 **Independent Tutor**
 
-**Subject** | ** Description**
+**Subject** | **Description**
 MCAT | October 2019 to July 2020
 AP Physics C | September 2017 to May 2018, June 2020 to Present
 AP Chemistry | September 2017 to Present
