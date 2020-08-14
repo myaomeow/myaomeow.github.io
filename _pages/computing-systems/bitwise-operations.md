@@ -315,7 +315,7 @@ In C, logical shifts are naturally used when a shift operation is called on an u
 
 A list of cool and common examples of using bitwise operations to perform calculations is linked [here](http://graphics.stanford.edu/~seander/bithacks.html). I encourage you to check it out!
 
-> ## Signed Integer Overflow
+> ## Integer Overflow
 
 Let's imagine that we're trying to multiply the signed integer ```0b01110001``` by ```2```. As we have discussed above, this involves left shifting all of the bits by one place, which at first pass would suggest that the result should be ```0b11100010```.
 
@@ -333,7 +333,7 @@ int8_t y = x << 1;
 
 In this case, we seem to violate the "left shift is multiply by 2" rule from above! Let's see if we can explain what is happening.
 
-It turns out that this apparent "issue" is related to the fact that we can only represent a set range of numbers using a finite set of bits (in this case, 8 bits). Recall that the range of allowed ```int8_t``` integers is ```-128``` to ```127```. Multiplying ```x``` by ```2``` would be ```226```, which is certainly outside the range of what can be represented using ```int8_t```'s. In other words, we have an instance of **signed integer overflow**. 
+It turns out that this apparent "issue" is related to the fact that we can only represent a set range of numbers using a finite set of bits (in this case, 8 bits). Recall that the range of allowed ```int8_t``` signed integers is ```-128``` to ```127```. Multiplying ```x``` by ```2``` would be ```226```, which is certainly outside the range of what can be represented using ```int8_t```'s. In other words, we have an instance of **integer overflow**. 
 
 In C, your computer typically deals with this by carrying over the overflow, which can be thought of like this:
 
@@ -347,7 +347,7 @@ We can then add the overflown amount to the "adjusted" left bound to get the act
 
 $$\texttt{x << 1} = -128+x_{ov}=-128+98=-30$$
 
-This gives us the expected result! We can see that by adjusting for signed integer overflow, we can explain some strange arithmetic results in certain cases.
+This gives us the expected result! We can see that by adjusting for integer overflow, we can explain some strange arithmetic results in certain cases.
 
 <div class="notice--warning">
 <p style="font-size:13pt"><strong>Problem 2:</strong> Using a similar analysis and diagram as above, explain the result of the following code:</p>
@@ -384,6 +384,8 @@ Lines ```11```-```14``` will print out the sizes of each of the variables in bit
 Lines ```16```-```19``` will investigate the sizes of ```s<<1```, ```m<<1```, and ```l<<1```. Because all of ```s```, ```m```, and ```l``` have the issue of signed integer overflow, **they will all be scaled up to the size of ```int32_t``` (32 bits). Note that while this resolves the issue for ```s``` and ```m```, ```l``` was initially 32 bits, and would need 64 bits in order to return the correct value. In order to correct for this, we can cast ```l``` to a ```long``` first with 64 bits and then left shift the bits. This will allow ```(long)l<<1``` to be 64 bits instead of 32 bits.
 
 Finally, lines ```21```-```25``` confirm that we achieve the correct values for doubling either ```s```, ```m```, or ```l```. Note that for doubling ```l```, ```l<<1``` gives an incorrect result, while ```(long)<<1``` gives the correct result, as expected.
+
+Integer overflow also happens with unsigned integers in a similar way as above.
 
 > ## Additional Exercises
 
