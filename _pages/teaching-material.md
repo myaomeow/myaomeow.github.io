@@ -56,6 +56,7 @@ _Note: These topics assume that you're familiar with introductory programming. I
   17. [Integration Practice Problems, Part 1](/calculus/integration-practice-1/index.html)
   18. [Accumulation Functions and the Fundamental Theorems of Calculus](/calculus/accumulation-functions-ftc/index.html)
   19. [Integration by Parts](/calculus/integration-by-parts/index.html)
+  20. [Integrals of Rational Functions](/calculus/integrals-rational-functions/index.html)
 
 > ## Physics (with Calculus)
   
