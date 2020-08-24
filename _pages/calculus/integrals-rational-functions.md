@@ -348,6 +348,8 @@ After dividing both sides of this equation by two and using the result from the 
   <li style="font-size:13pt">$$\frac{3x+1}{x^2(x^2+25)}$$</li>
   <li style="font-size:13pt">$$\frac{4x^3+16x+7}{(x^2+4)^2}$$</li>
 </ol>
+
+[Solution](/calculus/integrals-rational-functions-sol/index.html#problem-1){: .btn .btn--info}
   
 > ### Problem 2
 
@@ -359,6 +361,8 @@ After dividing both sides of this equation by two and using the result from the 
 </ol>
 <p style="font-size:13pt"><em>Hint: Before approaching the last integral, try to carry out <a href="https://www.math.ucla.edu/~noah/teaching/math3b-w19/partial-fractions.pdf">fraction long division</a> first.</em></p>
 
+[Solution](/calculus/integrals-rational-functions-sol/index.html#problem-2){: .btn .btn--info}
+
 > ### Problem 3
 
 <p style="font-size:13pt">From <a href="/calculus/integrals-rational-functions/index.html#integral-of-sectheta">above</a>, we asserted that</p>
@@ -367,5 +371,16 @@ After dividing both sides of this equation by two and using the result from the 
 <p style="font-size:13pt">$$\frac{1}{2}\ln\left\vert\frac{1+\sin\theta}{1-\sin\theta} \right\vert=\ln\vert \sec\theta+\tan\theta\vert$$</p>
 <p style="font-size:13pt">for any $\theta$.</p>
 
+[Solution](/calculus/integrals-rational-functions-sol/index.html#problem-3){: .btn .btn--info}
+
 > ### Problem 4
 
+<p style="font-size:13pt">Evaluate the following integral expressions:</p>
+<ol>
+  <li style="font-size:13pt">$$\int\frac{x}{\sqrt{x^2+x+1}}dx$$</li>
+  <li style="font-size:13pt">$$\int_0^1 x\sqrt{1-x^4}dx$$</li>
+  <li style="font-size:13pt">$$\int_2^4\frac{\sqrt{x^2-4}}{x}dx$$</li>
+  <li style="font-size:13pt">$$\int \frac{x^6}{\sqrt{1-x^{14}}}dx$$</li>
+</ol>
+
+[Solution](/calculus/integrals-rational-functions-sol/index.html#problem-4){: .btn .btn--info}
