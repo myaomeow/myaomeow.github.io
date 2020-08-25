@@ -84,7 +84,7 @@ This effectively describes our system as long as the static friction $\vec{F}_f$
 
 Consider a single mass $m$ hanging by two massless ropes $A$ and $B$. 
 
-![mech-eq-1.png](/assets/images/mech-eq-3.png){:height="70%" width="70%"}
+![mech-eq-3](/assets/images/mech-eq-3.png){:height="70%" width="70%"}
 
 We know that the angle made by rope $A$ from the vertical $\theta_A=\pi/4$, and the angle made by rope $B$ from the vertical $\theta_B=\pi/3$.
 
@@ -94,11 +94,13 @@ We know that the angle made by rope $A$ from the vertical $\theta_A=\pi/4$, and 
   4. Solve for the magnitude of the tension in both ropes $A$ and $B$ as a function of $m$.
   5. The maximum tension that both of the ropes can individually handle before breaking is $1000\text{ N}$. How massive of an object $m$ can be held before one (or both) of the ropes break? Assume $g=10\text{ m}\cdot\text{ sec}^{-2}$ if necessary.
 
+[Solution](/physics/mechanical-equilibrium-sol/index.html#problem-1){: .btn .btn--info}
+
 ### Problem 2
 
 Consider a very strong man trying to push a block up a _frictionless_ incline plane. 
 
-![mech-eq-1.png](/assets/images/mech-eq-4.png){:height="70%" width="70%"}
+![mech-eq-4](/assets/images/mech-eq-4.png){:height="70%" width="70%"}
 
 Answer the following questions:
 
@@ -106,8 +108,12 @@ Answer the following questions:
   2. Write the mechanical equilibrium force condition in the $\hat{x}$ direction.
   3. Write the mechanical equilibrium force condition in the $\hat{y}$ direction.
   4. Solve for the normal force and force from the man required to keep the block not moving.
-  4. The man is very strong and can push with a maximum force of $200\text{ N}$. Assuming that $g=10\text{ m}\cdot\text{ sec}^{-2}$ and $m=50\text{ kg}$, what is the maximum angle $\theta$ of the incline plane that can be achieved before the man is crushed?
+  5. The man is very strong and can push with a maximum force of $200\text{ N}$. Assuming that $g=10\text{ m}\cdot\text{ sec}^{-2}$ and $m=50\text{ kg}$, what is the maximum angle $\theta$ of the incline plane that can be achieved before the man is crushed?
+
+[Solution](/physics/mechanical-equilibrium-sol/index.html#problem-2){: .btn .btn--info}
 
 ### Problem 3
 
-Repeat parts 1 through 4 of Problem 2, but this time, do not work in a slanted coordinate system. Confirm that the magnitude of both the normal force and force required by the man are the same as those you calculated in Problem 2. This validates our ability to work in whatever rotated coordinate system is most convenience to us. 
+Repeat parts 1 through 4 of Problem 2, but this time, do not work in a slanted coordinate system. Confirm that the magnitude of both the normal force and force required by the man are the same as those you calculated in Problem 2. This validates our ability to work in whatever rotated coordinate system is most convenient to us.
+
+[Solution](/physics/mechanical-equilibrium-sol/index.html#problem-3){: .btn .btn--info}
