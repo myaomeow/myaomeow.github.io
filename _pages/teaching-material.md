@@ -58,6 +58,7 @@ _Note: These topics assume that you're familiar with introductory programming. I
   18. [Accumulation Functions and the Fundamental Theorems of Calculus](/calculus/accumulation-functions-ftc/index.html)
   19. [Integration by Parts](/calculus/integration-by-parts/index.html)
   20. [Integrals of Rational Functions](/calculus/integrals-rational-functions/index.html)
+  21. [Solids of Revolution](/calculus/solids-of-revolution/index.html)
 
 > ## Physics (with Calculus)
   
@@ -75,6 +76,7 @@ _Note: These topics assume that you're familiar with introductory programming. I
   12. [Mechanical Equilibrium Revisited - Rotational Motion](/physics/mechanical-equilibrium-revisited/index.html)
   13. [Moment of Inertia and Rotational Energy](/physics/moment-of-inertia-rotational-energy/index.html)
   14. [Conservation of Angular Momentum](/physics/angular-momentum-conservation/index.html)
+  15. [Electrostatics: Coulomb's Law and Gauss's Law](/physics/coulombs-law-gausss-law/index.html)
 
 > ## Introduction to Statistical Learning
 
