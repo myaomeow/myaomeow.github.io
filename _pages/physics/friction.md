@@ -1,5 +1,6 @@
 ---
 permalink: /physics/friction/
+author_profile: false
 title: "Friction"
 ---
 

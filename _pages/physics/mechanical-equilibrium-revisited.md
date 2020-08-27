@@ -1,5 +1,6 @@
 ---
 permalink: /physics/mechanical-equilibrium-revisited/
+author_profile: false
 title: "Mechanical Equilibrium: Rotational Motion"
 toc: true
 toc_label: "Contents"

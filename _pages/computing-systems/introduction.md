@@ -1,5 +1,6 @@
 ---
 permalink: /computing-systems/introduction/
+author_profile: false
 title: "Introduction to Computing Systems"
 toc: true
 toc_label: "Contents"

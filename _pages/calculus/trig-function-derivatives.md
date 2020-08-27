@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/trig-function-derivatives/
+author_profile: false
 title: "Derivatives of Trigonometric Functions"
 toc: true
 toc_label: "Contents"

@@ -1,5 +1,6 @@
 ---
 permalink: /java/sorting-algorithms-part-1/
+author_profile: false
 title: "Sorting Algorithms, Part 1: The Basics"
 toc: true
 toc_label: "Contents"

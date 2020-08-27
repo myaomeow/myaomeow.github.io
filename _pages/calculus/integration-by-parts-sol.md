@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/integration-by-parts-sol/
+author_profile: false
 title: "Integration by Parts (Solutions to Problems)"
 toc: true
 toc_label: "Contents"

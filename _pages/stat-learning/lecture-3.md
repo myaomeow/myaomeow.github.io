@@ -1,5 +1,6 @@
 ---
 permalink: /stat-learning/lecture-3/
+author_profile: false
 title: "Methods in Classification Problems and the Bias-Variance Trade-Off"
 toc: true
 toc_label: "Contents"

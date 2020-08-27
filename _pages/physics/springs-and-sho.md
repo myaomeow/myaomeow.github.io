@@ -1,5 +1,6 @@
 ---
 permalink: /physics/springs-and-sho/
+author_profile: false
 title: "Springs and Harmonic Oscillation"
 toc: true
 toc_label: "Contents"

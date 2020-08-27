@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/inverse-function-derivatives/
+author_profile: false
 title: "Derivatives of Inverse Functions"
 toc: true
 toc_label: "Contents"

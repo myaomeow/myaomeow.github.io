@@ -1,5 +1,6 @@
 ---
 permalink: /physics/moment-of-inertia-rotational-energy-sol/
+author_profile: false
 title: "Moment of Inertia and Rotational Energy (Solutions)"
 toc: true
 toc_label: "Contents"

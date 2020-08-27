@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/lhopitals-rule/
+author_profile: false
 title: "L'Hopital's Rule"
 toc: true
 toc_label: "Contents"

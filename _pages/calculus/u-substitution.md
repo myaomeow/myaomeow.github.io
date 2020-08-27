@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/u-substitution/
+author_profile: false
 title: "$u$-Substitution"
 toc: true
 toc_label: "Contents"

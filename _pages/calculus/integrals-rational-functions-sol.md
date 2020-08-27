@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/integrals-rational-functions-sol/
+author_profile: false
 title: "Integrals of Rational Functions (Solutions)"
 toc: true
 toc_label: "Contents"

@@ -1,5 +1,6 @@
 ---
 permalink: /java/abstraction/
+author_profile: false
 title: "Abstraction"
 toc: true
 toc_label: "Contents"

@@ -1,5 +1,6 @@
 ---
 permalink: /physics/momentum-and-collisions/
+author_profile: false
 title: "Momentum and Collisions"
 toc: true
 toc_label: "Contents"

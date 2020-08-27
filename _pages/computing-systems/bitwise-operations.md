@@ -1,5 +1,6 @@
 ---
 permalink: /computing-systems/bitwise-operations/
+author_profile: false
 title: "Bitwise Operations"
 toc: true
 toc_label: "Contents"

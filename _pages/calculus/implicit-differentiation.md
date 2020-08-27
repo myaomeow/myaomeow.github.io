@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/implicit-differentiation/
+author_profile: false
 title: "Implicit Differentiation"
 toc: true
 toc_label: "Contents"

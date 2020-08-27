@@ -1,5 +1,6 @@
 ---
 permalink: /physics/pulleys/
+author_profile: false
 title: "Pulleys"
 toc: true
 toc_label: "Contents"

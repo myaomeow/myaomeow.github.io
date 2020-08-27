@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/derivatives-involving-e/
+author_profile: false
 title: "Derivatives of Exponential and Logarithmic Functions"
 toc: true
 toc_label: "Contents"

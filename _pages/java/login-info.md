@@ -1,5 +1,6 @@
 ---
 permalink: /java/login-info/
+author_profile: false
 title: "Storing User Data"
 toc: true
 toc_label: "Contents"

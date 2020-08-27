@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/integration-practice-1-sol/
+author_profile: false
 title: "Integration Practice Problems, Part 1 (Solutions)"
 toc: true
 toc_label: "Contents"

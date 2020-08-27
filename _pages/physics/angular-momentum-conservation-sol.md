@@ -1,5 +1,6 @@
 ---
 permalink: /physics/angular-momentum-conservation-sol/
+author_profile: false
 title: "Conservation of Angular Momentum (Solutions)"
 toc: true
 toc_label: "Contents"

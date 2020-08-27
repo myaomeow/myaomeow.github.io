@@ -1,5 +1,6 @@
 ---
 permalink: /physics/newton-laws-and-kinematics/
+author_profile: false
 title: "Newton's Laws and Kinematic Equations"
 toc: true
 toc_label: "Contents"

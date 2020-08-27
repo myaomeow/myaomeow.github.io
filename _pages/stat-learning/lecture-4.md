@@ -1,5 +1,6 @@
 ---
 permalink: /stat-learning/lecture-4/
+author_profile: false
 title: "Linear Algebra of Linear Regression"
 toc: true
 toc_label: "Contents"

@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/evaluating-integrals/
+author_profile: false
 title: "Evaluating Integrals"
 toc: true
 toc_label: "Contents"

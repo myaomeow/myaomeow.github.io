@@ -1,5 +1,6 @@
 ---
 permalink: /computing-systems/x86-assembly/
+author_profile: false
 title: "Intel x86 64-Bit Assembly Language"
 toc: true
 toc_label: "Contents"

@@ -1,5 +1,6 @@
 ---
 permalink: /stat-learning/lecture-1/
+author_profile: false
 title: "Learning Problems and Statistical Decision Theory"
 toc: true
 toc_label: "Contents"

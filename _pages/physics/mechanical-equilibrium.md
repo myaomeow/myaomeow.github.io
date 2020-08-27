@@ -1,5 +1,6 @@
 ---
 permalink: /physics/mechanical-equilibrium/
+author_profile: false
 title: "Mechanical Equilibrium"
 toc: true
 toc_label: "Contents"

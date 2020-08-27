@@ -1,5 +1,6 @@
 ---
 permalink: /java/binary-search/
+author_profile: false
 title: "Binary Search"
 toc: true
 toc_label: "Contents"

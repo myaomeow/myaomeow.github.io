@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/intro-to-derivatives/
+author_profile: false
 title: "Introduction to Derivatives"
 toc: true
 toc_label: "Contents"

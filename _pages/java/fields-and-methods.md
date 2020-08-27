@@ -1,5 +1,6 @@
 ---
 permalink: /java/fields-and-methods/
+author_profile: false
 title: "Fields and Methods"
 toc: true
 toc_label: "Contents"

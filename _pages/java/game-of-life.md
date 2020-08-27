@@ -1,5 +1,6 @@
 ---
 permalink: /java/game-of-life/
+author_profile: false
 title: "Conway's Game of Life"
 toc: true
 toc_label: "Contents"

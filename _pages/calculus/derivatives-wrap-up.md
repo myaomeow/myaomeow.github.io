@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/derivatives-wrap-up/
+author_profile: false
 title: "Derivatives: A Wrap Up"
 toc: true
 toc_label: "Contents"

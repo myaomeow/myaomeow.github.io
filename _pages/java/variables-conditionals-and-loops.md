@@ -1,5 +1,6 @@
 ---
 permalink: /java/variables-conditionals-and-loops/
+author_profile: false
 title: "Variables, Conditionals, and Loops"
 toc: true
 toc_label: "Contents"

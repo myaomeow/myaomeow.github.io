@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/integration-by-parts/
+author_profile: false
 title: "Integration by Parts"
 toc: true
 toc_label: "Contents"

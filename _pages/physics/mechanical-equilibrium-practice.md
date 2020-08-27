@@ -1,5 +1,6 @@
 ---
 permalink: /physics/mechanical-equilibrium-practice/
+author_profile: false
 title: "Practice with Mechanical Equilibrium"
 toc: true
 toc_label: "Contents"

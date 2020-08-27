@@ -1,5 +1,6 @@
 ---
 permalink: /physics/newton-laws-revisited/
+author_profile: false
 title: "Newton's Laws and Kinematic Equations: Rotational Motion"
 toc: true
 toc_label: "Contents"

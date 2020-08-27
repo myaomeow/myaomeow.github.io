@@ -1,5 +1,6 @@
 ---
 permalink: /java/exception-handling/
+author_profile: false
 title: "Exception Handling"
 toc: true
 toc_label: "Contents"

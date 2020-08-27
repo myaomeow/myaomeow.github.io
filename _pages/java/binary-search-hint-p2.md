@@ -1,5 +1,6 @@
 ---
 permalink: /java/binary-search-hint-p2/
+author_profile: false
 title: "Floored Square Roots Using Binary Search"
 ---
 

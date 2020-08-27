@@ -1,5 +1,6 @@
 ---
 permalink: /stat-learning/lecture-2/
+author_profile: false
 title: "Methods in Regression Problems"
 toc: true
 toc_label: "Contents"

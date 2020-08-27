@@ -1,5 +1,6 @@
 ---
 permalink: /java/arrays-and-matrices/
+author_profile: false
 title: "Arrays and Matrices"
 toc: true
 toc_label: "Contents"

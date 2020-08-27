@@ -1,5 +1,6 @@
 ---
 permalink: /java/recursion/
+author_profile: false
 title: "Recursion"
 toc: true
 toc_label: "Contents"

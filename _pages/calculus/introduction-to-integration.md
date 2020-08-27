@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/introduction-to-integration/
+author_profile: false
 title: "Introduction to Integration"
 toc: true
 toc_label: "Contents"

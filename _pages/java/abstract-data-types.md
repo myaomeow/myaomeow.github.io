@@ -1,5 +1,6 @@
 ---
 permalink: /java/abstract-data-types/
+author_profile: false
 title: "Abstract Data Types"
 toc: true
 toc_label: "Contents"

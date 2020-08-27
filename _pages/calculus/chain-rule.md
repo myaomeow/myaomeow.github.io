@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/chain-rule/
+author_profile: false
 title: "The Chain Rule"
 toc: true
 toc_label: "Contents"

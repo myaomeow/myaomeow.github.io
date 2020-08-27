@@ -1,5 +1,6 @@
 ---
 permalink: /physics/pendulums/
+author_profile: false
 title: "Pendulums"
 toc: true
 toc_label: "Contents"

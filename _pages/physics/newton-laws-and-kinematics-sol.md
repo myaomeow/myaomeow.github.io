@@ -1,5 +1,6 @@
 ---
 permalink: /physics/newton-laws-and-kinematics-sol/
+author_profile: false
 title: "Newton's Laws and Kinematic Equations (Solutions)"
 toc: true
 toc_label: "Contents"

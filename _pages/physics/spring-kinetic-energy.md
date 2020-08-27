@@ -1,5 +1,6 @@
 ---
 permalink: /physics/spring-kinetic-energy/
+author_profile: false
 title: "Spring and Kinetic Energy"
 toc: true
 toc_label: "Contents"

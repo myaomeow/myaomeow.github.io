@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/higher-order-derivatives/
+author_profile: false
 title: "Higher Order Derivatives"
 ---
 

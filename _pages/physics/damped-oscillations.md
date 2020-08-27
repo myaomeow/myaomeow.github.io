@@ -1,5 +1,6 @@
 ---
 permalink: /physics/damped-oscillations/
+author_profile: false
 title: "Damped Oscillations"
 toc: true
 toc_label: "Contents"

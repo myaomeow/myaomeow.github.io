@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/accumulation-functions-ftc/
+author_profile: false
 title: "Accumulation Functions and the Fundamental Theorems of Calculus"
 toc: true
 toc_label: "Contents"

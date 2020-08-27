@@ -1,5 +1,6 @@
 ---
 permalink: /physics/mechanical-equilibrium-sol/
+author_profile: false
 title: "Mechanical Equilibrium (Solutions)"
 toc: true
 toc_label: "Contents"

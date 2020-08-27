@@ -1,5 +1,6 @@
 ---
 permalink: /calculus/word-problems-1/
+author_profile: false
 title: "Putting It All Together: Part One"
 toc: true
 toc_label: "Contents"

@@ -1,5 +1,6 @@
 ---
 permalink: /java/stacks-and-queues/
+author_profile: false
 title: "Stacks and Queues"
 toc: true
 toc_label: "Contents"

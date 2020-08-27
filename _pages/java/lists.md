@@ -1,5 +1,6 @@
 ---
 permalink: /java/lists/
+author_profile: false
 title: "Lists: ```ArrayList```s and ```LinkedList```s"
 toc: true
 toc_label: "Contents"

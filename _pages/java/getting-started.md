@@ -1,5 +1,6 @@
 ---
 permalink: /java/getting-started/
+author_profile: false
 title: "Getting Started"
 toc: true
 toc_label: "Contents"
