@@ -107,7 +107,7 @@ The pivoting element can be thought of as a "reference value" that is important 
   1. Always pick the first element of the list as the pivot.
   2. Always pick the last element of the list as the pivot.
   3. Pick some random element in the array as the pivot.
-  4. Pick the medicine as the pivot.
+  4. Pick the median as the pivot.
 
 Pivot choices 1 and 2 are by far the most common. In our implementation of quicksort below, we will use method 2 to choose our pivot.
 
