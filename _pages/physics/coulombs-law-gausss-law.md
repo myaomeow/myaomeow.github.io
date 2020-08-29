@@ -52,7 +52,7 @@ The constant $k$ is simply a proportionality constant, and has been empirically 
 
 $$k=8.988\times10^9\frac{\text{N}\cdot\text{m}^2}{\text{C}^2}$$
 
-The units $C$ stands for the **Coulomb**, which is a measure fo charge. The magnitude of $e$, which is the magnitude of charge of an electron and also the fundamental quantum unit of electric charge, is about $e\approx 1.602\times10^{-19}text{ C}$. Therefore, one Coulomb is equivalent to the magnitude fo the charge contained in $6.242\times10^{18}$ electrons.
+The units $C$ stands for the **Coulomb**, which is a measure fo charge. The magnitude of $e$, which is the magnitude of charge of an electron and also the fundamental quantum unit of electric charge, is about $e\approx 1.602\times10^{-19}\text{ C}$. Therefore, one Coulomb is equivalent to the magnitude fo the charge contained in $6.242\times10^{18}$ electrons.
 
 It turns out that the proportionality constant $k$ is related to a physical proportionality constant called the _vacuum permittivity constant_, denoted by $\varepsilon_0$. In terms of $\varepsilon_0$, 
 
