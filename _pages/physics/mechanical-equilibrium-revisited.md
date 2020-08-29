@@ -11,7 +11,7 @@ toc_label: "Contents"
 In this module, we'll be continuing to investigate how our working physics framework describes into our current understanding of rotating systems. Let's review Newton's laws for rotating systems that we introduced last time:
 
   1. If the net torque on an object is zero, the object will remain at constant angular velocity. This means things that are at rest, stay at rest, and things that are rotating continue to move at constant angular velocity.
-  2. The sum of all the torques on an object, $\sum \vec{\tau}$, is called the net torque $\vec{\tau}_{\text{net}}$, and is given by $$\sum \vec{\tau}=\vec{\tau}_{\text{net}}\propto\vec{\alpha}$$, where $\vec{\alpha}$ is the angular acceleration. We will talk about what the proportionality constant exactly is later. (Unlike forces, the proportionality constant is _not_ simply just the mass of the object!)
+  2. The sum of all the torques on an object, $\sum \vec{\tau}$, is called the net torque $$\vec{\tau}_{\text{net}}$$, and is given by $$\sum \vec{\tau}=\vec{\tau}_{\text{net}}\propto\vec{\alpha}$$, where $\vec{\alpha}$ is the angular acceleration. We will talk about what the proportionality constant exactly is later. (Unlike forces, the proportionality constant is _not_ simply just the mass of the object!)
   3. For two objects $1$ and $2$ in contact, $$\vec{\tau}_{1\rightarrow 2}=-\vec{\tau}_{2\rightarrow 1}$$.
 
 Today, we'll be talking about systems in _mechanical equilibrium_ and how this relates to these set of laws.
