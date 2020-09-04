@@ -53,14 +53,18 @@ Note that for multiple pulleys, we can't necessarily equate the accelerations. I
 
 Consider the following system with negligible friction and a massless rope.
 
-![atwood](/assets/images/pulley-3.png){:height="40%" width="40%"}
+<p style="text-align:center"><img src="/assets/images/pulley-3.png" alt="atwood" height="40%" width="40%"></p>
 
 Find the acceleration and force acting on both of these objects. Be sure to include the directions of the vectors as well.
+
+[Solution](/physics/pulleys-sol/index.html#problem-1){: .btn .btn--info}
 
 > ### Problem 2
 
 Consider the following system with negligible friction and a massless rope.
 
-![atwood](/assets/images/pulley-4.png){:height="40%" width="40%"}
+<p style="text-align:center"><img src="/assets/images/pulley-4.png" alt="atwood" height="40%" width="40%"></p>
 
-The mass of Pulley $A$ is $m_A$, the mass of Pulley $B$ is $m_B$, and the mass of Pulley $C$ is $m_C$. Find the condition on $m_2$ in terms of $m_1$ in order for the system to be in mechanical equilibrium. _Hint: the masses of the pulleys should never enter into any of your equations._
+The mass of Pulley $A$ is $m_A$, the mass of Pulley $B$ is $m_B$, and the mass of Pulley $C$ is $m_C$. Find the condition on $m_2$ in terms of $m_1$ in order for the system to be in mechanical equilibrium.
+
+[Solution](/physics/pulleys-sol/index.html#problem-2){: .btn .btn--info}

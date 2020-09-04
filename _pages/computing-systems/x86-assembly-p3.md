@@ -47,7 +47,7 @@ int main(void) {
 
 After compiling and disassembling, the relevant segments of assembly code that correspond to this C code are here:
 
-```
+```scss
 00000000004004f0 <simpleInt>:
   4004f0:   55                      push   %rbp
   4004f1:   48 89 e5                mov    %rsp,%rbp
@@ -95,7 +95,7 @@ int main(void) {
 
 Disassembling the above code gives the following x86 assembly code output:
 
-```
+```scss
 0000000000400520 <variable>:
   400520:   55                      push   %rbp
   400521:   48 89 e5                mov    %rsp,%rbp
@@ -126,7 +126,7 @@ The ```<main>``` code looks more or less the same as the previous example, so le
 
 To take a look at how assembly code implements iterative algorithms like ```for``` loops or recursion, we can disassemble the ```recursion()``` and ```forLoop()``` functions, which both sum the positive integers up to the positive integer ```x```. Let's take a look at the ```recursion()``` disassembly first.
 
-```
+```scss
 0000000000400550 <recursion>:
   400550:   55                      push   %rbp
   400551:   48 89 e5                mov    %rsp,%rbp
@@ -156,13 +156,13 @@ To take a look at how assembly code implements iterative algorithms like ```for`
 
 At first glance, this assembly code looks much more complicated! It might be a bit more difficult to understand this code especially if we didn't know the purpose of this code or the C source code beforehand, but nonetheless, we can still try to decode it piece by piece. Once again, the first three instructions have something to do with the stack, followed by moving the integer argument ```x``` (stored in ```%edi```) onto the stack, as expected. Now, we have something interesting going on between the next four lines! We can break them down one by one:
 
-```
+```scss
 cmpl $0x1, -0x8(%rbp)
 ```
 
 Based on the instruction immediately above, ```-0x8(%rbp)``` refers to the value of ```x``` passed into the function. This instruction compares the number ```1``` to ```x```, and if they are equal, the ```ZF``` flag is set. In the next instruction, which is a jump instruction,
 
-```
+```scss
 jg 400571 <recursion+0x21>
 ```
 
@@ -170,7 +170,7 @@ The function will jump to instruction ```400571``` (the ```mov``` instruction) o
 
 Eventually, we'll reach the base case where instruction ```40055b``` will show that ```1 == 1```, such that the jump command at ```40055f``` is _not_ executed and we continue with ```400565``` and ```40056c```:
 
-```
+```scss
 movl $0x1,-0x4(%rbp)
 jmpq 40058c <recursion+0x3c>
 ```
@@ -179,7 +179,7 @@ This moves the number ```1``` onto the stack, which then jumps to instruction ``
 
 What about ```for``` loop iterations? Let's disassemble the ```forLoop()``` function:
 
-```
+```scss
 00000000004005a0 <forLoop>:
   4005a0:   55                      push   %rbp
   4005a1:   48 89 e5                mov    %rsp,%rbp
@@ -212,8 +212,307 @@ As you can tell especially from the last two examples, reading and dissecting as
 
 > ## Writing Assembly Code
 
-This section is currently under construction.
+Now that we have an idea of what assembly code looks like, we can use our skills to begin directly programming in assembly.
 
-> ## Additional Reading
+> ## The Basics
 
-This section is currently under construction.
+First, let's go over the basics of how to compile, execute, and analyze assembly code that we write.
+
+> ### Assembly Code Format
+
+All assembly code for x86 64-bit are written in files with the ```.s``` extension, and largely follows the same basic format:
+
+```scss
+.globl main
+
+main:
+    # Write code here!
+
+.data
+```
+
+The ```main``` section is where we actually write our instructions line by line. If we have any global static variables, we would include it in the ```.data``` section (of course, if there aren't any global static variables, you can just leave the ```.data``` section out. The ```.globl main``` statement at the top allows this ```main``` function to be executed by other programs. It is important that we title this function ```main```.
+
+Of course, you can get more complicated if you'd like, but this is the simplest structure.
+
+> ### Compiling Assembly Using ```gcc```
+
+Compile your ```.s``` file (we'll refer to it as ```test.s```) into an executable file using ```gcc```. Here is the appropriate Linux command:
+
+```
+$ gcc test.s -o test
+```
+
+In the _very_ off-chance that you want to compile as a 32-bit executable instead of a 64-bit executable, use the bash commands
+
+```
+$ as --32 -o test.o test.s
+$ ld -o test test.o -m elf_i386
+```
+
+This is very rare nowadays and I don't really expect 32-bit executables to come up in most contexts, but if it does, now you know how to compile them.
+
+> ### Running Executable Objects
+
+After compiling, run your executable using the bash command
+
+```
+$ ./test
+```
+
+Let's say that your executable function had three arguments: ```arg1```, ```arg2```, and ```arg3```. You can run your executable with the the three arguments using the bash command
+
+```
+$ ./test arg1 arg2 arg3
+```
+
+> ### Printing the Return Value to ```stdout```
+
+There are a number of different ways to accomplish this task, but perhaps the easiest is to run this single-line bash command after running an executable is complete:
+
+```
+$ echo $?
+```
+
+> ### Using ```syscall```s
+
+At this point, we're going to take a (fairly lengthy) tangent and discuss something called _system calls_.
+
+```syscall``` stands for a _system call_, and is used when a program wants the kernel of a computer to perform some task. The **kernel** can be thought of as the "king" or "brain" computer program that is at the core of a computer's operating system with complete control over everything in the system. It tells other programs when they can run, how much memory and computer resources they get, and whatnot. It can be thought of as the _bridge_ between computer applications/programs and the CPU, memory, and other resources.
+
+Generally, we as programmers don't particularly work with ```syscall```s since they deal with such a secure and important component of the computer. However, in some special cases, ```syscall```s can be used in our programs to make certain "elementary" operations easy.
+
+There are a number of ```syscall```s that are available to programs when interacting with the kernel. We'll list them here, although note that many of these terms/functions will be new and we won't be able to understand what each of them does just yet (many of these will come back to us throughout the course).
+
+<table>
+  <tr>
+    <th style="font-size:13pt">Type of <code class="language-plaintext highlighter-rouge">syscall</code></th>
+    <th style="font-size:13pt">Linux Function</th>
+  </tr>
+  <tr>
+    <td rowspan="3" style="font-size:13pt;text-align:center">Process Control</td>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">fork()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">exit()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">wait()</code></td>
+  </tr>
+  <tr>
+    <td rowspan="4" style="font-size:13pt;text-align:center">File Management</td>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">open()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">read()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">write()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">close()</code></td>
+  </tr>
+  <tr>
+    <td rowspan="3" style="font-size:13pt;text-align:center">Device Management</td>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">ioctl()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">read()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">write()</code></td>
+  </tr>
+  <tr>
+    <td rowspan="3" style="font-size:13pt;text-align:center">Information Maintanence</td>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">getpid()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">alarm()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">sleep()</code></td>
+  </tr>
+  <tr>
+    <td rowspan="3" style="font-size:13pt;text-align:center">Communication</td>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">pipe()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">shmget()</code></td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">mmap()</code></td>
+  </tr>
+</table>
+
+(_This table was taken from [this link](https://www.tutorialspoint.com/different-types-of-system-calls). Official ```syscall``` documentation is linked [here](https://man7.org/linux/man-pages/man2/syscalls.2.html)._) 
+
+Each of these functions has an important use, and can be invoked at the assembly level.
+
+In x86 64-bit assembly, the ```syscall``` calling convention is largely standardized. We move the appropriate arguments to each of the registers, and then invoke the ```syscall``` instruction. Each of the ```syscall``` functions has their own _system call number_ associated with the function. The register designations are
+
+<table>
+  <tr>
+    <th style="font-size:13pt;text-align:center">Register</th>
+    <th style="font-size:13pt;text-align:center">Function for Setting Up <code class="language-plaintext highlighter-rouge">syscall</code>s</th>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">%rax</code></td>
+    <td style="font-size:13pt;text-align:center">system call number</td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">%rcx</code></td>
+    <td style="font-size:13pt;text-align:center">return address (often we don't care about)</td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">%r11</code></td>
+    <td style="font-size:13pt;text-align:center">saved flags (again, often we don't care about)</td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">%rdi</code></td>
+    <td style="font-size:13pt;text-align:center">arg0</td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">%rsi</code></td>
+    <td style="font-size:13pt;text-align:center">arg1</td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">%rdx</code></td>
+    <td style="font-size:13pt;text-align:center">arg2</td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">%r10</code></td>
+    <td style="font-size:13pt;text-align:center">arg3</td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">%r8</code></td>
+    <td style="font-size:13pt;text-align:center">arg4</td>
+  </tr>
+  <tr>
+    <td style="font-size:13pt;text-align:center"><code class="language-plaintext highlighter-rouge">%r9</code></td>
+    <td style="font-size:13pt;text-align:center">arg5</td>
+  </tr>
+</table>
+
+Note that invoking a ```syscall``` will _never_ change the state of the stack (this is useful oftentimes).
+
+> #### Legacy System Interruption
+
+On older systems and in older textbooks, you may see the commands ```int 0x80``` instead. This instruction is the "legacy" version of ```syscall``` on older systems, and runs by triggering a _software interrupt_ that interrupts the kernel's attention on the currently executing program to handle the interrupt instead. Because of the interrupt nature of the ```int 0x80``` command, it is considered to be computationally costly and slower than the more modern ```syscall``` command. It also uses an entirely different calling convention with different system call numberings, so in general it's just a bad idea to mix the two with each other. However, note that because of backwards compatibility of Intel processors, ```int 0x80``` still works on modern computers. We will just choose not to use it.
+
+> ### Printing
+
+Going back to writing assembly code, we can use the ```write()``` ```syscall``` that we discussed above to write to ```stdout``` and basically output things in terminal. For example, let's say that we wanted to print the string ```Hello, World!```. When dealing with strings, it is often most convenient to store it in a static data region (analogous to global variables) in x86. For example,
+
+```scss
+.globl main
+
+main:
+    movq    $1, %rax       # System call 1 is write()
+    movq    $1, %rdi       # File handle 1 is stdout
+    mov     $message, %rsi # Address of string to output
+    mov     $14, %rdx      # Number of bytes (length of string)
+    syscall                # Invoke write() operation
+
+    movq    $60, %rax      # System call 60 is exit()
+    movq    $0, %rdi       # Return code 0
+    syscall
+
+.data
+message:
+    .ascii "Hello, World!\n"
+```
+
+As you can see from above, we used ```syscall``` to both write to ```stdout``` and also ```exit()``` from the function (which is essentially the same as returning). We created one message that is a string (as indicated by the ```.ascii``` designation), and we can refer to this message in our assembly instruction as ```$message```. **Note that ```%rsi``` needs to store an _address_ to the thing to be printed, not the _actual_ thing being printed!**
+
+Of course, can store more than just strings in the static data region. For example,
+
+```scss
+.data
+var:
+    .byte 7       # Declare a byte at location var with value 7
+    .byte 11      # Declare a byte at location var+1 with value 11
+x:
+    .short 42     # Declare a 2-byte at location x with value 42
+y:
+    .long 500     # Declare a 4-byte at location y with value 500
+z:
+    .quad 256     # Declare a 8-byte at location z with value 256
+arr:
+    .long 1, 2, 3 # Declare 3 4-byte values as an array with values
+                  # 1, 2, and 3. 1 is at location arr, 2 is at 
+                  # location arr+4 (since a long is 4 bytes), and
+                  # 3 is at location arr+8
+```
+
+> ## Examples
+
+Now, it's your turn! Try to write assembly code for the following tasks.
+
+> ### ```deadbeef```
+
+<p style="font-size:13pt">Using the <code class="language-plaintext highlighter-rouge">write()</code> <code class="language-plaintext highlighter-rouge">syscall</code>, print the characters <code class="language-plaintext highlighter-rouge">deadbeef\n</code> to <code class="language-plaintext highlighter-rouge">stdout</code> without using any global static variables.</p>
+
+```scss
+.globl main
+
+main:
+    # Print deadbeef\n to stdout here
+```
+
+[Solution](/computing-systems/x86-assembly-p3-sol/index.html#deadbeef){: .btn .btn--info}
+
+> ### Factorials
+
+<p style="font-size:13pt">Write an x86 assembly program to compute the factorial of a number initially stored in <code class="language-plaintext highlighter-rouge">%rdi</code>.</p>
+
+```scss
+.globl main
+
+main:
+    movq    $5, %rdi    # Argument n (replace 5 with n)
+    # Return n!
+```
+
+[Solution](/computing-systems/x86-assembly-p3-sol/index.html#factorials){: .btn .btn--info}
+
+> ### Fibonacci Numbers
+
+<p style="font-size:13pt">Write an x86 assembly program to compute the $n$th Fibonacci number, where $n$ is initially stored in <code class="language-plaintext highlighter-rouge">%rdi</code>.</p>
+
+```scss
+.globl main
+
+main:
+    movq    $9, %rdi    # Argument n (replace 9 with n)
+    # Return the nth Fibonacci number
+```
+
+[Solution](/computing-systems/x86-assembly-p3-sol/index.html#fibonacci-numbers){: .btn .btn--info}
+
+> ### Greatest Common Divisor
+
+<p style="font-size:13pt">Using <a href="https://en.wikipedia.org/wiki/Euclidean_algorithm">Euclid's Algorithm</a>, calculate the greatest common divisor (GCD) of two numbers $x$ and $y$ initially stored in the registers <code class="language-plaintext highlighter-rouge">%rdi</code> and <code class="language-plaintext highlighter-rouge">%rsi</code>, respectively. Here is an implementation in Java so you can understand the algorithm:</p>
+
+```java
+public static int gcd(int x, int y) {
+    if (x == 0) { return y; }
+    return gcd(y % x, x);
+}
+```
+
+Here is a template for the assembly implementation:
+
+```scss
+.globl main
+
+main:
+    movq    $9, %rdi    # Argument x (replace 9 with x)
+    movq    $6, %rsi    # Argument y (replace 6 with y)
+    # Return the gcd of x and y
+```
+
+[Solution](/computing-systems/x86-assembly-p3-sol/index.html#greatest-common-divisor){: .btn .btn--info}
+
+> ## Addendum: Buffer Overflow
+
+The _Dive into Systems_ textbook has a nice example on the real-world applications of being able to write and read assembly code in the context of security and buffer overflows, linked [here](https://diveintosystems.org/singlepage/#_real_world_buffer_overflow). Buffer overflow exploits were commonly cited in the 1980s and early 2000s as presenting serious security issues with a lot of computers and programs. I would highly recommend checking it out if you have the time!
