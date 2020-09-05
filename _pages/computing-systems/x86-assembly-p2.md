@@ -389,6 +389,10 @@ Once again, we have only grazed the surface of the set of x86 instructions avail
 
 > ## Stack Manipulation
 
-This section is currently under construction.
+As we mentioned [previously](/computing-systems/x86-assembly-p1/index.html#primary-storage-memory-stacks-and-heaps), the stack is an important component of the primary storage, and can be thought of as growing _downwards_. This means that the "top" where things are immediately pushed and popped is at a lower address in the primary storage than the bottom of the stack.
+
+The stack is what TODO
+
+> ## Moving On...
 
 Now that we understand the basics of assembly language syntax and what are the typical commands and operations available to us, we can now try to actually read some assembly code and actually write our own as well [here](/computing-systems/x86-assembly-p3/index.html).

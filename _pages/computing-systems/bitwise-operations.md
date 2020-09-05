@@ -200,7 +200,7 @@ The red zeros represent the added zeros due to the left shift.
 
 > ## Right Shift Operator
 
-As you can probably guess from our discussion on the left shift operator, The **reft shift** operator shifts all of the bits of a binary string to the _right_ by $n$ places, where $n$ is any positive number. In order to "fill" the $n$ empty digits to the left, we simply add $n$ ```0```'s to the left at the end. For example, say that we have the same strings of bits ```a``` and ```b``` from the example above:
+As you can probably guess from our discussion on the left shift operator, The **right shift** operator shifts all of the bits of a binary string to the _right_ by $n$ places, where $n$ is any positive number. In order to "fill" the $n$ empty digits to the left, we simply add $n$ ```0```'s to the left at the end. For example, say that we have the same strings of bits ```a``` and ```b``` from the example above:
 
 ```c
 int8_t a = 0b00001110;
