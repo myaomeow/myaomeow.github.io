@@ -32,8 +32,8 @@ If you find any errors with any of the teaching modules, please let me know thro
 _Note: These topics assume that you're familiar with introductory programming. I strongly recommend going over the Java topics above first before starting with this material._
 
   1. [Introduction](/computing-systems/introduction/index.html)
-  2. [Integer Types](/computing-systems/integer-types/index.html)
-  3. [Bitwise Operations](/computing-systems/bitwise-operations/index.html)
+  2. [Bitwise Operations](/computing-systems/bitwise-operations/index.html)
+  3. [Integer Types](/computing-systems/integer-types/index.html)
   4. [x86 64-Bit Assembly, Part 1: Computer Architecture](/computing-systems/x86-assembly-p1/index.html)
   5. [x86 64-Bit Assembly, Part 2: Registers and Instructions](/computing-systems/x86-assembly-p2/index.html)
   6. [x86 64-Bit Assembly, Part 3: Reading and Writing Assembly](/computing-systems/x86-assembly-p3/index.html)
