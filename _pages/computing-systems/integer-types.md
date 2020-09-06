@@ -40,7 +40,7 @@ int main(void) {
     printf("max8 is %hhu.\n", max8);
     printf("max16 is %hu.\n", max16);
     printf("max32 is %u.\n", max32);
-    printf("max64 is %zu.\n", max64);
+    printf("max64 is %lu.\n", max64);
 }
 ```
 
@@ -69,10 +69,10 @@ int main(void) {
     int32_t max32 = 2147483647; // 2^31 - 1
     int64_t max64 = 9223372036854775807; // 2^63 - 1
 
-    printf("max8 is %hhu.\n", max8);
-    printf("max16 is %hu.\n", max16);
-    printf("max32 is %u.\n", max32);
-    printf("max64 is %zu.\n", max64);
+    printf("max8 is %hhd.\n", max8);
+    printf("max16 is %hd.\n", max16);
+    printf("max32 is %d.\n", max32);
+    printf("max64 is %ld.\n", max64);
 }
 ```
 
