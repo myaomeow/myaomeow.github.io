@@ -37,6 +37,8 @@ _Note: These topics assume that you're familiar with introductory programming. I
   4. [x86 64-Bit Assembly, Part 1: Computer Architecture](/computing-systems/x86-assembly-p1/index.html)
   5. [x86 64-Bit Assembly, Part 2: Registers and Instructions](/computing-systems/x86-assembly-p2/index.html)
   6. [x86 64-Bit Assembly, Part 3: Reading and Writing Assembly](/computing-systems/x86-assembly-p3/index.html)
+  7. [Pointers in C](/computing-systems/pointers/index.html)
+  8. [```struct```s and ```.h``` Header Files](/computing-systems/structs-headers/index.html)
 
 > ## Calculus
 
