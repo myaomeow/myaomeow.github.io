@@ -389,9 +389,28 @@ Once again, we have only grazed the surface of the set of x86 instructions avail
 
 > ## Stack Manipulation
 
-As we mentioned [previously](/computing-systems/x86-assembly-p1/index.html#primary-storage-memory-stacks-and-heaps), the stack is an important component of the primary storage, and can be thought of as growing _downwards_. This means that the "top" where things are immediately pushed and popped is at a lower address in the primary storage than the bottom of the stack.
+As we mentioned [previously](/computing-systems/x86-assembly-p1/index.html#primary-storage-memory-stacks-and-heaps), the stack is an important component of the primary storage, and can be thought of as growing _downwards_. This means that the "top" where things are immediately pushed and popped is at a lower address in the primary storage than the bottom of the stack. For example, let's say that we pushed the number ```1070```, and then ```972```, and then ```256```, and then ```-7``` onto the stack. The state of the stack after these four ```push``` operations would look something like this:
 
-The stack is what TODO
+![stack](/assets/images/computer-systems/stack.png){: height="60%" width="60%" .align-center}
+
+Although the stack is indeed a LIFO data structure, it's perhaps more appropriate to think of it as a "transparent stack." What this means is that you're able to read and write values _anywhere_ in the stack, even if it is not at the top. You just can't change the order of the elements or remove a stack entry found somewhere in the middle of the stack. For example, using the example above, ```-0x8(%rbp)``` would refer to ```1070```. In this particular case, it would also be equivalent to ```0x20(%rsp)```. 
+
+When things are pushed and popped from a given stack frame, it is the ```%rsp``` frame that moves automatically with pushing and popping, as ```%rsp``` always points to the next free memory space on the stack.
+
+In disassembling C code, you might notice that many assembly functions start off with and end with a similar set of commands:
+
+```scss
+push   %rbp
+mov    %rsp,%rbp
+// some instructions
+pop    %rbp
+```
+
+Let's figure out the purpose of these commands. Recall that even if we're in different functions, _all_ of the function in a given C program share the same stack in the primary memory. However, we don't want the stack data from different functions being jumbled together. This is effectively what these three set of instructions are doing. When we first enter a function, the ```push %rbp``` instruction pushes the address of the previous ```%rbp``` base pointer _onto_ the stack, and the next instruction essentially resets the stack frame. This process looks something like this:
+
+![stack-2](/assets/images/computer-systems/stack-2.png){: height="100%" width="100%" .align-center}
+
+In this way, the previous stack data from any previous functions remains unaffected by any stack operations made by our current function. This process of ```push```ing ```%rbp``` and then ```mov```ing ```%rsp``` to ```%rbp``` is called ***adjusting the stack frame***. To finish up the program, ```pop %rbp``` will restore the old ```%rbp``` with the previous stack data, such that from an outside program function, it effectively looks like the stack wasn't touched by our function after we exit from the function. This functionality is _crucial_ in order for us to be able to call functions within functions.
 
 > ## Moving On...
 

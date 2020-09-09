@@ -10,7 +10,7 @@ Through our discussions on integration techniques, we have learned how to use in
 
 Imagine that we have a simple, straight line that runs from the point $(x, f(x))$ to $(x+\Delta x, f(x+\Delta x))$.
 
-![arclength-1](/assets/images/arclength-1.png)
+![arclength-1](/assets/images/arclength-1.png){: height="80%" width="80%" .align-center}
 
 From using the distance formula from geometry, we know that the total straight-line distance between these two points $\Delta D$ is given by 
 
@@ -18,13 +18,13 @@ $$\Delta D=\sqrt{(x+\Delta x-x)^2+(f(x+\Delta x)-f(x))^2}$$
 
 This is fairly straightforward because we are calculating the _straight-line_ distance between two points. However, what if we instead have an arbitrarily shaped curve that we want to calculate the length of?
 
-![arclength-2](/assets/images/arclength-2.png)
+![arclength-2](/assets/images/arclength-2.png){: height="80%" width="80%" .align-center}
 
 It's a little bit more difficult now, but if we think back to our common theme behind all of integration, a potential solution would be to subdivide the entire length of the curve into very small segments, such that within each segment, the curve _looks_ as if it was a straight line.
 
-![arclength-3](/assets/images/arclength-3.png)
+![arclength-3](/assets/images/arclength-3.png){: height="80%" width="80%" .align-center}
 
-Now, assuming that each width of the interval $\Delta x$ is small enough, we can approximate the length of each of the sub-curves using the straight-line distance formula, an approximation which becomes exact as $\Delta x\rightarrow 0$. What we've done is essentially subdivide our complex problem into many simpler problems. For example, in the above case, we might approximate the distance $D$ between the two points $P_1$, $P_2$ as
+The first and third line segment approximations obviously don't look like they approximate the length of the respective segments well, but if we take the width of each interval $\Delta x$ to be very small, such that they do look like they're good approximations of each of the smooth curve segments, then our approximation will indeed become pretty good. In fact, our approximation will become exact as $\Delta x\rightarrow 0$. What we've done is essentially subdivide our complex problem into many simpler problems. For example, in the above case, we might approximate the distance $D$ between the two points $P_1$, $P_2$ as
 
 $$D\approx\sqrt{(\Delta x)^2+(f(x_0+\Delta x)-f(x_0))^2}$$
 $$+\sqrt{(\Delta x)^2+(f(x_0+2\Delta x)-f(x_0+\Delta x))^2}$$
