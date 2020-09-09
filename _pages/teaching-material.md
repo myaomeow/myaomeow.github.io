@@ -39,6 +39,7 @@ _Note: These topics assume that you're familiar with introductory programming. I
   6. [x86 64-Bit Assembly, Part 3: Reading and Writing Assembly](/computing-systems/x86-assembly-p3/index.html)
   7. [Pointers in C](/computing-systems/pointers/index.html)
   8. [```struct```s and ```.h``` Header Files](/computing-systems/structs-headers/index.html)
+  9. [```malloc()```](/computing-systems/malloc/index.html)
 
 > ## Calculus
 
@@ -63,6 +64,8 @@ _Note: These topics assume that you're familiar with introductory programming. I
   19. [Integration by Parts](/calculus/integration-by-parts/index.html)
   20. [Integrals of Rational Functions](/calculus/integrals-rational-functions/index.html)
   21. [Solids of Revolution](/calculus/solids-of-revolution/index.html)
+  22. [Arc Length](/calculus/arc-length/index.html)
+  23. [Improper Integrals](/calculus/improper-integrals/index.html)
 
 > ## Physics (with Calculus)
   

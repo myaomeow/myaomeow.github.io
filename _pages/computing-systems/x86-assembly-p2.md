@@ -13,7 +13,7 @@ Last time, we ended by discussing the sixteen general-purpose registers found on
 **64-bit register** | **lowest 32 bits** | **lowest 16 bits** | **lowest 8 bytes**
 ```rax``` | ```eax``` | ```ax``` | ```al```
 ```rbx``` | ```ebx``` | ```bx``` | ```bl```
-```rcx``` | ```ecx``` | ```cx``` | ```cl```
+```rcx``` | ```ecx``` | ```cx``` | ```cl```s
 ```rdx``` | ```edx``` | ```dx``` | ```dl```
 ```rsi``` | ```esi``` | ```si``` | ```sil```
 ```rdi``` | ```edi``` | ```di``` | ```dil```
