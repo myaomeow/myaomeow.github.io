@@ -22,10 +22,11 @@ If you find any errors with any of the teaching modules, please let me know thro
   10. [Exception Handling](/java/exception-handling/index.html)
   11. [Abstract Data Types](/java/abstract-data-types/index.html)
   12. [Recursion](/java/recursion/index.html)
-  13. [Stacks and Queues](/java/stacks-and-queues/index.html)
-  14. [Binary Search](/java/binary-search/index.html)
-  15. [Sorting Algorithms, Part 1](/java/sorting-algorithms-part-1/index.html)
-  16. [Sorting Algorithms, Part 2](/java/sorting-algorithms-part-2/index.html)
+  13. [AP Computer Science A Practice FRQs](/java/apcsa-practice-frq/index.html)
+  14. [Stacks and Queues](/java/stacks-and-queues/index.html)
+  15. [Binary Search](/java/binary-search/index.html)
+  16. [Sorting Algorithms, Part 1](/java/sorting-algorithms-part-1/index.html)
+  17. [Sorting Algorithms, Part 2](/java/sorting-algorithms-part-2/index.html)
 
 > ## Computing Systems
 

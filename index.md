@@ -8,6 +8,10 @@ Hello! I'm a current senior at Caltech studying physics and computer science. I'
 I am interested in how fundamental physical principles can be used to explain and model complex biological systems and their interaction with matter. I'm aspiring to become a physician-scientist to advance our understanding of both science and medicine.
 
 # Newsworthy
+> **October 2020**
+
+  1. Honored to be presenting my research on [probiotics in cancer therapy](/projects/#cancer-therapy-using-engineered-probiotics) at the [2020 Biomedical Engineering Society Annual Meeting](https://www.bmes.org/annualmeeting). Although a virtual conference, this will be an exciting opportunity to talk about my research!
+
 > **July 2020**
 
   1. Excited to have been selected for the [Larson Scholar Fellowship](http://resnick.caltech.edu/news/fellowship-program-receives-1-million-gift-925) to support my summer undergraduate research as part of the [Caltech SURF program](http://www.surf.caltech.edu).
