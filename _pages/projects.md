@@ -41,3 +41,7 @@ The small object allocator is a spin on your usual ```malloc()``` implementation
 ### [Plasmid Homology Analyzer](/projects/plasmid-homology-analyzer/index.html)
 
 It has been well-characterized that repeated sequences in a plasmid DNA sequence can result in excision of plasmid components within certain bacteria. This program analyzes plasmid DNA sequences to warn of potential sites of homology and therefore DNA excision.
+
+### [The Dimensions of Social Distancing](/projects/dimensions-of-coronavirus/index.html)
+
+In this thought experiment, I investigate how the "dimensionality" of social distancing can affect the rate of coronavirus infection spread in a given population. This will hopefully help inform the benefits of social distancing especially during the COVID-19 pandemic, and how to most effectively social distance.

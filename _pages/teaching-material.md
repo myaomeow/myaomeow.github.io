@@ -32,6 +32,10 @@ If you find any errors with any of the teaching modules, please let me know thro
 
 _Note: These topics assume that you're familiar with introductory programming. I strongly recommend going over the Java topics above first before starting with this material._
 
+<div class="notice--info">
+<p style="font-size:11pt">For learning x86 assembly (lessons 3 through 5 below), which is often a component of learning about computing systems and also benefits from using a Linux machine, I wrote a tutorial on how to easily code in x86 without SSHing or using a virtual machine <a href="https://repl.it/talk/learn/Writing-x86-Assembly-Using-replit/53344">here</a>. It allows you to code in your own online web-browser using an online IDE called <a href="https://repl.it/"><code class="language-plaintext highlighter-rouge">repl.it</code></a>, which is <em>substantially</em> easier to use.</p>
+</div>
+
   1. [Introduction](/computing-systems/introduction/index.html)
   2. [Bitwise Operations](/computing-systems/bitwise-operations/index.html)
   3. [Integer Types](/computing-systems/integer-types/index.html)
