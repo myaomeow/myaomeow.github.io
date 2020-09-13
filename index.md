@@ -33,3 +33,6 @@ I am interested in how fundamental physical principles can be used to explain an
 > **October 2019**
 
   1. Excited to announce that a paper published by Dr. Anna Maw, one of [AtriaConnect](https://www.atriaconnect.org/)'s volunteer physicians, has been published in [Diagnostics](https://pubmed.ncbi.nlm.nih.gov/31635219/). Our work discusses some of the stakeholder perceptions in implementing point-of-care ultrasound training in resource-limited settings.
+
+# Recent Tweets
+<a class="twitter-timeline" data-lang="en" data-height="800" data-theme="light" href="https://twitter.com/michael_s_yao?ref_src=twsrc%5Etfw">Tweets by michael_s_yao</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -217,7 +217,7 @@ Here, the surface is being exposed to a set of field lines. We can now _divide_ 
 
 ![electrostatics-2](/assets/images/electrostatics-2.png){:height="60%" width="60%" .align-center}
 
-Let $E_j$ be the electric field vector at the location of patch number $j$. The scalar product $\vec{E}_j\cdot\vec{a}_j$ is a number (review the _dot product_ [here](https://tutorial.math.lamar.edu/classes/calcii/dotproduct.aspx)). We call this number the **flux** through that small, infinitesimal bit of surface. We can think of _flux_ as the "rate" of the electric vector field "flowing" into the small area component. The following is a good diagram that illustrate the idea behind flux when calculating the flux of an arbitrary vector field $\vec{v}$ through a surface $\vec{a}$.
+Let $E_j$ be the electric field vector at the location of patch number $j$. The scalar product $$\vec{E}_j \cdot\vec{a}_j$$ is a number (review the _dot product_ [here](https://tutorial.math.lamar.edu/classes/calcii/dotproduct.aspx)). We call this number the **flux** through that small, infinitesimal bit of surface. We can think of _flux_ as the "rate" of the electric vector field "flowing" into the small area component. The following is a good diagram that illustrate the idea behind flux when calculating the flux of an arbitrary vector field $\vec{v}$ through a surface $\vec{a}$.
 
 ![electrostatics-3](/assets/images/electrostatics-3.png){:height="100%" width="100%" .align-center}
 
