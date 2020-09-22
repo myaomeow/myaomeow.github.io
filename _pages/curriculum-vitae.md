@@ -110,7 +110,7 @@ Publicly available, condensed [study guide](https://www.github.com/myaomeow/MCAT
 **Quarter** | **Course** | **Course Description**
 Spring 2021 | ACM95b | Differential Equations and Complex Analysis (Head TA)
 Winter 2021 | ACM95a | Differential Equations and Complex Analysis (Head TA)
-Fall 2020 | Ph125a | Graduate Quantum Mechanics
+Fall 2020 | Ph106a | Graduate Classical Mechanics and Special Topics
 Spring 2020 | ACM95b | Differential Equations and Complex Analysis
 Winter 2020 | Ph12b | Quantum Mechanics
 Fall 2019 | Ph12a | Introduction to Waves

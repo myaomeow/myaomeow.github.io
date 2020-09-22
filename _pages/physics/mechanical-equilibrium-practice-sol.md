@@ -115,18 +115,24 @@ Again, let's refer back to our problem-solving algorithm from Problem 1. First, 
 
 <p style="text-align:center"><img src="/assets/images/mech-practice-3-fd.png" alt="mech-practice-3-fd" height="60%" width="60%"></p>
 
-From [last time](/physics/pulleys/index.html), we know that the pulley gives us that equal magnitude of acceleration and also equal force. This means that $T_M=T_m$ and the acceleration magnitudes are the same. We can then write down the mechanical equilibrium force balance laws for mass $M$, given that we have $mg-T_m=mg-T_M=ma$ for mass $m$:
+From [last time](/physics/pulleys/index.html), we know that the pulley gives us that equal magnitude of acceleration and also equal force. This means that $T_M=T_m$ and the acceleration magnitudes are the same. We can then write down the mechanical equilibrium force balance laws for mass $M$, given that we have $mg-T_m=mg-T_M=0$ for mass $m$ (we set the net force equal to zero because we want the mass $m$ to be in mechanical equilibrium):
 
-  1. $T_M+F_f-Mg\sin\theta=Mg+\mu_sN-Mg\sin\theta=Ma$
+  1. $T_M+F_f-Mg\sin\theta=mg+\mu_sN-Mg\sin\theta=0$
   2. $N-Mg\cos\theta=0$
 
-This tells us that $N=Mg\cos\theta$, and so plugging this into the first equation and using $T_M-mg=ma$ gives us a system of equations to solve for $a$: $a=\frac{mg-Mg(\sin\theta-\mu_s\cos\theta)}{M+m}$. We want the acceleration to be zero, and solving for $M$ gives $M=\frac{m}{\sin\theta-\mu_s\cos\theta}$. 
+Again, note that we set the net force in both the $\hat{x}$ and $\hat{y}$ directions equal to zero because mass $M$ should also be in mechanical equilibrium. The second equation tells us that $N=Mg\cos\theta$, and so plugging this into the first equation and using $T_M-mg=0$ gives us
+
+$$mg+\mu_sMg\cos\theta-Mg\sin\theta=0$$
+
+Therefore, we can conclude that
+
+$$M=\frac{m}{\sin\theta-\mu_s\cos\theta}$$
 
 This represents our first bound on $M$. Notice that in this diagram, the force of friction is in the $+\hat{x}$ direction. Intuitively, this occurs when the mass $M$ is so massive that it has the "desire" to slide down the ramp, even with the extra force of being tethered to mass $m$. $M$ could be very light and therefore be pulled upwards by the mass $m$ as well. In this case, the force of friction would run in the opposite direction, giving us the following force diagrams:
 
 <p style="text-align:center"><img src="/assets/images/mech-practice-3-fd-2.png" alt="mech-practice-3-fd-2" height="60%" width="60%"></p>
 
-This changes our $\hat{x}$ equilibrium equation to $T_m-\mu_sN-Mg\sin\theta=Ma$, and after plugging in $N=Mg\cos\theta$ once more, $M=\frac{m}{\sin\theta+\mu_s\cos\theta}$. Therefore, our range of possible $M$ values before the block begins to slip is
+This changes our $\hat{x}$ equilibrium equation to $T_m-\mu_sN-Mg\sin\theta=0$, and after plugging in $N=Mg\cos\theta$ once more, $M=\frac{m}{\sin\theta+\mu_s\cos\theta}$. Therefore, our range of possible $M$ values before the block begins to slip is
 
 <div class="notice--success">
 <p style="font-size:13pt">$$\frac{m}{\sin\theta+\mu_s\cos\theta}< M <\frac{m}{\sin\theta-\mu_s\cos\theta}$$</p>
