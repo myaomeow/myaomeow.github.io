@@ -52,7 +52,7 @@ We now have two definitions for the kinetic energy of an object: one that involv
 
 > ## Impulse
 
-Often times, especially when two objects are colliding, we're interested in how the momentum changes over a set period of time. We define the **impulse** $\vec{I}$ delivered to an object over a time interval $\Delta t = t_f-f_i$ by
+Often times, especially when two objects are colliding, we're interested in how the momentum changes over a set period of time. We define the **impulse** $\vec{I}$ delivered to an object over a time interval $\Delta t = t_f-t_i$ by
 
 $$\vec{I}=\int_{t_i}^{t_f}dt\text{ }\vec{F}_{\text{net}}=\vec{p}_f-\vec{p}_i$$
 
