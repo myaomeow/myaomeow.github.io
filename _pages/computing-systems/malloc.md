@@ -160,7 +160,7 @@ From above, implicit lists worked by allowing us to go through each of the memor
 
 ![malloc-5](/assets/images/computer-systems/malloc-5.png)
 
-Now, our overhead for each block must include not only the size and allocation bits of the blocks, but also an additional 8 bytes that store a pointer to the next free block in the heap.
+Now, our overhead for each block must include not only the size and allocation bits of the blocks, but also an additional 8 bytes that store a pointer to the next free block in the heap. Many common implementations of explicit lists also often store pointers to not only the next free block, but also the previous free block, effectively implementing a doubly linked list.
 
 > #### More Advanced Techniques
 
@@ -174,24 +174,23 @@ For implicit lists, there are three common ways to search through the heap to fi
 
   1. **First Fit Algorithm**: This method searches the heap from the beginning and finds the first free block that fits the requested size. It can often be fairly fast (especially compared to best fit), but can often cause a large amount of external fragmentation at the beginning of the list.
   2. **Next Fit Algorithm**: This method is similar to first fit, but instead of searching the heap from the beginning, it starts searching from where the previous search finished. This is probably the fastest of the three methods because it avoids re-scanning unhelpful blocks, but coincidentally, some research actually suggests that its fragmentation is the worse out of the three algorithms.
-  2. **Best Fit Algorithm**: This method choices the _best_ free block, which is simply an unallocated block with the fewest bytes left over that still fits the requested size. Because of the optimal fit, this method keeps fragmentation minimal, but it will typically run much slower than the other two methods because you must search through the entire heap every time in order to determine the "best fit."
+  3. **Best Fit Algorithm**: This method choices the _best_ free block, which is simply an unallocated block with the fewest bytes left over that still fits the requested size. Because of the optimal fit, this method keeps fragmentation minimal, but it will typically run much slower than the other two methods because you must search through the entire heap every time in order to determine the "best fit."
 
 As you can see based on these three algorithms, there is often a trade-off between peak memory utilization (space efficiency) and throughput (time efficiency). This makes choosing an "optimal" ```malloc()``` implementation often very difficult.
 
 > #### Explicit List
 
-Because 
+Recall from above that an explicit list involves creating a linked list of the free blocks. We have different options in choosing an **insertion policy** for implementing the explicit list. That is, when we have a newly freed block due to calling ```free()```, where do we insert this newly freed block in our linked list? There are two common options:
 
-> #### First Fit
+  1. **LIFO Insertion Policy:** Insert the freed block at the beginning of the linked list. The benefit is that this algorithm is quite simple to implement and is constant time. However, one downside is that some studies have suggested that external fragmentation is worse than address-ordered insertion policy (discussed below).
+  2. **Address-Ordered Insertion Policy:** Insert freed blocks so that the free list blocks are always in increasing address order. That is, the order of the linked list is the same as the order of the physical freed blocks in memory. The benefit is that some studies have suggested that there is less external fragmentation when compared to a LIFO insertion policy (discussed above). However, one downside is that it requires a linear-time search to know where to insert the freed block when calling ```free()```, which will be slower than a constant-time implementation.
 
-> #### Next Fit
-
-> ### Best Fit
+Technically speaking, you could also have first, next, and best fit algorithms as well using the explicit free list, but first fit is probably the most common algorithm when implementing the free list.
 
 > ### Splitting and Coalescing
 
-> ### More Advanced Techniques
-
 > ### ```sbrk()```
+
+
 
 > ## Try It!
