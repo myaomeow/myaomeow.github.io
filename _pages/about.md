@@ -10,7 +10,8 @@ I am interested in how fundamental physical principles can be used to explain an
 # Newsworthy
 > **October 2020**
 
-  1. Honored to be presenting my research on [probiotics in cancer therapy](/projects/#cancer-therapy-using-engineered-probiotics) at the [2020 Biomedical Engineering Society Annual Meeting](https://www.bmes.org/annualmeeting). Although a virtual conference, this will be an exciting opportunity to talk about my research!
+  1. Gave an informal talk on CAR T-cell and checkpoint blockade technologies to high schools students today! Grateful to have talked with the next generation of future scientists. Link to the recording is [here](https://www.youtube.com/watch?v=4fSCKN2hO34).
+  2. Honored to have presented my research on [probiotics in cancer therapy](/projects/#cancer-therapy-using-engineered-probiotics) at the [2020 Biomedical Engineering Society Annual Meeting](https://www.bmes.org/annualmeeting). Although a virtual conference, this was an exciting opportunity to talk about my research and meet with other researchers!
 
 > **July 2020**
 

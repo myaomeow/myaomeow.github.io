@@ -5,7 +5,7 @@ title: "Leisure"
 
 _"If we end this chase, the fun stops. Don't you get it? The happiness is in the pursuit itself." ~anonymous~_
 
-## People
+## People and Pets
 
 > **2017 Shapiro Lab Holiday Party** 
 > ![](/assets/images/shapiro-2017.jpg)
@@ -19,3 +19,6 @@ _"If we end this chase, the fun stops. Don't you get it? The happiness is in the
 
 > **Fun with Friends**
 > ![](/assets/images/friends.jpg)
+
+> :cat: **Kiwi and Lychee** :cat:
+> ![](/assets/images/cats.png)

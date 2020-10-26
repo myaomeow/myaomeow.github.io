@@ -52,6 +52,11 @@ June 2014 | **SAT Subject Test**: 800 Math II, 800 Biology, 800 Chemistry
   2. **Yao, M**; Uhr, L; Daghlian, G; Amrute, JM; Deshpande, R; Mathews, B, MD; Patel, SA, MD; Henri, R, MD; Liu, G, MD; Reierson, K, MD; Johnson, G, MD. (2020). Demonstration of a longitudinal action medical mission (LAMM) model to teach point-of-care ultrasound in resource-limited settings (Published in [POCUS Journal](https://pocusjournal.com/article/2020-05-01p20-25/))
   3. Maw, AM, MD; Galvin, B, NP; Henri, R, MD; **Yao, M**; Exame, B, MD; Fleshner, M, MD; Fort, MP, MD; Morris, MA, MD. (2019). Stakeholder perceptions of point-of-care ultrasound implementation in resource-limited settings (Published in [Diagnostics](https://pubmed.ncbi.nlm.nih.gov/31635219/))
 
+> ## Presentations
+
+  1. Immunotherapy: Clinical: Underlying Mechanisms and Clinical Applications. (2020 Oc 25). Caltech Medlife Tech in Medicine Seminar Series. *Invited*
+  2. Thermal Bioswitches for Localized Activation of Microbes. (2020 Oct 15). 2020 Biomedical Engineering Society Virtual Meeting.
+
 > ## Honors and Awards
 
 2020 | [Larson Scholar Fellowship](http://resnick.caltech.edu/news/fellowship-program-receives-1-million-gift-925), Caltech
