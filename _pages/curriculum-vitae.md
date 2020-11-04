@@ -5,7 +5,7 @@ toc: true
 toc_label: "Navigation"
 ---
 
-Check out the PDF version [here](https://pdfhost.io/v/OyIgKPsBF_YaoMichaelCVpdf.pdf).
+Check out the PDF version [here](https://pdfhost.io/v/wx9v~XZmh_YaoMichaelCVpdf.pdf).
 
 > ## Academic Merits
 
@@ -19,24 +19,29 @@ June 2014 | **SAT Subject Test**: 800 Math II, 800 Biology, 800 Chemistry
 
 ### **Undergraduate Research Fellow** with [Mikhail Shapiro](http://shapirolab.caltech.edu/) @Caltech (09/17 - Present)
 
-  - Microbial and T-cell engineering, design and optimization of thermally-controlled genetic circuits for transcriptional control
-  - Design of CRISPR-based systems for immunotherapeutic applications and gene regulation, with applications for chimeric antigen receptor (CAR) T-cell engineering
-  - Manipulating cellular water diffusivity to enhance MRI image contrast
-  - Theoretical modeling of nanoscale biomagnetic hysteresis and cellular responses to external magnetic fields
+  - Engineered probiotic bacteria and CAR T-Cells to be thermally actuated using focused ultrasound to spatially localize immunotherapy
+  - Manipulated cellular water diffusivity to act as a sensor for hypoxia in MRI imaging
  
 ### **Research Intern** with Dieter Gruenert @Department of Otolaryngology, UCSF (06/15 - 07/17)
 
-  - Directed stem cell differentiation. Gene editing of the human GCM2 gene in CFBE41o- immortalized cells and primary induced pluripotent stem cells (iPSCs) to introduce genetically expressed markers to track gene expression in the parathyroid differentiation pathway
-  - Seamless gene correction of Class II W1282X and ∆F508 CF genetic mutations
+  - Studied differentiation of stem cells to treat hypoparathyroidism using regenerative medicine
+  - Corrected W1282X and $\Delta$F508 genetic mutations using CRISPR-Cas9 editing to cure cystic fibrosis
 
 ### **Shadowing Student** @City of Hope Medical Center in Duarte, CA (06/19 - 07/19)
 
-  - Four-week preceptorship program (100+ hours) shadowing doctors and professionals in academic medicine from various subspecialties in medicine, including pathology, hematology, clinical trial research, medical oncology, palliative care, surgery and associated surgical subspecialties
-  - Learned from various MD-PhD physician scientists about their respective career paths and life experience, reaffirming my desire to become a physician scientist
+  - Four-week preceptorship program (100+ hours) shadowing doctors and professionals in academic medicine from pathology, hematology, clinical trial research, medical oncology, palliative care, surgery and associated surgical subspecialties
 
 ### **Shadowing Student** @Huntington Memorial Hospital in Pasadena, CA (06/18-08/18)
 
-  - Six-week preceptorship program (200+ hours) shadowing physicians and hospitalists from various specialties in medicine, including pulmonary intensive care, emergency medicine, pediatric internal medicine, opthalmology, cardiology internal medicine, diagnostic and interventional radiology, pathology, neurosurgery, general surgery and associated surgical subspecialties
+  - Six-week preceptorship program (200+ hours) shadowing physicians and hospitalists from pulmonary intensive care, emergency medicine, pediatric internal medicine, opthalmology, cardiology internal medicine, diagnostic and interventional radiology, pathology, and surgery
+
+> ## Publications, Presentations, and Manuscripts
+
+  1. Abedi MA$^{\dagger}$, **Yao M$^{\dagger}$**, Mittelstein DR, Bar-Zion A, Swift M, Lee-Gosselin A, Shapiro M. (2020). Thermal bioswitches for localized activation of microbial immunotherapies. (_In Preparation for Submission_, $^{\dagger}$Equal contribution)
+  2. Immunotherapy: Clinical: Underlying Mechanisms and Clinical Applications. (2020 Oc 25). Caltech Medlife Tech in Medicine Seminar Series. (*Invited*, [Recording](https://www.youtube.com/watch?v=4fSCKN2hO34))
+  3. Thermal Bioswitches for Localized Activation of Microbes. (2020 Oct 15). Presented at 2020 Biomedical Engineering Society (BMES) Virtual Meeting
+  4. **Yao M**, Uhr L, Daghlian G, Amrute JM, Deshpande R, Mathews B, Patel SA, Henri R, Liu G, Reierson K, Johnson G. (2020). Demonstration of a longitudinal medical education model (LMEM) to teach point-of-care ultrasound in resource-limited settings (Published in [POCUS Journal](https://pocusjournal.com/article/2020-05-01p20-25/))
+  5. Maw AM, Galvin B, Henri R, **Yao M**, Exame B, Fleshner M, Fort MP, Morris MA. (2019). Stakeholder perceptions of point-of-care ultrasound implementation in resource-limited settings (Published in [Diagnostics](https://pubmed.ncbi.nlm.nih.gov/31635219/))
 
 > ## General
 
@@ -45,17 +50,6 @@ June 2014 | **SAT Subject Test**: 800 Math II, 800 Biology, 800 Chemistry
   - **Operating Systems**: Linux (_Proficient_) · Mac (_Proficient_) · Windows (_Passable_)
   - **IDEs**: Jupyter Notebook · IntelliJ · Eclipse · Vim · ```repl.it```
   - **Computational Tools**: Mathematica (_Proficient_) · R (_Proficient_)
-
-> ## Publications
-
-  1. Abedi, MA$^{\dagger}$; **Yao, M$^{\dagger}$**; Mittelstein, DR; Bar-Zion, A; Swift, M; Lee-Gosselin, A; Shapiro, M. (2020). Thermal bioswitches for localized activation of microbial immunotherapies. (_In Preparation for Submission_, $^{\dagger}$Equal contribution)
-  2. **Yao, M**; Uhr, L; Daghlian, G; Amrute, JM; Deshpande, R; Mathews, B, MD; Patel, SA, MD; Henri, R, MD; Liu, G, MD; Reierson, K, MD; Johnson, G, MD. (2020). Demonstration of a longitudinal action medical mission (LAMM) model to teach point-of-care ultrasound in resource-limited settings (Published in [POCUS Journal](https://pocusjournal.com/article/2020-05-01p20-25/))
-  3. Maw, AM, MD; Galvin, B, NP; Henri, R, MD; **Yao, M**; Exame, B, MD; Fleshner, M, MD; Fort, MP, MD; Morris, MA, MD. (2019). Stakeholder perceptions of point-of-care ultrasound implementation in resource-limited settings (Published in [Diagnostics](https://pubmed.ncbi.nlm.nih.gov/31635219/))
-
-> ## Presentations
-
-  1. Immunotherapy: Clinical: Underlying Mechanisms and Clinical Applications. (2020 Oc 25). Caltech Medlife Tech in Medicine Seminar Series. *Invited*
-  2. Thermal Bioswitches for Localized Activation of Microbes. (2020 Oct 15). 2020 Biomedical Engineering Society Virtual Meeting.
 
 > ## Honors and Awards
 
@@ -92,9 +86,13 @@ _[Landing Page (In Progress)](https://chatter-usc.github.io)_
 
 Website and mobile iOS app to make information on contraceptives more accessible. Users are able to see what their (anonymized) social media contacts and community members use for birth control and sexual health. By making contraceptive usage data more transparent and easily accessible, we hope to encourage more engaged conversations between patients and their healthcare providers. This project is a collaboration between the [USC EMERGE Lab](https://www.theemergelab.com) and [AtriaConnect](https://www.atriaconnect.org). Written using ```Swift```, ```Xcode```, ```Firebase```, ```HTML/CSS```, and ```Jekyll```.
 
-### **Plasmid Homology Analyzer** (June 2020)
+### **Dimensions of Social Distancing for COVID-19** (July 2020)
 
-[Java program](/projects/plasmid-homology-analyzer/index.html) that takes a DNA sequence string and checks for potential sites of DNA recombination given a set of parameters. Takes into account minimum homology length, maximum allows homology mismatch, and predicted DNA secondary structures to output potential sites where DNA could be excised due to sequence homology.
+Using computational modeling and analytical methods from thermodynamics, I demonstrated [here](/projects/dimensions-of-coronavirus/index.html) that more effective social distancing measures could be put in place even if only a small percentage of the population socially distances.
+
+### **Recombination Checker** (June 2020)
+
+This [Java program](/projects/plasmid-homology-analyzer/index.html) takes a DNA sequence string and checks for potential sites of DNA recombination given a set of parameters. It takes into account minimum homology length, maximum allows homology mismatch, and predicted DNA secondary structures to output potential sites where DNA could be excised due to sequence homology.
 
 ### **MCAT Study Guide** (June 2019 - December 2019)
 
