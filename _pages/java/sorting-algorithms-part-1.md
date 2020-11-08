@@ -88,6 +88,8 @@ public static List<Integer> bubbleSort(List<Integer> toSort) {
 
 It turns out that while both bible sorting and straight insertion sorting are (relatively) easy algorithms to implement, they are not particular efficient and take quite a while to run for large data sets. In the sections below, we'll discuss more efficient algorithms to sort different lists.
 
+<!--
+
 > ## Quicksort
 
 Quick sort is a much faster sorting algorithm that uses recursion to divide the array into smaller and smaller sub-arrays that can be more easily sorted. The basic algorithm is
@@ -311,3 +313,5 @@ Read about the _stability_ of different sorting algorithms in this Wikipedia lin
 By running the program below, compare the time efficiency of the four sorting algorithms that we discussed above in sorting a random array of integers. What do you notice about their relative behaviors? (_Note:_ For the default list size of ```numElements = 50000```, the program takes about 2 minutes to run, so be patient. Feel free to change ```numElements``` to explore the relative behaviors of either larger or smaller data sets. Make sure to read over the code as well so that you're familiar with what is going on. Click on the little :file_folder: icon at the top left in the plugin to look over all of the different sorting algorithm implementations.)
 
 <iframe height="1000px" width="100%" src="https://repl.it/@myaomeow/SortingAlgorithms?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+-->

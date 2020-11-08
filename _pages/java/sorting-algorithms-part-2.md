@@ -1,7 +1,7 @@
 ---
 permalink: /java/sorting-algorithms-part-2/
 author_profile: false
-title: "Sorting Algorithms, Part 2: Heap Sorting"
+title: "Sorting Algorithms, Part 2: More Advanced Algorithms"
 toc: true
 toc_label: "Contents"
 ---
