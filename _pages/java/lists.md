@@ -89,10 +89,6 @@ As we've seen, ```LinkedList```s are another great way to represent lists in Jav
 
 > ### Problem 1
 
-TODO
-
-> ### Problem 2
-
 DNA is composed of four different types of "building blocks," which we'll refer to as ```A```, ```G```, ```C```, and ```T```. A valid DNA sequence will be composed of these four types of characters, which can be either uppercase or lower case. For example ```AcTggCGa``` is a valid 8-character DNA sequence. Fill in the following methods for our ```class``` representation of DNA below:
 
 ```java
@@ -244,7 +240,7 @@ Testing contains() method...
 1 0
 ```
 
-> ### Problem 3
+> ### Problem 2
 
 In this problem, we will investigate the differences ```ArrayList```s and ```LinkedList```s we talked about earlier. More specifically, ```LinkedList```s are much faster at inserting and removing different list elements, while ```ArrayList```s are much faster at accessing and writing to different list elements. First, create a new Java ```class``` called ```Compare.java```, and copy-paste the following code.
 

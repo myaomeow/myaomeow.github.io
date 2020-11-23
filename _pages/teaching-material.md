@@ -27,6 +27,7 @@ If you find any errors with any of the teaching modules, please let me know thro
   15. [Binary Search](/java/binary-search/index.html)
   16. [Sorting Algorithms, Part 1](/java/sorting-algorithms-part-1/index.html)
   17. [Sorting Algorithms, Part 2](/java/sorting-algorithms-part-2/index.html)
+  18. [Sets and Hashing](/java/sets-and-hashing/index.html)
 
 > ## Computing Systems
 

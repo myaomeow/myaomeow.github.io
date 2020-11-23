@@ -42,7 +42,7 @@ remote_theme: mmistakes/minimal-mistakes
 # paginate: 0 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Pacific
-# logo: "/assets/images/logo.png"
+# logo: "/assets/favicon_package_v0/favicon.ico"
 
 include:
   - _pages
