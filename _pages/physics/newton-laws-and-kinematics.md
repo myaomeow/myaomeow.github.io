@@ -193,6 +193,6 @@ Consider a one-dimensional system with a position-dependent force $F(x)$ acting 
   1. Take $$F(x)=e^{-\vert x\vert}$$. What is the work required to 'push' the particle from $$x=-1$$ to $$x=1$$?
   2. Take $$F(x)=e^{-\vert x\vert}$$. What is the work required to 'push' the particle from $$x=-\infty$$ to $$x=\infty$$?
   3. Take $F(x)=xe^{-x}$. What is the total energy stored in the system between $x=0$ and $x=\infty$?
-  4. It is not possible to calculate the total energy of the system described in Part (3) above from $x=-\infty$ to $x=\infty$. Why? \textit{Hint: What is the value of $F(x)$ at $x=-\infty$?}
+  4. It is not possible to calculate the total energy of the system described in Part (3) above from $x=-\infty$ to $x=\infty$. Why? *Hint: What is the value of $F(x)$ at $x=-\infty$?*
 
 [Solution](/physics/newton-laws-and-kinematics-sol/index.html#problem-3){: .btn .btn--info}
