@@ -72,6 +72,8 @@ namesToAges.put("Daniel", 3);
 namesToAges.put("Elizabeth", 21);
 ```
 
+The complete list of map interface methods can be found in the official Java documentation [here](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html).
+
 > ## ```HashMap```s vs. ```Hashtable```s
 
 From the code above, you may have seen that our chosen Java implementation of the map interface is the ```HashMap```. Another common Java implementation is the ```Hashtable```, which can be instantiated very similar to what we saw above. For example, we could have just as easily written
@@ -96,7 +98,7 @@ As a side note, you might notice that there are a lot of similarities between ou
 
 This is a fairly involved exercise and so we've tried to break it down piece by piece here. For that reason, *it is **strongly** encouraged that you go through the following problems in the order that they're presented.*
 
-To begin, navigate to the template ```repl``` at [this link](https://repl.it/@myaomeow/Maps#Solutions/MyHashMapSol.java). 
+To begin, navigate to the template ```repl``` at [this link](https://repl.it/@myaomeow/Maps#Main.java). 
 
 > ### Problem 1
 
