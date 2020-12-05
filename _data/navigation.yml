@@ -3,8 +3,10 @@ main:
     url: /about/
   - title: "Curriculum Vitae"
     url: /curriculum-vitae/
-  - title: "Teaching"
+  - title: "Tutoring"
     url: /teaching-material/
+  - title: "Advising"
+    url: /advising/
   - title: "Projects"
     url: /projects/
   - title: "Leisure"
