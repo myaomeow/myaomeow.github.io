@@ -7,8 +7,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/perelman-splash-page.jpg
   actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+    - label: "Contact Me"
+      url: "/advising/index.html#contact"
   caption: "Photo Credit: [**Perelman**](https://structuretone.com/projects/penn-medicine-perelman-center-for-advanced-medicine/)"
 excerpt: "Getting into medical school is now harder than ever. I want to help you navigate this process and get you into your dream medical school."
 intro: 
@@ -25,27 +25,27 @@ feature_row:
     alt: "writing-essays"
     title: "AMCAS Primaries & Secondaries"
     excerpt: "As you're thinking of sending out your AMCAS applications, my goal is to help you use your activity descriptions, personal statement, and secondary essays to craft a story that's uniquely your own."
-    url: "#test-link"
+    url: "/advising/essay-excerpts/index.html"
     btn_label: "Essay Excerpts"
     btn_class: "btn--primary"
   - image_path: /assets/images/unsplash-gallery-image-3-th.png
     alt: "interview"
     title: "Interview and Post-Interview"
     excerpt: "Based on my own interview experiences, I will help you prepare for your interviews, write update letters and letters of interest, and ultimately choose a medical school to call home."
-    url: "#test-link"
+    url: "/advising/school-comments/index.html"
     btn_label: "Thoughts by School"
     btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/med-stats.png
     alt: "med-stats"
     title: <p align="left">How was your application cycle?</p>
-    excerpt: <p align="left" style="font-size:14pt">I applied exclusively to MD-PhD programs in 2020 for matriculation in 2021. As a result, I learned not only how to successfully apply to and interview with the medical schools, but also the graduate schools at institutions across the United States. An overview of my application trail is to the right. To give you a baseline, the average MD matriculant in the United States receives 3 interview invitations, and the average MD applicant receives <b>less than 2</b> interview invitations. The average medical school applicant applies to an average of 16 medical schools, giving an average interview invitation percentage of less than 12%.</p>
+    excerpt: <p align="left">I applied exclusively to MD-PhD programs in 2020 for matriculation in 2021. As a result, I learned not only how to successfully apply to and interview with the medical schools, but also the graduate schools at institutions across the United States. An overview of my application trail is to the right. To give you a baseline, the average MD matriculant in the United States receives 3 interview invitations, and the average MD applicant receives <b>less than 2</b> interview invitations. The average medical school applicant applies to an average of 16 medical schools, giving an average interview invitation percentage of less than 12%.</p>
 feature_row3:
   - image_path: /assets/images/med-interviews.png
     alt: "med-interviews"
-    title: "Where did you interview?"
+    title: <p>Where did you interview?</p>
     excerpt: 'The schools I interviewed at are shown to the left, half of which were first-round interviews. I understand that every school is different: some schools are strong in imaging research and integrating clinical technologies into the medical curriculum, while other schools are better at studying diabetes and community involvement. I can help you understand the unique strengths and weaknesses of each program to tailor your applications on a school-specific basis.'
-    url: "#test-link"
+    url: "/advising/school-comments/index.html"
     btn_label: "Thoughts by School"
     btn_class: "btn--info"
 ---
@@ -58,7 +58,7 @@ feature_row3:
 
 {% include feature_row id="feature_row3" type="left" %}
 
-<div width="50%">
+<a id="contact"></a>
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mayldrdl" method="POST">
   <h2 align="center">I'm interested! How can we work together?</h2>
   <p style="font-size:14pt" align="center">Great! Get in touch with me via <a href="mailto:michaelyao2017@gmail.com">email</a>, or feel free to fill out the form here (it also goes straight to my personal email). Let's set up an initial consultation, free of charge: we'll discuss compatibility, initial assessments, availabilities, rates, and payment options. Let's get to know each other and if there's a good fit, we can begin working on your application.</p>
@@ -71,6 +71,7 @@ feature_row3:
     <textarea rows="10" name="message" id="message" placeholder="Tell me a little about yourself and how I can best help you here! Your message will go straight to my personal inbox and I'll get back to you within 2-3 business days." required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
-  <input type="submit" value="Submit" style="text-align: center">
+  <div style="text-align: center">
+  <input type="submit" value="     Submit     " style="text-align: center; background-color: rgb(112, 119, 124);color: rgb(255, 255, 255);">
+  </div>
 </form>
-</div>
