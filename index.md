@@ -8,6 +8,10 @@ Hello! I'm a current senior at Caltech studying physics and computer science. I'
 I am interested in how fundamental physical principles can be used to explain and model complex biological systems and their interaction with matter. I'm aspiring to become a physician-scientist to advance our understanding of both science and medicine.
 
 # Newsworthy
+> **December 2020**
+
+  1. Excited to be attending and presenting at AIChE's 11th Annual [International Conference on Biomolecular Engineering](https://www.aiche.org/sbe/conferences/international-conference-biomolecular-engineering-icbe/2021) in early January 2021. Will be a fun conference on many up-and-coming technologies in biomaterials, cellular and protein engineering, and synthetic biology.
+
 > **October 2020**
 
   1. Gave an informal talk on CAR T-cell and checkpoint blockade technologies to high schools students today! Grateful to have talked with the next generation of future scientists. Link to the recording is [here](https://www.youtube.com/watch?v=4fSCKN2hO34).
