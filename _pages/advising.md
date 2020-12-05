@@ -12,7 +12,7 @@ header:
   caption: "Photo Credit: [**Perelman**](https://structuretone.com/projects/penn-medicine-perelman-center-for-advanced-medicine/)"
 excerpt: "Getting into medical school is now harder than ever. I want to help you navigate this process and get you into your dream medical school."
 intro: 
-  - excerpt: <p style="font-size:14pt">My name is <b>Michael Yao</b> and I applied to medical school during the 2020-2021 application cycle. I graduated from Caltech in 2021 with a BS in Applied Physics, and I maintained a 4.0 GPA and scored a 520 on the MCAT in 2019 (129/129/132/130). I hope to use my expertise to help you become a physician.</p>
+  - excerpt: <p style="font-size:14pt">My name is <b>Michael Yao</b> and I applied to medical school during the 2020-2021 application cycle. I graduated from Caltech in 2021 with a BS in Applied Physics, and I maintained a 4.0 GPA and scored a 520 on the MCAT in 2019 (129/129/132/130). I hope to use my expertise to help you on your path to become a physician.</p>
 feature_row:
   - image_path: /assets/images/unsplash-gallery-image-1-th.png
     alt: "preparing-to-apply"
@@ -45,8 +45,8 @@ feature_row3:
     alt: "med-interviews"
     title: <p>Where did you interview?</p>
     excerpt: 'The schools I interviewed at are shown to the left, half of which were first-round interviews. I understand that every school is different: some schools are strong in imaging research and integrating clinical technologies into the medical curriculum, while other schools are better at studying diabetes and community involvement. I can help you understand the unique strengths and weaknesses of each program to tailor your applications on a school-specific basis.'
-    url: "/advising/school-comments/index.html"
-    btn_label: "Thoughts by School"
+    url: "https://pdfhost.io/v/fdHS5yjby_mstpdata202122pdf.pdf"
+    btn_label: "2021-22 MSTP Data Sheet"
     btn_class: "btn--info"
 ---
 
