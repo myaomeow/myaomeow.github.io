@@ -2,6 +2,8 @@
 title: "Medical School Admissions Advising"
 layout: splash
 permalink: /advising/
+html:
+  scroll-behavior: smooth
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
