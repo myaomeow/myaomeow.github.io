@@ -29,6 +29,7 @@ If you find any errors with any of the teaching modules, please let me know thro
   17. [Sorting Algorithms, Part 2](/java/sorting-algorithms-part-2/index.html)
   18. [Sets and Hashing](/java/sets-and-hashing/index.html)
   19. [Maps and Hashing (continued)](/java/maps-and-hashing/index.html)
+  20. [Evil Hangman (Project)](/java/evil-hangman/index.html)
 
 > ## Computing Systems
 
