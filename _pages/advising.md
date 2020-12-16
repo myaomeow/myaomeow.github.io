@@ -47,7 +47,7 @@ feature_row3:
     alt: "med-interviews"
     title: <p>Where did you interview?</p>
     excerpt: 'The schools I interviewed at are shown to the left, half of which were first-round interviews. I understand that every school is different: some schools are strong in imaging research and integrating clinical technologies into the medical curriculum, while other schools are better at studying diabetes and community involvement. I can help you understand the unique strengths and weaknesses of each program to tailor your applications on a school-specific basis.'
-    url: "https://pdfhost.io/v/fdHS5yjby_mstpdata202122pdf.pdf"
+    url: "/advising/mstp-data.pdf"
     btn_label: "2021-22 MSTP Data Sheet"
     btn_class: "btn--info"
 ---
