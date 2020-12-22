@@ -228,3 +228,9 @@ Using the ```repl``` below, answer the following questions:
 
 <iframe height="900px" width="100%" src="https://repl.it/@myaomeow/Hashing?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/sorting-algorithms-part-2/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/maps-and-hashing/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

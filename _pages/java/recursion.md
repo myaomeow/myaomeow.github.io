@@ -254,3 +254,10 @@ _This problem is adapted from CS161 at [Colorado State](https://www.cs.colostate
   2. Write a method ```digitalRoot(int x)``` that determines the _digital root_ of ```x```. The digital root of a number is defined as the single digit number that is left after repeatedly summing the digits of a number. For example, the digital root of ```2946``` is ```3```, since ```2+9+4+6=21```, and then ```2+1=3```. 
 
 <iframe height="1000px" width="100%" src="https://repl.it/@myaomeow/DigitalRootRecursion?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/abstract-data-types/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/apcsa-practice-frq/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

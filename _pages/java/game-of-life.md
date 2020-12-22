@@ -156,3 +156,10 @@ For beginner programmers, one of the most effective strategies for debugging is 
 > ## Solutions
 
 An example of the solution code can be found in the ```sol``` directory within the linked repository from above.
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/abstraction/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/login-info/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

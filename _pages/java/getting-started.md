@@ -54,3 +54,10 @@ Finally, if none of these options seem like a good fit, I will be integrating [`
 The main white box is where you can write your code. In this case, our ```class``` isn't called ```HelloWorld```, but rather ```Main```. Once we have written our code, we can run it by clicking the green arrow at the top. Any output from your program will show up in dark box after some information starting with ```java -classpath```, which basically is simply indicating that your program is still running. Try running the program above now.
 
 A note of caution: if you choose to write your code in the ```repl.it``` plugins, make sure to save your code to a local text editor like Microsoft Word often. This is because if you accidentally close out of your web browser or refresh the page, then all of your code that you've written will be lost. 
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/teaching-material/index.html#java" class="btn btn--info" style="font-size:13pt">Back to Main Page</a></div>
+  <div style="text-align: center;"><a href="/java/fields-and-methods/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

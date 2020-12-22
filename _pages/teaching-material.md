@@ -1,103 +1,637 @@
 ---
 permalink: /teaching-material/
 title: "Teaching Material"
-toc: true
-toc_label: "Topics"
+toc: false
 ---
 
-Education is important. In working with high school students and college undergraduates, I have developed a number of teaching materials on a variety of topics ranging from computer science and mathematics to physics and chemistry. These are by no means comprehensive, but can serve as helpful review guides and/or topic outlines for current students.
+<head>
+  <style>
+    * {
+      box-sizing: border-radius;
+      font-family: 'Rubik', sans-serif;
+    }
 
-If you find any errors with any of the teaching modules, please let me know through email at myao at caltech dot edu.
+    .items {
+      width: 100%;
+      background: #fffffe;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      border-top: 10px solid #0B5AA2;
+      margin:auto;
+    }
 
-> ## Java
+    .items-head p {
+      padding: 5px 20px;
+      margin: 10px;
+      color: #0B5AA2;
+      font-weight: bold;
+      font-size: 20px;
+    }
 
-  1. [Getting Started](/java/getting-started/index.html)
-  2. [Fields and Methods](/java/fields-and-methods/index.html)
-  3. [Variables, Conditionals, and Loops](/java/variables-conditionals-and-loops/index.html)
-  4. [Arrays and Matrices](/java/arrays-and-matrices/index.html)
-  5. [Lists: ```ArrayList```s and ```LinkedList```s](/java/lists/index.html)
-  6. [Abstraction](/java/abstraction/index.html)
-  8. [Exercise 1: Conway's Game of Life](/java/game-of-life/index.html)
-  9. [Exercise 2: Storing User Data](/java/login-info/index.html)
-  10. [Exception Handling](/java/exception-handling/index.html)
-  11. [Abstract Data Types](/java/abstract-data-types/index.html)
-  12. [Recursion](/java/recursion/index.html)
-  13. [AP Computer Science A Practice FRQs](/java/apcsa-practice-frq/index.html)
-  14. [Stacks and Queues](/java/stacks-and-queues/index.html)
-  15. [Binary Search](/java/binary-search/index.html)
-  16. [Sorting Algorithms, Part 1](/java/sorting-algorithms-part-1/index.html)
-  17. [Sorting Algorithms, Part 2](/java/sorting-algorithms-part-2/index.html)
-  18. [Sets and Hashing](/java/sets-and-hashing/index.html)
-  19. [Maps and Hashing (continued)](/java/maps-and-hashing/index.html)
-  20. [Evil Hangman (Project)](/java/evil-hangman/index.html)
+    .items-head hr {
+      width: 20%;
+      margin: 0px 30px;
+      border: 1px solid #0B5AA2;
+    }
 
-> ## Computing Systems
+    .items-body {
+      padding: 10px;
+      margin: 10px;
+      display: grid;
+      grid-gap: 10px;
+    }
 
-_Note: These topics assume that you're familiar with introductory programming. I strongly recommend going over the Java topics above first before starting with this material._
+    .items-body-content {
+      padding: 10px;
+      padding-right: 0px;
+      display: grid;
+      grid-template-columns: 10fr 1fr;
+      font-size: 13px;
+      grid-gap: 10px;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
 
-<div class="notice--info">
-<p style="font-size:11pt">For learning x86 assembly (lessons 3 through 5 below), which is often a component of learning about computing systems and also benefits from using a Linux machine, I wrote a tutorial on how to easily code in x86 without SSHing or using a virtual machine <a href="https://repl.it/talk/learn/Writing-x86-Assembly-Using-replit/53344">here</a>. It allows you to code in your own online web-browser using an online IDE called <a href="https://repl.it/"><code class="language-plaintext highlighter-rouge">repl.it</code></a>, which is <em>substantially</em> easier to use.</p>
+    .items-body-content:hover {
+      border-radius: 15px;
+      border: 1px solid #0B5AA2;
+    }
+
+    .items-body-content i {
+      align-self: center;
+      font-size: 15px;
+      color: #F69800;
+      font-weight: bold;
+      animation: icon 1.5s infinite forwards;
+    }
+
+    .items-orange {
+      width: 100%;
+      background: #fffffe;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      border-top: 10px solid #F69800;
+      margin:auto;
+    }
+
+    .items-head-orange p {
+      padding: 5px 20px;
+      margin: 10px;
+      color: #F69800;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .items-head-orange hr {
+      width: 20%;
+      margin: 0px 30px;
+      border: 1px solid #F69800;
+    }
+
+    .items-body-orange {
+      padding: 10px;
+      margin: 10px;
+      display: grid;
+      grid-gap: 10px;
+    }
+
+    .items-body-content-orange {
+      padding: 10px;
+      padding-right: 0px;
+      display: grid;
+      grid-template-columns: 10fr 1fr;
+      font-size: 13px;
+      grid-gap: 10px;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+
+    .items-body-content-orange:hover {
+      border-radius: 15px;
+      border: 1px solid #F69800;
+    }
+
+    .items-body-content-orange i {
+      align-self: center;
+      font-size: 15px;
+      color: #F69800;
+      font-weight: bold;
+      animation: icon 1.5s infinite forwards;
+    }
+
+    .items-green {
+      width: 100%;
+      background: #fffffe;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      border-top: 10px solid #7EAB55;
+      margin:auto;
+    }
+
+    .items-head-green p {
+      padding: 5px 20px;
+      margin: 10px;
+      color: #7EAB55;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .items-head-green hr {
+      width: 20%;
+      margin: 0px 30px;
+      border: 1px solid #7EAB55;
+    }
+
+    .items-body-green {
+      padding: 10px;
+      margin: 10px;
+      display: grid;
+      grid-gap: 10px;
+    }
+
+    .items-body-content-green {
+      padding: 10px;
+      padding-right: 0px;
+      display: grid;
+      grid-template-columns: 10fr 1fr;
+      font-size: 13px;
+      grid-gap: 10px;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+
+    .items-body-content-green:hover {
+      border-radius: 15px;
+      border: 1px solid #7EAB55;
+    }
+
+    .items-body-content-green i {
+      align-self: center;
+      font-size: 15px;
+      color: #7EAB55;
+      font-weight: bold;
+      animation: icon 1.5s infinite forwards;
+    }
+
+    .items-purple {
+      width: 100%;
+      background: #fffffe;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      border-top: 10px solid #6F37A6;
+      margin:auto;
+    }
+
+    .items-head-purple p {
+      padding: 5px 20px;
+      margin: 10px;
+      color: #6F37A6;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .items-head-purple hr {
+      width: 20%;
+      margin: 0px 30px;
+      border: 1px solid #6F37A6;
+    }
+
+    .items-body-purple {
+      padding: 10px;
+      margin: 10px;
+      display: grid;
+      grid-gap: 10px;
+    }
+
+    .items-body-content-purple {
+      padding: 10px;
+      padding-right: 0px;
+      display: grid;
+      grid-template-columns: 10fr 1fr;
+      font-size: 13px;
+      grid-gap: 10px;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+
+    .items-body-content-purple:hover {
+      border-radius: 15px;
+      border: 1px solid #6F37A6;
+    }
+
+    .items-body-content-purple i {
+      align-self: center;
+      font-size: 15px;
+      color: #6F37A6;
+      font-weight: bold;
+      animation: icon 1.5s infinite forwards;
+    }
+
+    @keyframes icon {
+      0%,100% {
+        transform: translate(0px);
+      }
+      50% {
+        transform: translate(3px);
+      }
+    }
+
+
+    /* The grid: Four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+
+    /* Style the images inside the grid */
+    .column img {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+
+    .column img:hover {
+      opacity: 1;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+
+Welcome to my teaching page! Here is a repository of different learning modules geared towards high school students and college students enrolled in intro classes. Click on a topic below to get started.
+
+To learn more about college and medical school admissions advising, click [here](/advising/).
+
+<div class="row">
+  <a href="#java"><div class="column">
+    <img src="/assets/images/java.png" alt="java">
+  </div></a>
+  <a href="#c"><div class="column">
+    <img src="/assets/images/c.png" alt="c">
+  </div></a>
+</div>
+<div class="row">
+  <a href="#physics"><div class="column">
+    <img src="/assets/images/physics.png" alt="physics">
+  </div></a>
+  <a href="#calculus"><div class="column">
+    <img src="/assets/images/calculus.png" alt="calculus">
+  </div></a>
 </div>
 
-  1. [Introduction](/computing-systems/introduction/index.html)
-  2. [Bitwise Operations](/computing-systems/bitwise-operations/index.html)
-  3. [Integer Types](/computing-systems/integer-types/index.html)
-  4. [x86 64-Bit Assembly, Part 1: Computer Architecture](/computing-systems/x86-assembly-p1/index.html)
-  5. [x86 64-Bit Assembly, Part 2: Registers and Instructions](/computing-systems/x86-assembly-p2/index.html)
-  6. [x86 64-Bit Assembly, Part 3: Reading and Writing Assembly](/computing-systems/x86-assembly-p3/index.html)
-  7. [Pointers in C](/computing-systems/pointers/index.html)
-  8. [```struct```s and ```.h``` Header Files](/computing-systems/structs-headers/index.html)
-  9. [```malloc()```](/computing-systems/malloc/index.html)
+<hr>
 
-> ## Calculus
+<a id="java"></a>
+<div class="items">
+  <div class="items-head">
+    <p>Java Fundamentals</p>
+    <hr>
+  </div>
+  <div class="items-body">
+    <a href="/java/getting-started/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Getting Started</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/fields-and-methods/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Fields and Methods</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/variables-conditionals-and-loops/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Variables, Conditions, and Loops</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/abstraction/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Abstraction</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+  <div class="items-head">
+    <p>Data Structures in Java</p>
+    <hr>
+  </div>
+  <div class="items-body">
+    <a href="/java/arrays-and-matrices/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Arrays and Matrices</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/lists/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Lists: <code class="language-plaintext highlighter-rouge">ArrayList</code> and <code class="language-plaintext highlighter-rouge">LinkedList</code></span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/abstract-data-types/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Abstract Data Types</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/stacks-and-queues/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Stacks and Queues</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/sets-and-hashing/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Sets and Introduction to Hashing</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/maps-and-hashing/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Maps and Hashing Continued</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+  <div class="items-head">
+    <p>Algorithms in Java</p>
+    <hr>
+  </div>
+  <div class="items-body">
+    <a href="/java/exception-handling/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Exception Handling</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/recursion/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Recursion</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/binary-search/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Binary Search</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/sorting-algorithms-part-1/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Sorting Algorithms (Part 1)</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/sorting-algorithms-part-2/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Sorting Algorithms (Part 2)</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/bfs-dfs/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Tree Searching Algorithms (BFS and DFS)</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+  <div class="items-head">
+    <p>Java Projects and Practice</p>
+    <hr>
+  </div>
+  <div class="items-body">
+    <a href="/java/game-of-life/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Conway's Game of Life</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/login-info/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Storing User Data</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/apcsa-practice-frq/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>AP Computer Science A Practice FRQs</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/java/evil-hangman/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Evil Hangman</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+</div>
 
-  1. [Limits and Continuity](/calculus/limits-and-continuity/index.html)
-  2. [Existence Theorems: IVT and EVT](/calculus/existence-theorems/index.html)
-  3. [Introduction to Derivatives and the Mean Value Theorem](/calculus/intro-to-derivatives/index.html)
-  4. [Evaluating Derivatives](/calculus/evaluating-derivatives/index.html)
-  5. [Higher Order Derivatives](/calculus/higher-order-derivatives/index.html)
-  6. [The Chain Rule](/calculus/chain-rule/index.html)
-  7. [Derivatives of Trigonometric Functions](/calculus/trig-function-derivatives/index.html)
-  8. [Derivatives of Exponential and Logarithmic Functions](/calculus/derivatives-involving-e/index.html)
-  9. [Implicit Differentiation](/calculus/implicit-differentiation/index.html)
-  10. [Putting It All Together: Part One](/calculus/word-problems-1/index.html)
-  11. [Derivatives of Inverse Functions and Inverse Trig Functions](/calculus/inverse-function-derivatives/index.html)
-  12. [L'Hopital's Rule](/calculus/lhopitals-rule/index.html)
-  13. [Derivatives: A Wrap Up (AP FRQs)](/calculus/derivatives-wrap-up/index.html)
-  14. [Introduction to Integration](/calculus/introduction-to-integration/index.html)
-  15. [Basics of Evaluating Integrals](/calculus/evaluating-integrals/index.html)
-  16. [$u$-Substitution](/calculus/u-substitution/index.html)
-  17. [Integration Practice Problems, Part 1](/calculus/integration-practice-1/index.html)
-  18. [Accumulation Functions and the Fundamental Theorems of Calculus](/calculus/accumulation-functions-ftc/index.html)
-  19. [Integration by Parts](/calculus/integration-by-parts/index.html)
-  20. [Integrals of Rational Functions](/calculus/integrals-rational-functions/index.html)
-  21. [Solids of Revolution](/calculus/solids-of-revolution/index.html)
-  22. [Arc Length](/calculus/arc-length/index.html)
-  23. [Improper Integrals](/calculus/improper-integrals/index.html)
+<hr>
 
-> ## Physics (with Calculus)
-  
-  1. [Newton's Laws and Kinematics](/physics/newton-laws-and-kinematics/index.html)
-  2. [Mechanical Equilibrium](/physics/mechanical-equilibrium/index.html)
-  3. [Friction](/physics/friction/index.html)
-  4. [Pulleys](/physics/pulleys/index.html)
-  5. [Mechanical Equilibrium Practice](/physics/mechanical-equilibrium-practice/index.html)
-  6. [Springs and Harmonic Oscillation](/physics/springs-and-sho/index.html)
-  7. [Damped Oscillations](/physics/damped-oscillations/index.html)
-  8. [Spring Energy and Kinetic Energy](/physics/spring-kinetic-energy/index.html)
-  9. [Pendulums](/physics/pendulums/index.html)
-  10. [Momentum and Collisions](/physics/momentum-and-collisions/index.html)
-  11. [Newton's Laws Revisited - Rotational Motion](/physics/newton-laws-revisited/index.html)
-  12. [Mechanical Equilibrium Revisited - Rotational Motion](/physics/mechanical-equilibrium-revisited/index.html)
-  13. [Moment of Inertia and Rotational Energy](/physics/moment-of-inertia-rotational-energy/index.html)
-  14. [Conservation of Angular Momentum](/physics/angular-momentum-conservation/index.html)
-  15. [Electrostatics: Coulomb's Law and Gauss's Law](/physics/coulombs-law-gausss-law/index.html)
+<a id="c"></a>
+<div class="items-orange">
+  <div class="items-head-orange">
+    <p>Fundamentals of Computer Systems in C</p>
+    <hr>
+  </div>
+  <div class="items-body-orange">
+    <a href="/computing-systems/introduction/index.html" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span>Introduction</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/computing-systems/bitwise-operations/index.html" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span>Bitwise Operations</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/computing-systems/integer-types/index.html" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span>Integer Types</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/computing-systems/pointers/index.html" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span>Pointers</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/computing-systems/structs-headers/index.html" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span><code class="language-plaintext highlighter-rouge">struct</code>s and Header Files</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/computing-systems/malloc/index.html" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span>Dynamic Memory Allocation</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+  <div class="items-head-orange">
+    <p>x86 Assembly Language</p>
+    <hr>
+  </div>
+  <div class="items-body-orange">
+    <a href="https://repl.it/talk/learn/Writing-x86-Assembly-Using-replit/53344" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span>Tutorial: Writing Assembly Using <code class="language-plaintext highlighter-rouge">repl.it</code></span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/computing-systems/x86-assembly-p1/index.html" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span>Computer Architecture</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/computing-systems/x86-assembly-p2/index.html" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span>Registers and Instructions</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/computing-systems/x86-assembly-p3" style="text-decoration: none;"><div class="items-body-content-orange" style="color:rgb(61, 65, 68);">
+      <span>Reading and Writing Assembly</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+</div>
 
-> ## Introduction to Statistical Learning
+<hr>
 
-These notes are based on a publicly available course offered by Professor [Konstantin Zuev](http://www.its.caltech.edu/~zuev/index.html) at Caltech on statistical learning.
+<a id="physics"></a>
+<div class="items-green">
+  <div class="items-head-green">
+    <p>Mechanics (with Calculus)</p>
+    <hr>
+  </div>
+  <div class="items-body-green">
+    <a href="/physics/newton-laws-and-kinematics/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Newton's Laws and Kinematics</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/mechanical-equilibrium/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Mechanical Equilibrium</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/friction/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Friction</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/pulleys/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Pulleys</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/mechanical-equilibrium-practice/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Practice with Mechanical Equilibrium</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/springs-and-sho/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Springs and Harmonic Oscillation</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/damped-oscillations/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Damped Oscillations (Optional)</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/spring-kinetic-energy/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Spring and Kinetic Energy</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/pendulums/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Pendulums</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/momentum-and-collisions/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Momentum and Collisions</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/newton-laws-revisited/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Newton's Laws for Rotations</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/mechanical-equilibrium-revisited/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Equilibrium in Rotating Systems</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/moment-of-inertia-rotational-energy/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Moment of Inertia and Rotational Energy</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/physics/angular-momentum-conservation/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Angular Momentum</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+  <div class="items-head-green">
+    <p>Electromagnetism</p>
+    <hr>
+  </div>
+  <div class="items-body-green">
+    <a href="/physics/coulombs-law-gausss-law/index.html" style="text-decoration: none;"><div class="items-body-content-green" style="color:rgb(61, 65, 68);">
+      <span>Fundamentals of Electrostatics</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+</div>
 
-  1. [Learning Problems and Statistical Decision Theory](/stat-learning/lecture-1/index.html)
-  2. [Methods in Regression Problems](/stat-learning/lecture-2/index.html)
-  3. [Methods in Classification Problems and the Bias-Variance Trade-Off](/stat-learning/lecture-3/index.html)
-  4. [Linear Algebra of Linear Regression](/stat-learning/lecture-4/index.html)
+<hr>
+
+<a id="calculus"></a>
+<div class="items-purple">
+  <div class="items-head-purple">
+    <p>Limits and Derivatives</p>
+    <hr>
+  </div>
+  <div class="items-body-purple">
+    <a href="/calculus/limits-and-continuity/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Limits and Continuity</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/existence-theorems/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Existence Theorems (IVT and EVT)</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/intro-to-derivatives/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Introduction to Derivatives and MVT</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/evaluating-derivatives/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Basic Derivatives</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/higher-order-derivatives/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Higher Order Derivatives</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/chain-rule/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Chain Rule</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/trig-function-derivatives/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Trigonometric Function Derivatives</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/derivatives-involving-e/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Exponential and Log Function Derivatives</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/implicit-differentiation/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Implicit Differentiation</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/inverse-function-derivatives/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Derivatives of Inverse Functions</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/lhopitals-rule/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>L'Hopital's Rule</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/word-problems-1/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Word Problems</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/derivatives-wrap-up/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>AP Free Response Practice</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+  <div class="items-head-purple">
+    <p>Integration</p>
+    <hr>
+  </div>
+  <div class="items-body-purple">
+    <a href="/calculus/introduction-to-integration/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Introduction to Integration</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/evaluating-integrals/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Basics of Evaluating Integrals</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/u-substitution/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Substitution Techniques</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/accumulation-functions-ftc/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Accumulation Functions and FTC</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/integration-by-parts/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Integration by Parts</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/integrals-rational-functions/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Integrals of Rational Functions</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/improper-integrals/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Improper Integrals</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/integration-practice-1/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Integration Practice Problems</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/solids-of-revolution/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Solids of Revolution</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+    <a href="/calculus/arc-length/index.html" style="text-decoration: none;"><div class="items-body-content-purple" style="color:rgb(61, 65, 68);">
+      <span>Arc Length</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
+  </div>
+</div>

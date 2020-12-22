@@ -221,3 +221,10 @@ Consider the argument string ```"QAQQQZZYNOIWIN"```. There are three subsequence
   3. **QA**QQ**Q**ZZYNOIWIN
 
 <iframe height="900px" width="100%" src="https://repl.it/@myaomeow/QAQ?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/variables-conditionals-and-loops/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/lists/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

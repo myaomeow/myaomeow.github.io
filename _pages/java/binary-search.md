@@ -36,7 +36,7 @@ This is a completely valid way of searching for a particular element. We call th
 
 > ## Binary Search
 
-The idea behind the binary search is that we can first divide the array into two halves, and compare the element we're searching for (call it $x$) with the element in the middle (call it $m$) that divides the two halves of the array. Since the array is sorted, we know that if $x>m$, then we only need to continue searching in the right half of the original array because the list is given to be sorted. If $x<m$, then we only need to continue searching in the left half of the original array. We can recursively continue this process until either the value is found, or if the interval is empty (meaning that $x$ was not in our original array. For example, let's say that we were searching for whether ```-1``` was in the array shown above. A visual diagram of how binary search would work is
+The idea behind the binary search is that we can first divide the array into two halves, and compare the element we're searching for (call it $x$) with the element in the middle (call it $m$) that divides the two halves of the array. Since the array is sorted, we know that if $x>m$, then we only need to continue searching in the right half of the original array because the list is given to be sorted. If $x< m$, then we only need to continue searching in the left half of the original array. We can recursively continue this process until either the value is found, or if the interval is empty (meaning that $x$ was not in our original array. For example, let's say that we were searching for whether ```-1``` was in the array shown above. A visual diagram of how binary search would work is
 
 ![binary-search-2](/assets/images/binary-search-2.png){:height="100%" width="100%"}
 
@@ -246,3 +246,10 @@ Using your ternary search algorithm implementation from the [above problem](/jav
 From [above](/java/binary-search/index.html#n-ary-search), we asserted that binary search should be faster than ternary search. Is this the case?
 
 <iframe height="1000px" width="100%" src="https://repl.it/@myaomeow/Ternary-Search?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/stacks-and-queues/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/sorting-algorithms-part-1/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

@@ -478,3 +478,10 @@ Write your own test code to ensure that all of your ```MyLinkedList``` methods a
 > ### Problem 3
 
 Write an ```MyArrayList``` implementation of the ```MyListInterface``` from above. It should manage the list elements similarly to how the Java ```ArrayList``` functions. To review the Java ```ArrayList``` structure, take a look at [this page](/java/lists-and-arrays/index.html).
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/exception-handling/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/recursion/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

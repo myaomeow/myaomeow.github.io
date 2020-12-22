@@ -290,3 +290,10 @@ public Element pop() {
   4. Can two stacks be used together to implement a queue interface? Explain why or why not.
 
 <iframe height="800px" width="100%" src="https://repl.it/@myaomeow/QueueAsStack?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/apcsa-practice-frq/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/binary-search/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

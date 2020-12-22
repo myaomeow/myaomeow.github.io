@@ -126,3 +126,10 @@ Why did we go through all the trouble of defining all these methods and fields? 
 > ## Comments
 
 One last thing. In some of our above code samples, you may have seen phrases or sentences prefixed with ```//``` or encased by ```/* */``` or ```/** **/```. These things are called _comments_, and are written solely for being able to read and understand the code. The computer and program ignores comments entirely.
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/getting-started/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/variables-conditionals-and-loops/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

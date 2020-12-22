@@ -311,3 +311,10 @@ Read about the _stability_ of different sorting algorithms in this Wikipedia lin
 By running the program below, compare the time efficiency of the four sorting algorithms that we discussed above in sorting a random array of integers. What do you notice about their relative behaviors? (_Note:_ For the default list size of ```numElements = 50000```, the program takes about 2 minutes to run, so be patient. Feel free to change ```numElements``` to explore the relative behaviors of either larger or smaller data sets. Make sure to read over the code as well so that you're familiar with what is going on. Click on the little :file_folder: icon at the top left in the plugin to look over all of the different sorting algorithm implementations.)
 
 <iframe height="1000px" width="100%" src="https://repl.it/@myaomeow/SortingAlgorithms?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/binary-search/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/sorting-algorithms-part-2/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

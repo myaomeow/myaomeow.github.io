@@ -104,3 +104,10 @@ Try uploading a few of your own login information sets for different URLs and se
 > ## Solutions
 
 An example of the solution code can be found in the ```sol``` directory within the linked repository from above.
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/game-of-life/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/exception-handling/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

@@ -72,3 +72,10 @@ Finally, implment the ```makeGuess()``` function. This is the crux of this progr
 After you've completed Problems 2 through 4, change ```EVIL``` to ```true``` in ```Main.java``` and try to run your code. You'll probably have at least a couple of bugs to work through first, but once you iron those out, try playing with your "evil" hangman AI. Is it more difficult to win than when you were playing against the "innocent" AI?
 
 *Credits: This project description was largely cited from the online document linked [here](http://nifty.stanford.edu/2011/schwarz-evil-hangman/Evil_Hangman.pdf).*
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/maps-and-hashing/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/bfs-dfs/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

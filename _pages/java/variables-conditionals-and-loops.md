@@ -274,3 +274,9 @@ public class Point2d {
 }
 ```
 
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/fields-and-methods/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/arrays-and-matrices/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

@@ -10,3 +10,10 @@ In the summer of 2020, I took a course at Caltech on computer science education 
 [Questions](https://pdfhost.io/v/1kJ.69x~9_reviewsubmission4pdf.pdf){: .btn .btn--info .align-center}
 
 [Solutions](https://pdfhost.io/v/XnaAdFr9l_reviewsubmission4solpdf.pdf){: .btn .btn--success .align-center} 
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/recursion/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/stacks-and-queues/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>

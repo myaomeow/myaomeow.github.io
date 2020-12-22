@@ -7,7 +7,7 @@ toc_label: "Contents"
 
 ## Research
 
-I am a current junior at Caltech studying physics with a minor in computer science. My current research interests involve ultrasound and MRI imaging and therapy, under the mentorship of [Mikhail Shapiro](http://cce.caltech.edu/people/mikhail-g-shapiro) and Mohamad Abedi in the [Shapiro Laboratory](http://shapirolab.caltech.edu/). Prior to Caltech, I worked in the Gruenert Lab at UCSF on stem cell research and modification through CRISPR/Cas9 technologies. I aspire to pursue a career as a physician-scientist, involving research at the intersection of multiple fundamental sciences for real-world applications.
+I am a current senior at Caltech studying applied physics. My current research interests involve ultrasound and MRI imaging and therapy, under the mentorship of [Mikhail Shapiro](http://cce.caltech.edu/people/mikhail-g-shapiro) and Mohamad Abedi in the [Shapiro Laboratory](http://shapirolab.caltech.edu/). Prior to Caltech, I worked in the Gruenert Lab at UCSF on stem cell research and modification through CRISPR/Cas9 technologies. I aspire to pursue a career as a physician-scientist, involving research at the intersection of multiple fundamental sciences for real-world applications.
 
 ### Cancer Therapy Using Engineered Probiotics
 

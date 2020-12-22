@@ -123,3 +123,10 @@ Running the driver test code compares the speed of the ```containsKey()``` and `
   1. In general, which function is faster for a given implementation: ```containsKey()``` or ```containsValue()```? Can you rationalize your answer? (*Hint: Which function can take advantage of hashing?*)
   2. Because Java's implementation is written by professional programmers, we would expect our ```MyHashMap.java``` implementation to be a bit slower than the ```HashMap``` implementation. Is this what you observe?
   3. You might see that your ```containsValue()``` function is much slower than the ```containsValue()``` function from the ```HashMap``` Java implementation. Can you think of any ways to speed up your ```containsValue()``` function? We encourage you to look up this problem on Google as well!
+
+<hr>
+
+<div class="two-container" style="width: 100%">
+  <div style="text-align: center;"><a href="/java/sets-and-hashing/index.html" class="btn btn--info" style="font-size:13pt">Previous Lesson</a></div>
+  <div style="text-align: center;"><a href="/java/evil-hangman/index.html" class="btn btn--info" style="font-size:13pt">Next Lesson</a></div>
+</div>
