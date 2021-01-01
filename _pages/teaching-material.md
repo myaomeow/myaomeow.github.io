@@ -387,6 +387,10 @@ To learn more about college and medical school admissions advising, click [here]
       <span>Evil Hangman</span>
       <i class="fa fa-angle-right"></i>
     </div></a>
+    <a href="/java/bfs-dfs-practice/index.html" style="text-decoration: none;"><div class="items-body-content" style="color:rgb(61, 65, 68);">
+      <span>Knights and Word Searches (BFS and DFS Practice)</span>
+      <i class="fa fa-angle-right"></i>
+    </div></a>
   </div>
 </div>
 
