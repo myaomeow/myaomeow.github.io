@@ -75,7 +75,7 @@ toc: false
 Read about the research groups I've been a part of below, organized from most to least recent. To learn more about my current research interests, check out <a href="/projects/" style="text-decoration: none;">this link</a>.
 
 <hr>
-<!--
+
 <div class="container">
   <img src="/assets/images/hyperfine.png" alt="hyperfine" width="100%" height="100%">
   <div class="topright">
@@ -91,7 +91,6 @@ Read about the research groups I've been a part of below, organized from most to
 
 <br>
 <hr>
--->
 
 <div class="container">
   <img src="/assets/images/shapiro-lab.png" alt="shapiro-lab" width="100%" height="100%">
