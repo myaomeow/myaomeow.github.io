@@ -3,11 +3,15 @@ title: "About"
 author_profile: true
 ---
 
-Hello! I'm a current senior at Caltech studying physics and computer science. I'm born and raised in California and am the oldest child in a family of four (six if you count two dogs!)
-
-I am interested in how fundamental physical principles can be used to explain and model complex biological systems and their interaction with matter. I'm aspiring to become a physician-scientist to advance our understanding of both science and medicine.
+Hello! I'm a current senior at Caltech studying physics and computer science. I am interested in how fundamental physical principles can be used to explain and model complex biological systems and their interaction with matter. I'm aspiring to become a physician-scientist to advance our understanding of science, technology and medicine.
 
 # Newsworthy
+> **January 2020**
+
+  1. Incredibly excited to be joining the [Hyperfine](https://hyperfine.io/) team this summer as a software engineering intern! I'll be developing image reconstruction algorithms for portable MRI's and the next generation of clinical diagnostics.
+  2. Honored to be supported by the [Sum Yee and Sue Kai Yee Fund](https://breakthrough.caltech.edu/yee-scholarships-honor-hardworking-parents-help-outstanding-students-achieve-dreams/) for my senior year at Caltech. I'm extremely grateful to Jim and Candy Yee for their support of students like myself.
+  3. Thankful to have the support I received from the Richter Memorial Fund last year renewed for this academic year as well!
+
 > **December 2020**
 
   1. Excited to be attending and presenting at AIChE's 11th Annual [International Conference on Biomolecular Engineering](https://www.aiche.org/sbe/conferences/international-conference-biomolecular-engineering-icbe/2021) in early January 2021. Will be a fun conference on many up-and-coming technologies in biomaterials, cellular and protein engineering, and synthetic biology.

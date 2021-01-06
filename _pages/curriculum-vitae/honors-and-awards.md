@@ -13,6 +13,16 @@ Here is a list of some of my recent recognitions.
 <div class="box">
 	<div class="circle"></div>
 	<span style="display:inline-block; width: 10px;"></span>
+	Sum Yee and Sue Kai Yee Fund, Caltech
+</div>
+<div class="box">
+	<div class="circle"></div>
+	<span style="display:inline-block; width: 10px;"></span>
+	Richter Memorial Fund Scholarship, Caltech
+</div>
+<div class="box">
+	<div class="circle"></div>
+	<span style="display:inline-block; width: 10px;"></span>
 	McLean Scholarship, Caltech
 </div>
 
