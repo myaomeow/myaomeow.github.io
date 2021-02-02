@@ -41,7 +41,7 @@ feature_row2:
   - image_path: /assets/images/med-stats.png
     alt: "med-stats"
     title: <p align="left">How was your application cycle?</p>
-    excerpt: <p align="left">I applied exclusively to MD-PhD programs in 2020 for matriculation in 2021. As a result, I learned not only how to successfully apply to and interview with the medical schools, but also the graduate schools at institutions across the United States. An overview of my application trail is to the right. To give you a baseline, the average MD matriculant in the United States receives 3 interview invitations, and the average MD applicant receives <b>less than 2</b> interview invitations. The average medical school applicant applies to an average of 16 medical schools, giving an average interview invitation percentage of less than 12%.</p>
+    excerpt: <p align="left">I applied exclusively to MD-PhD programs in 2020 for matriculation in 2021. As a result, I learned not only how to successfully apply to and interview with medical schools, but also graduate schools at many institutions across the United States. An overview of my application trail is to the right. To give you a baseline, the average MD matriculant in the United States receives 3 interview invitations, and receives <b>less than 2</b> offers of admission. The average MD applicant applies to an average of 16 medical schools, giving an average interview invitation rate of less than 12%.</p>
 feature_row3:
   - image_path: /assets/images/med-interviews.png
     alt: "med-interviews"
