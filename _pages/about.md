@@ -3,10 +3,14 @@ permalink: /about/
 title: "About"
 ---
 
-Hello! I'm a current senior at Caltech studying physics and computer science. I am interested in how fundamental physical principles can be used to explain and model complex biological systems and their interaction with matter. I'm aspiring to become a physician-scientist to advance our understanding of science, technology and medicine.
+Hello! I'm an incoming MD-PhD candidate at the University of Pennsylvania and a Caltech physics graduate (c/o 2021). I am interested in applying physics-derived and computational tools to advance our ability to treat and diagnose human disease. I'm aspiring to become a physician-scientist to advance our understanding of science, technology and medicine, and ultimately save lives.
 
 # Newsworthy
-> **January 2020**
+> **March 2021**
+
+  1. I am beyond excited to share that I will be matriculating at the University of Pennsylvania MSTP this fall! Incredibly grateful for all of the support I've gotten from my friends and mentors along the way. See you soon Philly!
+
+> **January 2021**
 
   1. Incredibly excited to be joining the [Hyperfine](https://hyperfine.io/) team this summer as a software engineering intern! I'll be developing image reconstruction algorithms for portable MRI's and the next generation of clinical diagnostics.
   2. Honored to be supported by the [Sum Yee and Sue Kai Yee Fund](https://breakthrough.caltech.edu/yee-scholarships-honor-hardworking-parents-help-outstanding-students-achieve-dreams/) for my senior year at Caltech. I'm extremely grateful to Jim and Candy Yee for their support of students like myself.
