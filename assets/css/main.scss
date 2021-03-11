@@ -286,3 +286,18 @@ html {
   box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
 }
 
+.embed-youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.embed-youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
