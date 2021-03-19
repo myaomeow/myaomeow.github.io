@@ -4,76 +4,73 @@ title: "Academic Overview"
 toc: false
 ---
 
-Here is an overview of my academic performance at all the schools I've attended.
+A timeline of my academic career and performance summary so far:
 
-> ## [Caltech](https://www.caltech.edu/) (2017 - 2021)
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+  
+<!-- The Timeline -->
 
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>Major</b>: Applied Physics
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>Research Advisor</b>: <a href="https://cce.caltech.edu/people/mikhail-g-shapiro" style="text-decoration: none; color: rgb(31, 78, 121)">Mikhail Shapiro</a>
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>Class Rank</b>: 3/233
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>In-Major Rank</b>: 1/3
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>Cumulative GPA</b>: 4.20
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>In-Major GPA</b>: 4.20
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>MCAT</b>: 520 <em>(98th Percentile, taken Sep 2020)</em>
-</div>
+<ul class="timeline">
+	<!-- Item 1 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag"><a href="https://www.med.upenn.edu/mstp/" style="text-decoration: none;color: rgb(31,78,121)">Perelman SOM</a></span>
+				<span class="time-wrapper"><span class="time">2021 - present</span></span>
+			</div>
+			<div class="desc">
+				<p>MD-PhD Candidate, University of Pennsylvania</p>
+				<p>I am a current first-year medical student at UPenn, and intend in pursuing my PhD in the Department of Bioengineering.</p>
+			</div>
+		</div>
+	</li>
+	<!-- Item 2 -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag"><a href="https://www.caltech.edu/" style="text-decoration: none;color: rgb(31, 78, 121)">Caltech</a></span>
+				<span class="time-wrapper"><span class="time">2017 - 2021</span></span>
+			</div>
+			<div class="desc">
+				<p>BS Applied Physics</p>
+				<p>My research advisor was <a href="https://cce.caltech.edu/people/mikhail-g-shapiro" style="text-decoration: none; color: rgb(31, 78, 121)">Mikhail Shapiro</a>. I ranked 3rd (out of 233) in my class and 1st in my major. My GPA was 4.20 and I scored a 520 on the MCAT (98th percentile).</p>
+			</div>
+		</div>
+	</li>
+	<!-- Item 3 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag"><a href="https://www.dvhigh.net/" style="text-decoration: none;color: rgb(31, 78, 121)">Dougherty Valley High</a></span>
+				<span class="time-wrapper"><span class="time">2013 - 2017</span></span>
+			</div>
+			<div class="desc">
+				<p>National Merit Scholar</p>
+				<p>I scored a 2360 on the SAT (99th Percentile), and 800s on the SAT math, biology, and chemistry subject tests. I took 15 AP tests during high school and scored 5's on all exams.</p>
+			</div>
+		</div>
+	</li>
+</ul>  
 
-<hr>
+<br>
 
-> ## [Dougherty Valley High School](https://www.dvhigh.net/) (2013 - 2017)
+<center><div id="button">
+<a href="/curriculum-vitae/">
+    <svg class="icon-arrow before">
+        <use xlink:href="#arrow"></use>
+    </svg>
+    <span class="label">Back to Main Page</span>
+    <svg class="icon-arrow after">
+        <use xlink:href="#arrow"></use>
+    </svg>
+</a>
+</div></center>
 
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>SAT</b>: 2360 <em>(99th Percentile, taken Oct 2014)</em>
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>SAT Math II Subject Test</b>: 800 <em>(June 2014)</em>
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>SAT Biology Subject Test</b>: 800 <em>(June 2014)</em>
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>SAT Chemistry Subject Test</b>: 800 <em>(June 2015)</em>
-</div>
-<div class="box shadow">
-	<div class="circle"></div>
-	<span style="display:inline-block; width: 10px;"></span>
-	<b>AP Tests Taken</b>: 15 <em>(all 5's)</em>
-</div>
-
-<hr>
-
-<div style="text-align: center;"><a href="/curriculum-vitae/" class="btn btn--info" style="font-size:13pt">     Back to Main Page     </a></div>
+<svg style="display: none;">
+  <defs>
+    <symbol id="arrow" viewBox="0 0 35 15">
+      <title>Arrow</title>
+      <path d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z "/>
+    </symbol>
+  </defs>
+</svg>

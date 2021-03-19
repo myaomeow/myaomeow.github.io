@@ -12,4 +12,23 @@ toc: false
 
 <hr>
 
-<div style="text-align: center;margin: auto"><a href="/curriculum-vitae/" class="btn btn--info" style="font-size:13pt">     Back to Main Page     </a></div>
+<center><div id="button">
+<a href="/curriculum-vitae/">
+    <svg class="icon-arrow before">
+        <use xlink:href="#arrow"></use>
+    </svg>
+    <span class="label">Back to Main Page</span>
+    <svg class="icon-arrow after">
+        <use xlink:href="#arrow"></use>
+    </svg>
+</a>
+</div></center>
+
+<svg style="display: none;">
+  <defs>
+    <symbol id="arrow" viewBox="0 0 35 15">
+      <title>Arrow</title>
+      <path d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z "/>
+    </symbol>
+  </defs>
+</svg>
