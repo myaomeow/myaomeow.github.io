@@ -20,7 +20,7 @@ A timeline of my academic career and performance summary so far:
 			</div>
 			<div class="desc">
 				<p>MD-PhD Candidate, University of Pennsylvania</p>
-				<p>I am a current first-year medical student at UPenn, and intend in pursuing my PhD in the Department of Bioengineering.</p>
+				<p>I am an incoming first-year medical student at UPenn, and intend in pursuing my PhD in the Department of Bioengineering.</p>
 			</div>
 		</div>
 	</li>
