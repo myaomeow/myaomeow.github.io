@@ -154,7 +154,7 @@ classes: wide
   </style>
 </head>
 
-Welcome to my CV! Click on one of the categories below to learn more. To download the PDF version, click [here](https://pdfhost.io/v/wx9v~XZmh_YaoMichaelCVpdf.pdf).
+Welcome to my CV! Click on one of the categories below to learn more. To download the PDF version, click [here](https://drive.google.com/file/d/1zf0EkatFk5C-xFOP6IHDabSQb06q1iO1/view?usp=sharing).
 
 <a id="cv"></a>
 <div class="items">
