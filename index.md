@@ -8,7 +8,8 @@ Hello! I'm an incoming MD-PhD candidate at the University of Pennsylvania and a 
 # Newsworthy
 > **March 2021**
 
-  1. I am beyond excited to share that I will be matriculating at the University of Pennsylvania MSTP this fall! Incredibly grateful for all of the support I've gotten from my friends and mentors along the way. See you soon Philly!
+  1. Excited to announce that my co-first author publication on engineering thermally actuated, therapeutic bacteria is now available for preprint on [bioRxiv](https://biorxiv.org/cgi/content/short/2021.03.25.434639v1)! This project has been the result of four years of research and I'm thrilled to share my work with the scientific community.
+  2. I am beyond excited to share that I will be matriculating at the University of Pennsylvania MSTP this fall! Incredibly grateful for all of the support I've gotten from my friends and mentors along the way. See you soon Philly!
 
 > **January 2021**
 
