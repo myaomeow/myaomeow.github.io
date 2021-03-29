@@ -10,6 +10,7 @@ toc: false
 </head>
 
 Learn about some of my teaching and mentoring experience below. Here is also a sample of some anonymous feedback received by students I've previously worked with:
+  - *It has honestly been a pleasure to have Michael Yao as a TA. At a time when professors and TAs seem to have no sympathy for students, Michael was honestly the light at the end of the tunnel. During OHs he answered questions thoroughly and in a way that explained concepts very well. His flexibility with extensions have saved countless people (even though we did our best not to abuse his flexibility). My only regret is that he is a senior, and other students won't get to experience [class name] under him. Can't recommend him enough, he will surely be hard to replace.*
   - *Michael has been one of the best TAs I have had during my time at Caltech. He explains the topics clearly without giving too muchaway and follows up to ensure the students understand the concepts fully. During his office hours, he tries to get to everyone andsometimes stays over time. He is quick to respond on Piazza and through email with thorough answers to questions.*
   - *Gave helpful and straightforward answers during office hours. Was also easily reachable outside of office hours.*
   - *Michael is very patient and encourages children, very responsible, never late or cancel, always contact me in advance to determinethe time. (Translated from Chinese)*
