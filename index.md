@@ -8,7 +8,7 @@ Hello! I'm an incoming MD-PhD candidate at the University of Pennsylvania and a 
 # Newsworthy
 > **May 2021**
 
-  1. Humbled to have been awarded with the 2021 George W. Housner Prize for Academic Excellence and Original Research! This award is given annually to a senior in the top 20% of their class, recognizing an outstanding piece of original piece of original scientific research.
+  1. Humbled to have been awarded with the 2021 George W. Housner Prize for Academic Excellence and Original Research! This award is given annually to a senior in the top 20% of their class, recognizing an outstanding piece of original scientific research.
   
 > **March 2021**
 
