@@ -83,8 +83,8 @@ Read about the research groups I've been a part of below, organized from most to
 	  <span class="card__infoicon">
 	    <i class="fa fa-info"></i>
 	  </span>
-	  <h2 class="card__title">MRI Image Reconstruction Team, <a href="https://hyperfine.io/" style="text-decoration: none;">Hyperfine</a></h2>
-	  <p class="card__description">In the summer of 2021, I will work as a software engineering intern in the MRI Image Reconstruction Group at Hyperfine, a portable MRI startup based in Guilford, CT. I'll be focusing on writing scripts to automate imaging of the knee, and also working on optimizing noise cancellation algorithms. I'm excited to be joining the team on the east coast and using technology and software development to engineer novel clinical techologies!</p>
+	  <h2 class="card__title">MRI Sequence Development Team, <a href="https://hyperfine.io/" style="text-decoration: none;">Hyperfine</a></h2>
+	  <p class="card__description">During the spring and summer of 2021, I worked as a software engineering intern in the MRI Image Reconstruction Group at Hyperfine, a startup based in Guilford, CT that builds low-field, portable MRI machines. I wrote scripts to visualize and analyze batches of imaging data, and optimized algorithms for both motion correction for DWI imaging and spike noise correction for FSE sequences.</p>
 	</div>
   </div>
 </div>
@@ -126,7 +126,7 @@ Read about the research groups I've been a part of below, organized from most to
 
 ## Publications, Presentations, and Manuscripts
 
-  1. Abedi MA$^{\dagger}$, **Yao M$^{\dagger}$**, Mittelstein DR, Bar-Zion A, Swift M, Lee-Gosselin A, Shapiro M. (2020). Thermal bioswitches for localized activation of microbial immunotherapies. (_In Preparation for Submission_, $^{\dagger}$Equal contribution)
+  1. Abedi MA$^{\dagger}$, **Yao M$^{\dagger}$**, Mittelstein DR, Bar-Zion A, Swift M, Lee-Gosselin A, Shapiro M. (2020). Thermal bioswitches for localized activation of microbial immunotherapies. (_Currently under peer review, preprint [here](https://www.biorxiv.org/content/10.1101/2021.03.25.434639v1)_, $^{\dagger}$Equal contribution)
   2. Immunotherapy: Clinical: Underlying Mechanisms and Clinical Applications. (2020 Oc 25). Caltech Medlife Tech in Medicine Seminar Series. (*Invited*, [Recording](https://www.youtube.com/watch?v=4fSCKN2hO34))
   3. Thermal Bioswitches for Localized Activation of Microbes. (2020 Oct 15). Presented at 2020 Biomedical Engineering Society (BMES) Virtual Meeting
   4. **Yao M**, Uhr L, Daghlian G, Amrute JM, Deshpande R, Mathews B, Patel SA, Henri R, Liu G, Reierson K, Johnson G. (2020). Demonstration of a longitudinal medical education model (LMEM) to teach point-of-care ultrasound in resource-limited settings (Published in [POCUS Journal](https://pocusjournal.com/article/2020-05-01p20-25/))

@@ -86,8 +86,8 @@ toc: false
     		<td><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span></td>
     	</tr>
     	<tr>
-    		<td>Vim</td>
-    		<td><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+    		<td>VS Code</td>
+    		<td><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span><span class="fa fa-star" style="color:orange;"></span></td>
     	</tr>
     </table>
   </div>

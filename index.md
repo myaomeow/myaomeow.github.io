@@ -6,6 +6,10 @@ author_profile: true
 Hello! I'm an incoming MD-PhD candidate at the University of Pennsylvania and a Caltech physics graduate (c/o 2021). I am interested in applying physics-derived and computational tools to advance our ability to treat and diagnose human disease. I'm aspiring to become a physician-scientist to advance our understanding of science, technology and medicine, and ultimately save lives.
 
 # Newsworthy
+> **May 2021**
+
+  1. Humbled to have been awarded with the 2021 George W. Housner Prize for Academic Excellence and Original Research! This award is given annually to a senior in the top 20% of their class, recognizing an outstanding piece of original piece of original scientific research.
+  
 > **March 2021**
 
   1. Excited to announce that my co-first author publication on engineering thermally actuated, therapeutic bacteria is now available for preprint on [bioRxiv](https://biorxiv.org/cgi/content/short/2021.03.25.434639v1)! This project has been the result of four years of research and I'm thrilled to share my work with the scientific community.
